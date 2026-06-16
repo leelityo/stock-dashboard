@@ -1,0 +1,51 @@
+# =============================================================
+# 選股宇宙 (Stock Universe)
+# - 以「族群 (group)」分類，推薦會在族群內排序
+# - ticker 一律用 yfinance 格式：
+#     台股上市 .TW   台股上櫃 .TWO   韓股 .KS   日股 .T   美股直接代號
+# - finmind_id：台股的數字代號 (抓融資/法人用)，非台股留空
+# - 質化評分 (qualitative) 1~5 分，由你維護；之後可用自然語言調整
+#     pricing_power           定價權強弱
+#     competitiveness         產業競爭力
+#     news_reliability        產業動態消息來源可靠度
+# ⚠️ ETF 與部分代號請上線後自行核對是否正確 (尤其主動式 ETF)
+# =============================================================
+
+groups:
+
+  台股_半導體:
+    - {ticker: "2330.TW",  finmind_id: "2330", name: "台積電",   pricing_power: 5, competitiveness: 5, news_reliability: 5}
+    - {ticker: "2454.TW",  finmind_id: "2454", name: "聯發科",   pricing_power: 4, competitiveness: 5, news_reliability: 5}
+    - {ticker: "3034.TW",  finmind_id: "3034", name: "聯詠",     pricing_power: 3, competitiveness: 4, news_reliability: 4}
+    - {ticker: "2379.TW",  finmind_id: "2379", name: "瑞昱",     pricing_power: 3, competitiveness: 4, news_reliability: 4}
+
+  台股_記憶體:
+    - {ticker: "2408.TW",  finmind_id: "2408", name: "南亞科",   pricing_power: 2, competitiveness: 3, news_reliability: 4}
+    - {ticker: "2344.TW",  finmind_id: "2344", name: "華邦電",   pricing_power: 2, competitiveness: 3, news_reliability: 4}
+    - {ticker: "8299.TWO", finmind_id: "8299", name: "群聯",     pricing_power: 3, competitiveness: 4, news_reliability: 4}
+    - {ticker: "2451.TW",  finmind_id: "2451", name: "創見",     pricing_power: 2, competitiveness: 3, news_reliability: 3}
+
+  台股_主動式ETF:    # ⚠️ 請核對代號
+    - {ticker: "00981A.TW", finmind_id: "00981A", name: "統一台股增長主動式", pricing_power: 0, competitiveness: 0, news_reliability: 3}
+    - {ticker: "00982A.TW", finmind_id: "00982A", name: "群益台灣精選強棒(主動)", pricing_power: 0, competitiveness: 0, news_reliability: 3}
+
+  美股_記憶體與半導體:
+    - {ticker: "MU",   finmind_id: "", name: "Micron 美光",  pricing_power: 3, competitiveness: 4, news_reliability: 5}
+    - {ticker: "NVDA", finmind_id: "", name: "NVIDIA",       pricing_power: 5, competitiveness: 5, news_reliability: 5}
+    - {ticker: "AMD",  finmind_id: "", name: "AMD",          pricing_power: 4, competitiveness: 4, news_reliability: 5}
+    - {ticker: "AVGO", finmind_id: "", name: "Broadcom",     pricing_power: 4, competitiveness: 5, news_reliability: 5}
+
+  美股_主動式ETF:    # ⚠️ 請核對代號
+    - {ticker: "ARKK", finmind_id: "", name: "ARK Innovation ETF", pricing_power: 0, competitiveness: 0, news_reliability: 3}
+    - {ticker: "AIQ",  finmind_id: "", name: "Global X AI ETF",    pricing_power: 0, competitiveness: 0, news_reliability: 3}
+
+  韓股_半導體:
+    - {ticker: "005930.KS", finmind_id: "", name: "三星電子 Samsung", pricing_power: 4, competitiveness: 5, news_reliability: 4}
+    - {ticker: "000660.KS", finmind_id: "", name: "SK海力士 SK Hynix", pricing_power: 4, competitiveness: 5, news_reliability: 4}
+
+  日本_AI半導體ETF:  # ⚠️ 請核對代號
+    - {ticker: "2644.T", finmind_id: "", name: "Global X Japan Semiconductor ETF", pricing_power: 0, competitiveness: 0, news_reliability: 3}
+
+  台韓科技ETF:       # ⚠️ 請核對代號
+    - {ticker: "0052.TW", finmind_id: "0052", name: "富邦科技 (台灣)", pricing_power: 0, competitiveness: 0, news_reliability: 3}
+    - {ticker: "EWY",     finmind_id: "",     name: "iShares 韓國 ETF", pricing_power: 0, competitiveness: 0, news_reliability: 3}

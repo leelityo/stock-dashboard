@@ -1,0 +1,31 @@
+name: 更新儀表板資料
+
+# 免費排程：交易日多次抓資料並提交。時間為 UTC。
+on:
+  schedule:
+    - cron: "0 1,3,5,7 * * 1-5"   # 對應台股盤中 (約 09:00~15:00 台北時間)
+    - cron: "30 14,18,20 * * 1-5" # 對應美股盤中 (約 22:30~04:30 台北時間)
+  workflow_dispatch: {}            # 也可手動觸發
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 安裝套件
+        run: pip install -r pipeline/requirements.txt
+      - name: 抓資料並評分
+        run: python pipeline/run.py
+      - name: 提交更新
+        run: |
+          git config user.name  "dashboard-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add web/data/dashboard.json
+          git commit -m "data: 自動更新 $(date -u +%Y-%m-%dT%H:%MZ)" || echo "無變更"
+          git push

@@ -1,0 +1,2080 @@
+{
+  "generated_at": "2026-06-15T12:23:11",
+  "mock": true,
+  "weights": {
+    "below_ma": 0.2,
+    "near_main_support": 0.1,
+    "not_overextended": 0.05,
+    "margin_reduction": 0.15,
+    "forward_pe_vs_peers": 0.15,
+    "pricing_power": 0.15,
+    "competitiveness": 0.15,
+    "news_reliability": 0.05
+  },
+  "hotness_default_weeks": 3,
+  "groups": {
+    "台股_半導體": [
+      {
+        "ticker": "2330.TW",
+        "name": "台積電",
+        "google": "https://www.google.com/search?q=台積電+股票",
+        "price": 103.065,
+        "change_pct": -2.52,
+        "currency": "TWD",
+        "forward_pe": 18.7,
+        "pricing_power": 5,
+        "competitiveness": 5,
+        "news_reliability": 5,
+        "news": [
+          {
+            "title": "台積電 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "台積電 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.5,
+          "near_main_support": 0.831,
+          "not_overextended": 1.0,
+          "margin_reduction": 0.998,
+          "forward_pe_vs_peers": 0.687,
+          "pricing_power": 1.0,
+          "competitiveness": 1.0,
+          "news_reliability": 1.0
+        },
+        "score": 0.8358,
+        "rank": 1,
+        "ma": {
+          "5": 103.368,
+          "10": 104.408,
+          "20": 106.237,
+          "60": 118.072,
+          "120": 123.883,
+          "240": 121.316
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": false,
+        "drop_pct": -1.62,
+        "dist_to_support_pct": 2.54,
+        "support": 100.509,
+        "ret_60d": -25.2,
+        "margin_change": -2867.740317990334,
+        "margin_change_pct": -9.98
+      },
+      {
+        "ticker": "3034.TW",
+        "name": "聯詠",
+        "google": "https://www.google.com/search?q=聯詠+股票",
+        "price": 280.117,
+        "change_pct": -3.41,
+        "currency": "TWD",
+        "forward_pe": 26.6,
+        "pricing_power": 3,
+        "competitiveness": 4,
+        "news_reliability": 4,
+        "news": [
+          {
+            "title": "聯詠 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "聯詠 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 1.0,
+          "near_main_support": 1.0,
+          "not_overextended": 1.0,
+          "margin_reduction": 1.0,
+          "forward_pe_vs_peers": 0.343,
+          "pricing_power": 0.6,
+          "competitiveness": 0.8,
+          "news_reliability": 0.8
+        },
+        "score": 0.8015,
+        "rank": 2,
+        "ma": {
+          "5": 299.89,
+          "10": 315.587,
+          "20": 312.864,
+          "60": 310.904,
+          "120": 323.878,
+          "240": 342.037
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": true,
+        "drop_pct": -15.0,
+        "dist_to_support_pct": -7.22,
+        "support": 301.911,
+        "ret_60d": -10.14,
+        "margin_change": -6432.302741495227,
+        "margin_change_pct": -22.26
+      },
+      {
+        "ticker": "2454.TW",
+        "name": "聯發科",
+        "google": "https://www.google.com/search?q=聯發科+股票",
+        "price": 674.333,
+        "change_pct": -1.13,
+        "currency": "TWD",
+        "forward_pe": 19.4,
+        "pricing_power": 4,
+        "competitiveness": 5,
+        "news_reliability": 5,
+        "news": [
+          {
+            "title": "聯發科 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "聯發科 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.25,
+          "near_main_support": 0.659,
+          "not_overextended": 1.0,
+          "margin_reduction": 1.0,
+          "forward_pe_vs_peers": 0.657,
+          "pricing_power": 0.8,
+          "competitiveness": 1.0,
+          "news_reliability": 1.0
+        },
+        "score": 0.7343,
+        "rank": 3,
+        "ma": {
+          "5": 667.223,
+          "10": 670.242,
+          "20": 689.901,
+          "60": 668.106,
+          "120": 690.607,
+          "240": 805.742
+        },
+        "below_ma": [
+          20,
+          120,
+          240
+        ],
+        "sharp_drop": false,
+        "drop_pct": 1.06,
+        "dist_to_support_pct": 5.12,
+        "support": 641.481,
+        "ret_60d": 7.73,
+        "margin_change": -6993.959598659152,
+        "margin_change_pct": -12.75
+      },
+      {
+        "ticker": "2379.TW",
+        "name": "瑞昱",
+        "google": "https://www.google.com/search?q=瑞昱+股票",
+        "price": 242.669,
+        "change_pct": -1.0,
+        "currency": "TWD",
+        "forward_pe": 33.5,
+        "pricing_power": 3,
+        "competitiveness": 4,
+        "news_reliability": 4,
+        "news": [
+          {
+            "title": "瑞昱 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "瑞昱 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.5,
+          "near_main_support": 0.045,
+          "not_overextended": 1.0,
+          "margin_reduction": 0.987,
+          "forward_pe_vs_peers": 0.043,
+          "pricing_power": 0.6,
+          "competitiveness": 0.8,
+          "news_reliability": 0.8
+        },
+        "score": 0.559,
+        "rank": 4,
+        "ma": {
+          "5": 246.04,
+          "10": 252.097,
+          "20": 255.9,
+          "60": 245.298,
+          "120": 248.732,
+          "240": 270.442
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": false,
+        "drop_pct": -4.81,
+        "dist_to_support_pct": 14.33,
+        "support": 212.248,
+        "ret_60d": 0.8,
+        "margin_change": -7772.264378337713,
+        "margin_change_pct": -9.87
+      }
+    ],
+    "台股_記憶體": [
+      {
+        "ticker": "2451.TW",
+        "name": "創見",
+        "google": "https://www.google.com/search?q=創見+股票",
+        "price": 159.477,
+        "change_pct": -3.8,
+        "currency": "TWD",
+        "forward_pe": 18.8,
+        "pricing_power": 2,
+        "competitiveness": 3,
+        "news_reliability": 3,
+        "news": [
+          {
+            "title": "創見 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "創見 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.5,
+          "near_main_support": 1.0,
+          "not_overextended": 1.0,
+          "margin_reduction": 1.0,
+          "forward_pe_vs_peers": 0.607,
+          "pricing_power": 0.4,
+          "competitiveness": 0.6,
+          "news_reliability": 0.6
+        },
+        "score": 0.671,
+        "rank": 1,
+        "ma": {
+          "5": 168.579,
+          "10": 168.441,
+          "20": 173.378,
+          "60": 193.154,
+          "120": 198.849,
+          "240": 204.827
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": false,
+        "drop_pct": -7.46,
+        "dist_to_support_pct": -0.97,
+        "support": 161.04,
+        "ret_60d": -23.88,
+        "margin_change": -3839.146421956855,
+        "margin_change_pct": -11.04
+      },
+      {
+        "ticker": "2344.TW",
+        "name": "華邦電",
+        "google": "https://www.google.com/search?q=華邦電+股票",
+        "price": 560.762,
+        "change_pct": -3.41,
+        "currency": "TWD",
+        "forward_pe": 28.7,
+        "pricing_power": 2,
+        "competitiveness": 3,
+        "news_reliability": 4,
+        "news": [
+          {
+            "title": "華邦電 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "華邦電 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 1.0,
+          "near_main_support": 1.0,
+          "not_overextended": 1.0,
+          "margin_reduction": 0.63,
+          "forward_pe_vs_peers": 0.137,
+          "pricing_power": 0.4,
+          "competitiveness": 0.6,
+          "news_reliability": 0.8
+        },
+        "score": 0.655,
+        "rank": 2,
+        "ma": {
+          "5": 600.346,
+          "10": 626.934,
+          "20": 664.135,
+          "60": 690.893,
+          "120": 662.528,
+          "240": 663.715
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": true,
+        "drop_pct": -15.0,
+        "dist_to_support_pct": -13.73,
+        "support": 649.993,
+        "ret_60d": -15.91,
+        "margin_change": -4580.20028261104,
+        "margin_change_pct": -6.3
+      },
+      {
+        "ticker": "2408.TW",
+        "name": "南亞科",
+        "google": "https://www.google.com/search?q=南亞科+股票",
+        "price": 1131.833,
+        "change_pct": 0.21,
+        "currency": "TWD",
+        "forward_pe": 19.2,
+        "pricing_power": 2,
+        "competitiveness": 3,
+        "news_reliability": 4,
+        "news": [
+          {
+            "title": "南亞科 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "南亞科 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.0,
+          "near_main_support": 0.78,
+          "not_overextended": 0.584,
+          "margin_reduction": 1.0,
+          "forward_pe_vs_peers": 0.588,
+          "pricing_power": 0.4,
+          "competitiveness": 0.6,
+          "news_reliability": 0.8
+        },
+        "score": 0.5354,
+        "rank": 3,
+        "ma": {
+          "5": 1120.36,
+          "10": 1087.592,
+          "20": 1044.875,
+          "60": 977.736,
+          "120": 843.73,
+          "240": 751.222
+        },
+        "below_ma": [],
+        "sharp_drop": false,
+        "drop_pct": 3.38,
+        "dist_to_support_pct": 3.3,
+        "support": 1095.626,
+        "ret_60d": 46.71,
+        "margin_change": -15037.781871287916,
+        "margin_change_pct": -19.38
+      },
+      {
+        "ticker": "8299.TWO",
+        "name": "群聯",
+        "google": "https://www.google.com/search?q=群聯+股票",
+        "price": 327.869,
+        "change_pct": -0.12,
+        "currency": "TWD",
+        "forward_pe": 22.9,
+        "pricing_power": 3,
+        "competitiveness": 4,
+        "news_reliability": 4,
+        "news": [
+          {
+            "title": "群聯 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "群聯 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.0,
+          "near_main_support": 0.0,
+          "not_overextended": 0.526,
+          "margin_reduction": 0.452,
+          "forward_pe_vs_peers": 0.412,
+          "pricing_power": 0.6,
+          "competitiveness": 0.8,
+          "news_reliability": 0.8
+        },
+        "score": 0.4059,
+        "rank": 4,
+        "ma": {
+          "5": 321.814,
+          "10": 308.954,
+          "20": 299.481,
+          "60": 292.34,
+          "120": 291.107,
+          "240": 316.83
+        },
+        "below_ma": [],
+        "sharp_drop": false,
+        "drop_pct": 8.92,
+        "dist_to_support_pct": 20.01,
+        "support": 273.199,
+        "ret_60d": 9.78,
+        "margin_change": -2828.398235165747,
+        "margin_change_pct": -4.52
+      }
+    ],
+    "台股_主動式ETF": [
+      {
+        "ticker": "00981A.TW",
+        "name": "統一台股增長主動式",
+        "google": "https://www.google.com/search?q=統一台股增長主動式+股票",
+        "price": 656.192,
+        "change_pct": -3.41,
+        "currency": "TWD",
+        "forward_pe": 21.2,
+        "pricing_power": 0,
+        "competitiveness": 0,
+        "news_reliability": 3,
+        "news": [
+          {
+            "title": "統一台股增長主動式 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "統一台股增長主動式 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 1.0,
+          "near_main_support": 1.0,
+          "not_overextended": 1.0,
+          "margin_reduction": 0.453,
+          "forward_pe_vs_peers": 0.733,
+          "pricing_power": 0.0,
+          "competitiveness": 0.0,
+          "news_reliability": 0.6
+        },
+        "score": 0.5579,
+        "rank": 1,
+        "ma": {
+          "5": 702.511,
+          "10": 729.536,
+          "20": 717.481,
+          "60": 716.25,
+          "120": 728.158,
+          "240": 676.229
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": true,
+        "drop_pct": -15.0,
+        "dist_to_support_pct": -6.72,
+        "support": 703.472,
+        "ret_60d": -12.19,
+        "margin_change": -1261.8163879898166,
+        "margin_change_pct": -4.53
+      },
+      {
+        "ticker": "00982A.TW",
+        "name": "群益台灣精選強棒(主動)",
+        "google": "https://www.google.com/search?q=群益台灣精選強棒(主動)+股票",
+        "price": 658.253,
+        "change_pct": -2.97,
+        "currency": "TWD",
+        "forward_pe": 34.1,
+        "pricing_power": 0,
+        "competitiveness": 0,
+        "news_reliability": 3,
+        "news": [
+          {
+            "title": "群益台灣精選強棒(主動) 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "群益台灣精選強棒(主動) 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.5,
+          "near_main_support": 1.0,
+          "not_overextended": 1.0,
+          "margin_reduction": 1.0,
+          "forward_pe_vs_peers": 0.267,
+          "pricing_power": 0.0,
+          "competitiveness": 0.0,
+          "news_reliability": 0.6
+        },
+        "score": 0.47,
+        "rank": 2,
+        "ma": {
+          "5": 676.853,
+          "10": 679.983,
+          "20": 675.208,
+          "60": 662.145,
+          "120": 686.474,
+          "240": 690.838
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": false,
+        "drop_pct": -4.74,
+        "dist_to_support_pct": -0.37,
+        "support": 660.728,
+        "ret_60d": -4.47,
+        "margin_change": -6480.920501029705,
+        "margin_change_pct": -17.62
+      }
+    ],
+    "美股_記憶體與半導體": [
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "google": "https://www.google.com/search?q=NVIDIA+股票",
+        "price": 191.415,
+        "change_pct": -3.41,
+        "currency": "TWD",
+        "forward_pe": 19.7,
+        "pricing_power": 5,
+        "competitiveness": 5,
+        "news_reliability": 5,
+        "news": [
+          {
+            "title": "NVIDIA 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "NVIDIA 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 1.0,
+          "near_main_support": 1.0,
+          "not_overextended": 1.0,
+          "margin_reduction": 0.0,
+          "forward_pe_vs_peers": 0.204,
+          "pricing_power": 1.0,
+          "competitiveness": 1.0,
+          "news_reliability": 1.0
+        },
+        "score": 0.7306,
+        "rank": 1,
+        "ma": {
+          "5": 204.927,
+          "10": 214.001,
+          "20": 215.323,
+          "60": 223.763,
+          "120": 248.27,
+          "240": 302.081
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": true,
+        "drop_pct": -15.0,
+        "dist_to_support_pct": -8.93,
+        "support": 210.187,
+        "ret_60d": -21.53,
+        "margin_change": null,
+        "margin_change_pct": null
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron 美光",
+        "google": "https://www.google.com/search?q=Micron 美光+股票",
+        "price": 267.719,
+        "change_pct": 0.4,
+        "currency": "TWD",
+        "forward_pe": 10.7,
+        "pricing_power": 3,
+        "competitiveness": 4,
+        "news_reliability": 5,
+        "news": [
+          {
+            "title": "Micron 美光 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "Micron 美光 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.417,
+          "near_main_support": 0.883,
+          "not_overextended": 1.0,
+          "margin_reduction": 0.0,
+          "forward_pe_vs_peers": 0.796,
+          "pricing_power": 0.6,
+          "competitiveness": 0.8,
+          "news_reliability": 1.0
+        },
+        "score": 0.601,
+        "rank": 2,
+        "ma": {
+          "5": 265.764,
+          "10": 270.319,
+          "20": 272.12,
+          "60": 278.68,
+          "120": 273.005,
+          "240": 305.821
+        },
+        "below_ma": [
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": false,
+        "drop_pct": 0.64,
+        "dist_to_support_pct": 1.76,
+        "support": 263.082,
+        "ret_60d": 0.07,
+        "margin_change": null,
+        "margin_change_pct": null
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "google": "https://www.google.com/search?q=Broadcom+股票",
+        "price": 155.881,
+        "change_pct": 4.67,
+        "currency": "TWD",
+        "forward_pe": 8.8,
+        "pricing_power": 4,
+        "competitiveness": 5,
+        "news_reliability": 5,
+        "news": [
+          {
+            "title": "Broadcom 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "Broadcom 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.0,
+          "near_main_support": 0.794,
+          "not_overextended": 0.873,
+          "margin_reduction": 0.0,
+          "forward_pe_vs_peers": 0.921,
+          "pricing_power": 0.8,
+          "competitiveness": 1.0,
+          "news_reliability": 1.0
+        },
+        "score": 0.5812,
+        "rank": 3,
+        "ma": {
+          "5": 153.576,
+          "10": 153.664,
+          "20": 152.018,
+          "60": 148.944,
+          "120": 133.336,
+          "240": 129.504
+        },
+        "below_ma": [],
+        "sharp_drop": false,
+        "drop_pct": -0.32,
+        "dist_to_support_pct": 3.09,
+        "support": 151.205,
+        "ret_60d": 7.54,
+        "margin_change": null,
+        "margin_change_pct": null
+      },
+      {
+        "ticker": "AMD",
+        "name": "AMD",
+        "google": "https://www.google.com/search?q=AMD+股票",
+        "price": 222.601,
+        "change_pct": -3.04,
+        "currency": "TWD",
+        "forward_pe": 27.5,
+        "pricing_power": 4,
+        "competitiveness": 4,
+        "news_reliability": 5,
+        "news": [
+          {
+            "title": "AMD 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "AMD 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.333,
+          "near_main_support": 0.609,
+          "not_overextended": 0.998,
+          "margin_reduction": 0.0,
+          "forward_pe_vs_peers": 0.0,
+          "pricing_power": 0.8,
+          "competitiveness": 0.8,
+          "news_reliability": 1.0
+        },
+        "score": 0.4675,
+        "rank": 4,
+        "ma": {
+          "5": 225.992,
+          "10": 226.189,
+          "20": 222.498,
+          "60": 224.84,
+          "120": 222.573,
+          "240": 226.624
+        },
+        "below_ma": [
+          5,
+          10,
+          60,
+          240
+        ],
+        "sharp_drop": false,
+        "drop_pct": -0.79,
+        "dist_to_support_pct": 5.86,
+        "support": 210.271,
+        "ret_60d": -4.9,
+        "margin_change": null,
+        "margin_change_pct": null
+      }
+    ],
+    "美股_主動式ETF": [
+      {
+        "ticker": "ARKK",
+        "name": "ARK Innovation ETF",
+        "google": "https://www.google.com/search?q=ARK Innovation ETF+股票",
+        "price": 783.573,
+        "change_pct": -3.41,
+        "currency": "TWD",
+        "forward_pe": 28.5,
+        "pricing_power": 0,
+        "competitiveness": 0,
+        "news_reliability": 3,
+        "news": [
+          {
+            "title": "ARK Innovation ETF 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "ARK Innovation ETF 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 1.0,
+          "near_main_support": 1.0,
+          "not_overextended": 1.0,
+          "margin_reduction": 0.0,
+          "forward_pe_vs_peers": 0.181,
+          "pricing_power": 0.0,
+          "competitiveness": 0.0,
+          "news_reliability": 0.6
+        },
+        "score": 0.4071,
+        "rank": 1,
+        "ma": {
+          "5": 838.884,
+          "10": 876.026,
+          "20": 925.065,
+          "60": 1029.891,
+          "120": 987.134,
+          "240": 974.93
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": true,
+        "drop_pct": -15.0,
+        "dist_to_support_pct": -25.63,
+        "support": 1053.586,
+        "ret_60d": -23.31,
+        "margin_change": null,
+        "margin_change_pct": null
+      },
+      {
+        "ticker": "AIQ",
+        "name": "Global X AI ETF",
+        "google": "https://www.google.com/search?q=Global X AI ETF+股票",
+        "price": 436.648,
+        "change_pct": -0.34,
+        "currency": "TWD",
+        "forward_pe": 14.7,
+        "pricing_power": 0,
+        "competitiveness": 0,
+        "news_reliability": 3,
+        "news": [
+          {
+            "title": "Global X AI ETF 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "Global X AI ETF 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.25,
+          "near_main_support": 0.975,
+          "not_overextended": 1.0,
+          "margin_reduction": 0.0,
+          "forward_pe_vs_peers": 0.819,
+          "pricing_power": 0.0,
+          "competitiveness": 0.0,
+          "news_reliability": 0.6
+        },
+        "score": 0.3504,
+        "rank": 2,
+        "ma": {
+          "5": 455.494,
+          "10": 465.419,
+          "20": 465.513,
+          "60": 424.819,
+          "120": 417.303,
+          "240": 387.791
+        },
+        "below_ma": [
+          5,
+          10,
+          20
+        ],
+        "sharp_drop": false,
+        "drop_pct": -6.07,
+        "dist_to_support_pct": 0.38,
+        "support": 435.006,
+        "ret_60d": 9.7,
+        "margin_change": null,
+        "margin_change_pct": null
+      }
+    ],
+    "韓股_半導體": [
+      {
+        "ticker": "000660.KS",
+        "name": "SK海力士 SK Hynix",
+        "google": "https://www.google.com/search?q=SK海力士 SK Hynix+股票",
+        "price": 209.494,
+        "change_pct": -3.41,
+        "currency": "TWD",
+        "forward_pe": 22.6,
+        "pricing_power": 4,
+        "competitiveness": 5,
+        "news_reliability": 4,
+        "news": [
+          {
+            "title": "SK海力士 SK Hynix 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "SK海力士 SK Hynix 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 1.0,
+          "near_main_support": 1.0,
+          "not_overextended": 1.0,
+          "margin_reduction": 0.0,
+          "forward_pe_vs_peers": 0.395,
+          "pricing_power": 0.8,
+          "competitiveness": 1.0,
+          "news_reliability": 0.8
+        },
+        "score": 0.7192,
+        "rank": 1,
+        "ma": {
+          "5": 224.282,
+          "10": 233.503,
+          "20": 244.375,
+          "60": 265.214,
+          "120": 257.715,
+          "240": 220.737
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": true,
+        "drop_pct": -15.0,
+        "dist_to_support_pct": -21.21,
+        "support": 265.891,
+        "ret_60d": -20.63,
+        "margin_change": null,
+        "margin_change_pct": null
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "三星電子 Samsung",
+        "google": "https://www.google.com/search?q=三星電子 Samsung+股票",
+        "price": 764.971,
+        "change_pct": 1.52,
+        "currency": "TWD",
+        "forward_pe": 18.3,
+        "pricing_power": 4,
+        "competitiveness": 5,
+        "news_reliability": 4,
+        "news": [
+          {
+            "title": "三星電子 Samsung 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "三星電子 Samsung 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.083,
+          "near_main_support": 0.388,
+          "not_overextended": 0.924,
+          "margin_reduction": 0.0,
+          "forward_pe_vs_peers": 0.605,
+          "pricing_power": 0.8,
+          "competitiveness": 1.0,
+          "news_reliability": 0.8
+        },
+        "score": 0.5025,
+        "rank": 2,
+        "ma": {
+          "5": 750.965,
+          "10": 765.401,
+          "20": 753.572,
+          "60": 760.392,
+          "120": 699.189,
+          "240": 617.855
+        },
+        "below_ma": [
+          10
+        ],
+        "sharp_drop": false,
+        "drop_pct": -2.21,
+        "dist_to_support_pct": 9.18,
+        "support": 700.623,
+        "ret_60d": -2.11,
+        "margin_change": null,
+        "margin_change_pct": null
+      }
+    ],
+    "日本_AI半導體ETF": [
+      {
+        "ticker": "2644.T",
+        "name": "Global X Japan Semiconductor ETF",
+        "google": "https://www.google.com/search?q=Global X Japan Semiconductor ETF+股票",
+        "price": 991.403,
+        "change_pct": -0.94,
+        "currency": "TWD",
+        "forward_pe": 13.1,
+        "pricing_power": 0,
+        "competitiveness": 0,
+        "news_reliability": 3,
+        "news": [
+          {
+            "title": "Global X Japan Semiconductor ETF 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "Global X Japan Semiconductor ETF 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.083,
+          "near_main_support": 0.483,
+          "not_overextended": 0.79,
+          "margin_reduction": 0.0,
+          "forward_pe_vs_peers": 0.5,
+          "pricing_power": 0.0,
+          "competitiveness": 0.0,
+          "news_reliability": 0.6
+        },
+        "score": 0.2095,
+        "rank": 1,
+        "ma": {
+          "5": 1004.341,
+          "10": 972.444,
+          "20": 951.5,
+          "60": 977.407,
+          "120": 949.115,
+          "240": 815.327
+        },
+        "below_ma": [
+          5
+        ],
+        "sharp_drop": false,
+        "drop_pct": 1.89,
+        "dist_to_support_pct": 7.76,
+        "support": 919.991,
+        "ret_60d": -2.24,
+        "margin_change": null,
+        "margin_change_pct": null
+      }
+    ],
+    "台韓科技ETF": [
+      {
+        "ticker": "EWY",
+        "name": "iShares 韓國 ETF",
+        "google": "https://www.google.com/search?q=iShares 韓國 ETF+股票",
+        "price": 137.628,
+        "change_pct": -3.41,
+        "currency": "TWD",
+        "forward_pe": 30.9,
+        "pricing_power": 0,
+        "competitiveness": 0,
+        "news_reliability": 3,
+        "news": [
+          {
+            "title": "iShares 韓國 ETF 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "iShares 韓國 ETF 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 1.0,
+          "near_main_support": 1.0,
+          "not_overextended": 1.0,
+          "margin_reduction": 0.0,
+          "forward_pe_vs_peers": 0.343,
+          "pricing_power": 0.0,
+          "competitiveness": 0.0,
+          "news_reliability": 0.6
+        },
+        "score": 0.4314,
+        "rank": 1,
+        "ma": {
+          "5": 147.343,
+          "10": 156.402,
+          "20": 163.697,
+          "60": 173.8,
+          "120": 173.263,
+          "240": 187.621
+        },
+        "below_ma": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "sharp_drop": true,
+        "drop_pct": -15.0,
+        "dist_to_support_pct": -16.11,
+        "support": 164.059,
+        "ret_60d": -24.17,
+        "margin_change": null,
+        "margin_change_pct": null
+      },
+      {
+        "ticker": "0052.TW",
+        "name": "富邦科技 (台灣)",
+        "google": "https://www.google.com/search?q=富邦科技 (台灣)+股票",
+        "price": 1251.372,
+        "change_pct": 2.95,
+        "currency": "TWD",
+        "forward_pe": 22.5,
+        "pricing_power": 0,
+        "competitiveness": 0,
+        "news_reliability": 3,
+        "news": [
+          {
+            "title": "富邦科技 (台灣) 範例新聞 1",
+            "link": "https://news.google.com",
+            "published": ""
+          },
+          {
+            "title": "富邦科技 (台灣) 範例新聞 2",
+            "link": "https://news.google.com",
+            "published": ""
+          }
+        ],
+        "factors": {
+          "below_ma": 0.0,
+          "near_main_support": 0.591,
+          "not_overextended": 0.998,
+          "margin_reduction": 0.725,
+          "forward_pe_vs_peers": 0.657,
+          "pricing_power": 0.0,
+          "competitiveness": 0.0,
+          "news_reliability": 0.6
+        },
+        "score": 0.3464,
+        "rank": 2,
+        "ma": {
+          "5": 1221.935,
+          "10": 1238.531,
+          "20": 1250.855,
+          "60": 1166.41,
+          "120": 1091.544,
+          "240": 984.285
+        },
+        "below_ma": [],
+        "sharp_drop": false,
+        "drop_pct": 3.25,
+        "dist_to_support_pct": 6.13,
+        "support": 1179.088,
+        "ret_60d": 13.89,
+        "margin_change": -5480.350491475358,
+        "margin_change_pct": -7.25
+      }
+    ]
+  },
+  "hottest": [
+    {
+      "ticker": "2408.TW",
+      "name": "南亞科",
+      "google": "https://www.google.com/search?q=南亞科+股票",
+      "price": 1131.833,
+      "change_pct": 0.21,
+      "currency": "TWD",
+      "forward_pe": 19.2,
+      "pricing_power": 2,
+      "competitiveness": 3,
+      "news_reliability": 4,
+      "news": [
+        {
+          "title": "南亞科 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "南亞科 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.0,
+        "near_main_support": 0.78,
+        "not_overextended": 0.584,
+        "margin_reduction": 1.0,
+        "forward_pe_vs_peers": 0.588,
+        "pricing_power": 0.4,
+        "competitiveness": 0.6,
+        "news_reliability": 0.8
+      },
+      "score": 0.5354,
+      "rank": 3,
+      "ma": {
+        "5": 1120.36,
+        "10": 1087.592,
+        "20": 1044.875,
+        "60": 977.736,
+        "120": 843.73,
+        "240": 751.222
+      },
+      "below_ma": [],
+      "sharp_drop": false,
+      "drop_pct": 3.38,
+      "dist_to_support_pct": 3.3,
+      "support": 1095.626,
+      "ret_60d": 46.71,
+      "margin_change": -15037.781871287916,
+      "margin_change_pct": -19.38,
+      "group": "台股_記憶體"
+    },
+    {
+      "ticker": "0052.TW",
+      "name": "富邦科技 (台灣)",
+      "google": "https://www.google.com/search?q=富邦科技 (台灣)+股票",
+      "price": 1251.372,
+      "change_pct": 2.95,
+      "currency": "TWD",
+      "forward_pe": 22.5,
+      "pricing_power": 0,
+      "competitiveness": 0,
+      "news_reliability": 3,
+      "news": [
+        {
+          "title": "富邦科技 (台灣) 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "富邦科技 (台灣) 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.0,
+        "near_main_support": 0.591,
+        "not_overextended": 0.998,
+        "margin_reduction": 0.725,
+        "forward_pe_vs_peers": 0.657,
+        "pricing_power": 0.0,
+        "competitiveness": 0.0,
+        "news_reliability": 0.6
+      },
+      "score": 0.3464,
+      "rank": 2,
+      "ma": {
+        "5": 1221.935,
+        "10": 1238.531,
+        "20": 1250.855,
+        "60": 1166.41,
+        "120": 1091.544,
+        "240": 984.285
+      },
+      "below_ma": [],
+      "sharp_drop": false,
+      "drop_pct": 3.25,
+      "dist_to_support_pct": 6.13,
+      "support": 1179.088,
+      "ret_60d": 13.89,
+      "margin_change": -5480.350491475358,
+      "margin_change_pct": -7.25,
+      "group": "台韓科技ETF"
+    },
+    {
+      "ticker": "8299.TWO",
+      "name": "群聯",
+      "google": "https://www.google.com/search?q=群聯+股票",
+      "price": 327.869,
+      "change_pct": -0.12,
+      "currency": "TWD",
+      "forward_pe": 22.9,
+      "pricing_power": 3,
+      "competitiveness": 4,
+      "news_reliability": 4,
+      "news": [
+        {
+          "title": "群聯 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "群聯 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.0,
+        "near_main_support": 0.0,
+        "not_overextended": 0.526,
+        "margin_reduction": 0.452,
+        "forward_pe_vs_peers": 0.412,
+        "pricing_power": 0.6,
+        "competitiveness": 0.8,
+        "news_reliability": 0.8
+      },
+      "score": 0.4059,
+      "rank": 4,
+      "ma": {
+        "5": 321.814,
+        "10": 308.954,
+        "20": 299.481,
+        "60": 292.34,
+        "120": 291.107,
+        "240": 316.83
+      },
+      "below_ma": [],
+      "sharp_drop": false,
+      "drop_pct": 8.92,
+      "dist_to_support_pct": 20.01,
+      "support": 273.199,
+      "ret_60d": 9.78,
+      "margin_change": -2828.398235165747,
+      "margin_change_pct": -4.52,
+      "group": "台股_記憶體"
+    },
+    {
+      "ticker": "AIQ",
+      "name": "Global X AI ETF",
+      "google": "https://www.google.com/search?q=Global X AI ETF+股票",
+      "price": 436.648,
+      "change_pct": -0.34,
+      "currency": "TWD",
+      "forward_pe": 14.7,
+      "pricing_power": 0,
+      "competitiveness": 0,
+      "news_reliability": 3,
+      "news": [
+        {
+          "title": "Global X AI ETF 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "Global X AI ETF 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.25,
+        "near_main_support": 0.975,
+        "not_overextended": 1.0,
+        "margin_reduction": 0.0,
+        "forward_pe_vs_peers": 0.819,
+        "pricing_power": 0.0,
+        "competitiveness": 0.0,
+        "news_reliability": 0.6
+      },
+      "score": 0.3504,
+      "rank": 2,
+      "ma": {
+        "5": 455.494,
+        "10": 465.419,
+        "20": 465.513,
+        "60": 424.819,
+        "120": 417.303,
+        "240": 387.791
+      },
+      "below_ma": [
+        5,
+        10,
+        20
+      ],
+      "sharp_drop": false,
+      "drop_pct": -6.07,
+      "dist_to_support_pct": 0.38,
+      "support": 435.006,
+      "ret_60d": 9.7,
+      "margin_change": null,
+      "margin_change_pct": null,
+      "group": "美股_主動式ETF"
+    },
+    {
+      "ticker": "2454.TW",
+      "name": "聯發科",
+      "google": "https://www.google.com/search?q=聯發科+股票",
+      "price": 674.333,
+      "change_pct": -1.13,
+      "currency": "TWD",
+      "forward_pe": 19.4,
+      "pricing_power": 4,
+      "competitiveness": 5,
+      "news_reliability": 5,
+      "news": [
+        {
+          "title": "聯發科 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "聯發科 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.25,
+        "near_main_support": 0.659,
+        "not_overextended": 1.0,
+        "margin_reduction": 1.0,
+        "forward_pe_vs_peers": 0.657,
+        "pricing_power": 0.8,
+        "competitiveness": 1.0,
+        "news_reliability": 1.0
+      },
+      "score": 0.7343,
+      "rank": 3,
+      "ma": {
+        "5": 667.223,
+        "10": 670.242,
+        "20": 689.901,
+        "60": 668.106,
+        "120": 690.607,
+        "240": 805.742
+      },
+      "below_ma": [
+        20,
+        120,
+        240
+      ],
+      "sharp_drop": false,
+      "drop_pct": 1.06,
+      "dist_to_support_pct": 5.12,
+      "support": 641.481,
+      "ret_60d": 7.73,
+      "margin_change": -6993.959598659152,
+      "margin_change_pct": -12.75,
+      "group": "台股_半導體"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "google": "https://www.google.com/search?q=Broadcom+股票",
+      "price": 155.881,
+      "change_pct": 4.67,
+      "currency": "TWD",
+      "forward_pe": 8.8,
+      "pricing_power": 4,
+      "competitiveness": 5,
+      "news_reliability": 5,
+      "news": [
+        {
+          "title": "Broadcom 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "Broadcom 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.0,
+        "near_main_support": 0.794,
+        "not_overextended": 0.873,
+        "margin_reduction": 0.0,
+        "forward_pe_vs_peers": 0.921,
+        "pricing_power": 0.8,
+        "competitiveness": 1.0,
+        "news_reliability": 1.0
+      },
+      "score": 0.5812,
+      "rank": 3,
+      "ma": {
+        "5": 153.576,
+        "10": 153.664,
+        "20": 152.018,
+        "60": 148.944,
+        "120": 133.336,
+        "240": 129.504
+      },
+      "below_ma": [],
+      "sharp_drop": false,
+      "drop_pct": -0.32,
+      "dist_to_support_pct": 3.09,
+      "support": 151.205,
+      "ret_60d": 7.54,
+      "margin_change": null,
+      "margin_change_pct": null,
+      "group": "美股_記憶體與半導體"
+    },
+    {
+      "ticker": "2379.TW",
+      "name": "瑞昱",
+      "google": "https://www.google.com/search?q=瑞昱+股票",
+      "price": 242.669,
+      "change_pct": -1.0,
+      "currency": "TWD",
+      "forward_pe": 33.5,
+      "pricing_power": 3,
+      "competitiveness": 4,
+      "news_reliability": 4,
+      "news": [
+        {
+          "title": "瑞昱 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "瑞昱 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.5,
+        "near_main_support": 0.045,
+        "not_overextended": 1.0,
+        "margin_reduction": 0.987,
+        "forward_pe_vs_peers": 0.043,
+        "pricing_power": 0.6,
+        "competitiveness": 0.8,
+        "news_reliability": 0.8
+      },
+      "score": 0.559,
+      "rank": 4,
+      "ma": {
+        "5": 246.04,
+        "10": 252.097,
+        "20": 255.9,
+        "60": 245.298,
+        "120": 248.732,
+        "240": 270.442
+      },
+      "below_ma": [
+        5,
+        10,
+        20,
+        60,
+        120,
+        240
+      ],
+      "sharp_drop": false,
+      "drop_pct": -4.81,
+      "dist_to_support_pct": 14.33,
+      "support": 212.248,
+      "ret_60d": 0.8,
+      "margin_change": -7772.264378337713,
+      "margin_change_pct": -9.87,
+      "group": "台股_半導體"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron 美光",
+      "google": "https://www.google.com/search?q=Micron 美光+股票",
+      "price": 267.719,
+      "change_pct": 0.4,
+      "currency": "TWD",
+      "forward_pe": 10.7,
+      "pricing_power": 3,
+      "competitiveness": 4,
+      "news_reliability": 5,
+      "news": [
+        {
+          "title": "Micron 美光 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "Micron 美光 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.417,
+        "near_main_support": 0.883,
+        "not_overextended": 1.0,
+        "margin_reduction": 0.0,
+        "forward_pe_vs_peers": 0.796,
+        "pricing_power": 0.6,
+        "competitiveness": 0.8,
+        "news_reliability": 1.0
+      },
+      "score": 0.601,
+      "rank": 2,
+      "ma": {
+        "5": 265.764,
+        "10": 270.319,
+        "20": 272.12,
+        "60": 278.68,
+        "120": 273.005,
+        "240": 305.821
+      },
+      "below_ma": [
+        10,
+        20,
+        60,
+        120,
+        240
+      ],
+      "sharp_drop": false,
+      "drop_pct": 0.64,
+      "dist_to_support_pct": 1.76,
+      "support": 263.082,
+      "ret_60d": 0.07,
+      "margin_change": null,
+      "margin_change_pct": null,
+      "group": "美股_記憶體與半導體"
+    },
+    {
+      "ticker": "005930.KS",
+      "name": "三星電子 Samsung",
+      "google": "https://www.google.com/search?q=三星電子 Samsung+股票",
+      "price": 764.971,
+      "change_pct": 1.52,
+      "currency": "TWD",
+      "forward_pe": 18.3,
+      "pricing_power": 4,
+      "competitiveness": 5,
+      "news_reliability": 4,
+      "news": [
+        {
+          "title": "三星電子 Samsung 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "三星電子 Samsung 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.083,
+        "near_main_support": 0.388,
+        "not_overextended": 0.924,
+        "margin_reduction": 0.0,
+        "forward_pe_vs_peers": 0.605,
+        "pricing_power": 0.8,
+        "competitiveness": 1.0,
+        "news_reliability": 0.8
+      },
+      "score": 0.5025,
+      "rank": 2,
+      "ma": {
+        "5": 750.965,
+        "10": 765.401,
+        "20": 753.572,
+        "60": 760.392,
+        "120": 699.189,
+        "240": 617.855
+      },
+      "below_ma": [
+        10
+      ],
+      "sharp_drop": false,
+      "drop_pct": -2.21,
+      "dist_to_support_pct": 9.18,
+      "support": 700.623,
+      "ret_60d": -2.11,
+      "margin_change": null,
+      "margin_change_pct": null,
+      "group": "韓股_半導體"
+    },
+    {
+      "ticker": "2644.T",
+      "name": "Global X Japan Semiconductor ETF",
+      "google": "https://www.google.com/search?q=Global X Japan Semiconductor ETF+股票",
+      "price": 991.403,
+      "change_pct": -0.94,
+      "currency": "TWD",
+      "forward_pe": 13.1,
+      "pricing_power": 0,
+      "competitiveness": 0,
+      "news_reliability": 3,
+      "news": [
+        {
+          "title": "Global X Japan Semiconductor ETF 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "Global X Japan Semiconductor ETF 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.083,
+        "near_main_support": 0.483,
+        "not_overextended": 0.79,
+        "margin_reduction": 0.0,
+        "forward_pe_vs_peers": 0.5,
+        "pricing_power": 0.0,
+        "competitiveness": 0.0,
+        "news_reliability": 0.6
+      },
+      "score": 0.2095,
+      "rank": 1,
+      "ma": {
+        "5": 1004.341,
+        "10": 972.444,
+        "20": 951.5,
+        "60": 977.407,
+        "120": 949.115,
+        "240": 815.327
+      },
+      "below_ma": [
+        5
+      ],
+      "sharp_drop": false,
+      "drop_pct": 1.89,
+      "dist_to_support_pct": 7.76,
+      "support": 919.991,
+      "ret_60d": -2.24,
+      "margin_change": null,
+      "margin_change_pct": null,
+      "group": "日本_AI半導體ETF"
+    },
+    {
+      "ticker": "00982A.TW",
+      "name": "群益台灣精選強棒(主動)",
+      "google": "https://www.google.com/search?q=群益台灣精選強棒(主動)+股票",
+      "price": 658.253,
+      "change_pct": -2.97,
+      "currency": "TWD",
+      "forward_pe": 34.1,
+      "pricing_power": 0,
+      "competitiveness": 0,
+      "news_reliability": 3,
+      "news": [
+        {
+          "title": "群益台灣精選強棒(主動) 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "群益台灣精選強棒(主動) 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.5,
+        "near_main_support": 1.0,
+        "not_overextended": 1.0,
+        "margin_reduction": 1.0,
+        "forward_pe_vs_peers": 0.267,
+        "pricing_power": 0.0,
+        "competitiveness": 0.0,
+        "news_reliability": 0.6
+      },
+      "score": 0.47,
+      "rank": 2,
+      "ma": {
+        "5": 676.853,
+        "10": 679.983,
+        "20": 675.208,
+        "60": 662.145,
+        "120": 686.474,
+        "240": 690.838
+      },
+      "below_ma": [
+        5,
+        10,
+        20,
+        60,
+        120,
+        240
+      ],
+      "sharp_drop": false,
+      "drop_pct": -4.74,
+      "dist_to_support_pct": -0.37,
+      "support": 660.728,
+      "ret_60d": -4.47,
+      "margin_change": -6480.920501029705,
+      "margin_change_pct": -17.62,
+      "group": "台股_主動式ETF"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "google": "https://www.google.com/search?q=AMD+股票",
+      "price": 222.601,
+      "change_pct": -3.04,
+      "currency": "TWD",
+      "forward_pe": 27.5,
+      "pricing_power": 4,
+      "competitiveness": 4,
+      "news_reliability": 5,
+      "news": [
+        {
+          "title": "AMD 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "AMD 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 0.333,
+        "near_main_support": 0.609,
+        "not_overextended": 0.998,
+        "margin_reduction": 0.0,
+        "forward_pe_vs_peers": 0.0,
+        "pricing_power": 0.8,
+        "competitiveness": 0.8,
+        "news_reliability": 1.0
+      },
+      "score": 0.4675,
+      "rank": 4,
+      "ma": {
+        "5": 225.992,
+        "10": 226.189,
+        "20": 222.498,
+        "60": 224.84,
+        "120": 222.573,
+        "240": 226.624
+      },
+      "below_ma": [
+        5,
+        10,
+        60,
+        240
+      ],
+      "sharp_drop": false,
+      "drop_pct": -0.79,
+      "dist_to_support_pct": 5.86,
+      "support": 210.271,
+      "ret_60d": -4.9,
+      "margin_change": null,
+      "margin_change_pct": null,
+      "group": "美股_記憶體與半導體"
+    },
+    {
+      "ticker": "3034.TW",
+      "name": "聯詠",
+      "google": "https://www.google.com/search?q=聯詠+股票",
+      "price": 280.117,
+      "change_pct": -3.41,
+      "currency": "TWD",
+      "forward_pe": 26.6,
+      "pricing_power": 3,
+      "competitiveness": 4,
+      "news_reliability": 4,
+      "news": [
+        {
+          "title": "聯詠 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "聯詠 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 1.0,
+        "near_main_support": 1.0,
+        "not_overextended": 1.0,
+        "margin_reduction": 1.0,
+        "forward_pe_vs_peers": 0.343,
+        "pricing_power": 0.6,
+        "competitiveness": 0.8,
+        "news_reliability": 0.8
+      },
+      "score": 0.8015,
+      "rank": 2,
+      "ma": {
+        "5": 299.89,
+        "10": 315.587,
+        "20": 312.864,
+        "60": 310.904,
+        "120": 323.878,
+        "240": 342.037
+      },
+      "below_ma": [
+        5,
+        10,
+        20,
+        60,
+        120,
+        240
+      ],
+      "sharp_drop": true,
+      "drop_pct": -15.0,
+      "dist_to_support_pct": -7.22,
+      "support": 301.911,
+      "ret_60d": -10.14,
+      "margin_change": -6432.302741495227,
+      "margin_change_pct": -22.26,
+      "group": "台股_半導體"
+    },
+    {
+      "ticker": "00981A.TW",
+      "name": "統一台股增長主動式",
+      "google": "https://www.google.com/search?q=統一台股增長主動式+股票",
+      "price": 656.192,
+      "change_pct": -3.41,
+      "currency": "TWD",
+      "forward_pe": 21.2,
+      "pricing_power": 0,
+      "competitiveness": 0,
+      "news_reliability": 3,
+      "news": [
+        {
+          "title": "統一台股增長主動式 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "統一台股增長主動式 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 1.0,
+        "near_main_support": 1.0,
+        "not_overextended": 1.0,
+        "margin_reduction": 0.453,
+        "forward_pe_vs_peers": 0.733,
+        "pricing_power": 0.0,
+        "competitiveness": 0.0,
+        "news_reliability": 0.6
+      },
+      "score": 0.5579,
+      "rank": 1,
+      "ma": {
+        "5": 702.511,
+        "10": 729.536,
+        "20": 717.481,
+        "60": 716.25,
+        "120": 728.158,
+        "240": 676.229
+      },
+      "below_ma": [
+        5,
+        10,
+        20,
+        60,
+        120,
+        240
+      ],
+      "sharp_drop": true,
+      "drop_pct": -15.0,
+      "dist_to_support_pct": -6.72,
+      "support": 703.472,
+      "ret_60d": -12.19,
+      "margin_change": -1261.8163879898166,
+      "margin_change_pct": -4.53,
+      "group": "台股_主動式ETF"
+    },
+    {
+      "ticker": "2344.TW",
+      "name": "華邦電",
+      "google": "https://www.google.com/search?q=華邦電+股票",
+      "price": 560.762,
+      "change_pct": -3.41,
+      "currency": "TWD",
+      "forward_pe": 28.7,
+      "pricing_power": 2,
+      "competitiveness": 3,
+      "news_reliability": 4,
+      "news": [
+        {
+          "title": "華邦電 範例新聞 1",
+          "link": "https://news.google.com",
+          "published": ""
+        },
+        {
+          "title": "華邦電 範例新聞 2",
+          "link": "https://news.google.com",
+          "published": ""
+        }
+      ],
+      "factors": {
+        "below_ma": 1.0,
+        "near_main_support": 1.0,
+        "not_overextended": 1.0,
+        "margin_reduction": 0.63,
+        "forward_pe_vs_peers": 0.137,
+        "pricing_power": 0.4,
+        "competitiveness": 0.6,
+        "news_reliability": 0.8
+      },
+      "score": 0.655,
+      "rank": 2,
+      "ma": {
+        "5": 600.346,
+        "10": 626.934,
+        "20": 664.135,
+        "60": 690.893,
+        "120": 662.528,
+        "240": 663.715
+      },
+      "below_ma": [
+        5,
+        10,
+        20,
+        60,
+        120,
+        240
+      ],
+      "sharp_drop": true,
+      "drop_pct": -15.0,
+      "dist_to_support_pct": -13.73,
+      "support": 649.993,
+      "ret_60d": -15.91,
+      "margin_change": -4580.20028261104,
+      "margin_change_pct": -6.3,
+      "group": "台股_記憶體"
+    }
+  ]
+}

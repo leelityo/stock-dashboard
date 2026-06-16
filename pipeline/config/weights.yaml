@@ -1,0 +1,37 @@
+# =============================================================
+# 推薦評分權重 (Scoring Weights)
+# - 每個因子分數先各自正規化到 0~1，再乘以 weight 加總成總分
+# - weight 可正可負；數字越大代表越重視該因子
+# - 這個檔是「選股 criteria」的核心；第三階段的「自然語言新增條件」
+#   就是讓 AI 來改這裡的 weight 或新增 custom 因子
+# =============================================================
+
+weights:
+  # --- 技術面 (來自價量) ---
+  below_ma:          0.20   # 因外部急跌跌破多條均線(5/10/20/60/120/240) → 逢低機會，加分
+  near_main_support: 0.10   # 接近主力支撐區 (近月成交量密集 / 近期低點) → 加分
+  not_overextended:  0.05   # 未過度乖離 (避免追高)
+
+  # --- 籌碼面 (來自 FinMind，僅台股) ---
+  margin_reduction:  0.15   # 融資減碼 (絕對金額+比例) → 浮額清洗、籌碼乾淨 → 加分
+
+  # --- 基本面 ---
+  forward_pe_vs_peers: 0.15 # forward 本益比低於同族群中位數 → 加分
+
+  # --- 質化 (universe.yaml 維護) ---
+  pricing_power:     0.15   # 定價權
+  competitiveness:   0.15   # 產業競爭力
+  news_reliability:  0.05   # 消息來源可靠度
+
+# 急跌判定：近 N 日跌幅超過門檻才視為「外部因素急跌下殺」
+sharp_drop:
+  lookback_days: 5
+  drop_pct_threshold: -8.0   # 近5日累計跌幅 < -8% 視為急跌
+
+# 均線清單 (日)
+moving_averages: [5, 10, 20, 60, 120, 240]
+
+# 「過去幾週熱門標的」預設值 (前端可由使用者覆寫)
+hotness:
+  default_weeks: 3
+  metric: turnover   # turnover=成交金額, volume=成交量, return=漲幅

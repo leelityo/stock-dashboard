@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>股票自動推薦儀表板</title>
+<style>
+  :root{
+    --bg:#0f1419; --card:#1a2230; --card2:#222c3d; --line:#2c3a4f;
+    --txt:#e6edf3; --mut:#8b9bb0; --up:#26a69a; --down:#ef5350;
+    --accent:#4f9dff; --gold:#f5c451; --good:#3fb950; --warn:#d29922;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);
+       font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans TC",sans-serif;font-size:14px}
+  header{position:sticky;top:0;z-index:10;background:#10161f;border-bottom:1px solid var(--line);
+         padding:12px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  header h1{font-size:17px;margin:0;font-weight:700}
+  .meta{color:var(--mut);font-size:12px}
+  .badge{font-size:11px;padding:2px 8px;border-radius:10px;background:var(--card2);color:var(--mut)}
+  .badge.mock{background:#4a3a12;color:var(--gold)}
+  button{cursor:pointer;border:1px solid var(--line);background:var(--card2);color:var(--txt);
+         border-radius:8px;padding:6px 12px;font-size:13px}
+  button:hover{border-color:var(--accent)}
+  .wrap{padding:16px;max-width:1100px;margin:0 auto}
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .tab{padding:6px 12px;border-radius:18px;background:var(--card);border:1px solid var(--line);font-size:13px}
+  .tab.active{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+  section{margin-bottom:26px}
+  .ghead{display:flex;align-items:center;gap:10px;margin:0 0 10px;font-size:15px;font-weight:700}
+  .ghead .n{color:var(--mut);font-weight:400;font-size:12px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+  .row{display:flex;align-items:center;gap:12px;padding:12px 14px;cursor:pointer}
+  .rank{width:30px;height:30px;flex:0 0 30px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+        font-weight:700;background:var(--card2)}
+  .rank.r1{background:var(--gold);color:#000}.rank.r2{background:#c0cad6;color:#000}.rank.r3{background:#cd7f4d;color:#000}
+  .nm{flex:1;min-width:0}
+  .nm .t{font-weight:600}.nm .t a{color:var(--accent);text-decoration:none;font-size:12px;margin-left:6px}
+  .nm .s{color:var(--mut);font-size:12px;margin-top:2px}
+  .price{text-align:right;min-width:90px}
+  .price .p{font-weight:700}
+  .up{color:var(--up)}.down{color:var(--down)}
+  .scorebar{width:74px;flex:0 0 74px}
+  .scorebar .v{font-weight:700;text-align:center;font-size:13px}
+  .bar{height:6px;border-radius:4px;background:var(--card2);margin-top:4px;overflow:hidden}
+  .bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--good))}
+  .tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:5px}
+  .tag{font-size:10.5px;padding:1px 7px;border-radius:9px;background:var(--card2);color:var(--mut)}
+  .tag.drop{background:#4a1715;color:#ff8a80}.tag.below{background:#3a2a10;color:var(--gold)}
+  .tag.margin{background:#10331f;color:#7ee2a8}.tag.pe{background:#16263f;color:#8fc1ff}
+  .detail{display:none;padding:0 14px 14px;border-top:1px solid var(--line);background:var(--card2)}
+  .detail.open{display:block}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-top:12px}
+  .kv{background:var(--card);border-radius:8px;padding:8px 10px}
+  .kv .k{color:var(--mut);font-size:11px}.kv .v{font-weight:600;margin-top:2px}
+  .facs{margin-top:12px}
+  .fac{display:flex;align-items:center;gap:8px;margin:4px 0;font-size:12px}
+  .fac .fn{width:120px;flex:0 0 120px;color:var(--mut)}
+  .fac .fbar{flex:1;height:8px;background:var(--card);border-radius:4px;overflow:hidden}
+  .fac .fbar>i{display:block;height:100%;background:var(--accent)}
+  .news{margin-top:12px}.news a{display:block;color:var(--accent);text-decoration:none;font-size:12.5px;padding:3px 0}
+  .ctrl{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);
+        border-radius:10px;padding:10px 14px;margin-bottom:12px;flex-wrap:wrap}
+  input[type=range]{accent-color:var(--accent)}
+  @media(max-width:560px){.scorebar{display:none}.price{min-width:72px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>📈 股票自動推薦儀表板</h1>
+  <span id="genat" class="meta"></span>
+  <span id="mockbadge"></span>
+  <span style="flex:1"></span>
+  <button onclick="location.reload()">🔄 重新整理</button>
+</header>
+
+<div class="wrap">
+  <div class="tabs" id="tabs"></div>
+  <div id="content"></div>
+</div>
+
+<script>
+const DATA_URL = "data/dashboard.json";
+let DATA=null, activeTab="__hot__";
+
+const fmtPrice=(v,c)=> v==null?"—":(c==="USD"?"$":(c==="KRW"?"₩":(c==="JPY"?"¥":"")))+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
+const pct=(v)=> v==null?"—":(v>=0?"+":"")+v+"%";
+const cls=(v)=> v==null?"":(v>=0?"up":"down");
+
+function load(){
+  fetch(DATA_URL,{cache:"no-store"}).then(r=>r.json()).then(d=>{DATA=d;render();})
+  .catch(e=>{document.getElementById("content").innerHTML=
+     '<p style="color:var(--down)">讀取 data/dashboard.json 失敗：請先執行 pipeline 產生資料。<br>'+e+'</p>';});
+}
+
+function render(){
+  document.getElementById("genat").textContent="更新時間："+(DATA.generated_at||"—");
+  document.getElementById("mockbadge").innerHTML=DATA.mock?'<span class="badge mock">範例資料 (mock)</span>':'<span class="badge">真實資料</span>';
+  // tabs
+  const tabs=['<div class="tab '+(activeTab==="__hot__"?"active":"")+'" onclick="sel(\'__hot__\')">🔥 熱門</div>'];
+  for(const g of Object.keys(DATA.groups))
+    tabs.push('<div class="tab '+(activeTab===g?"active":"")+'" onclick="sel(\''+g+'\')">'+g.replace(/_/g," ")+'</div>');
+  document.getElementById("tabs").innerHTML=tabs.join("");
+  document.getElementById("content").innerHTML = activeTab==="__hot__"? hotView() : groupView(activeTab);
+}
+function sel(t){activeTab=t;render();window.scrollTo(0,0);}
+
+function stockCard(s){
+  const tags=[];
+  if(s.sharp_drop) tags.push('<span class="tag drop">急跌 '+pct(s.drop_pct)+'</span>');
+  if(s.below_ma&&s.below_ma.length) tags.push('<span class="tag below">跌破 '+s.below_ma.join("/")+'日線</span>');
+  if(s.margin_change_pct!=null&&s.margin_change_pct<0) tags.push('<span class="tag margin">融資減 '+s.margin_change_pct+'%</span>');
+  if(s.forward_pe) tags.push('<span class="tag pe">forward PE '+s.forward_pe+'</span>');
+  const facs=Object.entries(s.factors||{}).map(([k,v])=>
+    '<div class="fac"><span class="fn">'+facName(k)+'</span><span class="fbar"><i style="width:'+(v*100)+'%"></i></span><span>'+v+'</span></div>').join("");
+  const kvs=[
+    ["分數",s.score],["距支撐",pct(s.dist_to_support_pct)],["支撐價",s.support??"—"],
+    ["60日報酬",pct(s.ret_60d)],["融資變化(張)",s.margin_change!=null?Math.round(s.margin_change).toLocaleString():"—"],
+    ["forward PE",s.forward_pe??"—"],
+  ];
+  const news=(s.news||[]).map(n=>'<a href="'+n.link+'" target="_blank" rel="noopener">📰 '+n.title+'</a>').join("")||'<span class="meta">—</span>';
+  return `<div class="card">
+    <div class="row" onclick="this.parentNode.querySelector('.detail').classList.toggle('open')">
+      <div class="rank r${s.rank}">${s.rank}</div>
+      <div class="nm"><div class="t">${s.name} <span class="meta">${s.ticker}</span>
+        <a href="${s.google}" target="_blank" rel="noopener">Google↗</a></div>
+        <div class="tags">${tags.join("")||'<span class="meta">—</span>'}</div></div>
+      <div class="price"><div class="p">${fmtPrice(s.price,s.currency)}</div>
+        <div class="${cls(s.change_pct)}">${pct(s.change_pct)}</div></div>
+      <div class="scorebar"><div class="v">${s.score}</div><div class="bar"><i style="width:${Math.max(0,Math.min(100,s.score*100))}%"></i></div></div>
+    </div>
+    <div class="detail">
+      <div class="grid">${kvs.map(([k,v])=>'<div class="kv"><div class="k">'+k+'</div><div class="v">'+v+'</div></div>').join("")}</div>
+      <div class="facs"><div class="meta" style="margin-bottom:4px">推薦因子貢獻 (0~1)</div>${facs}</div>
+      <div class="news"><div class="meta" style="margin-bottom:4px">相關新聞</div>${news}</div>
+    </div></div>`;
+}
+function facName(k){return {below_ma:"跌破均線",near_main_support:"近主力支撐",not_overextended:"未過度乖離",
+  margin_reduction:"融資減碼",forward_pe_vs_peers:"forwardPE優勢",pricing_power:"定價權",
+  competitiveness:"產業競爭力",news_reliability:"消息可靠度"}[k]||k;}
+
+function groupView(g){
+  const list=DATA.groups[g]||[];
+  return `<section><div class="ghead">${g.replace(/_/g," ")} <span class="n">${list.length} 檔 · 依推薦分數排序</span></div>
+    ${list.map(stockCard).join("")}</section>`;
+}
+
+function hotView(){
+  const def=DATA.hotness_default_weeks||3;
+  let html=`<div class="ctrl">🔥 過去
+    <input type="range" id="wk" min="1" max="12" value="${def}" oninput="document.getElementById('wkv').textContent=this.value+' 週';">
+    <b id="wkv">${def} 週</b> 最熱門標的
+    <span class="meta">（範例以 60 日報酬近似；接上真實資料後依所選週數計算成交金額/漲幅）</span></div>`;
+  const list=(DATA.hottest||[]).map((s,i)=>({...s,rank:i+1}));
+  html+=list.map(stockCard).join("");
+  return `<section>${html}</section>`;
+}
+load();
+</script>
+</body>
+</html>
