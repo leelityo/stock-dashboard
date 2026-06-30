@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T21:55:38",
+  "generated_at": "2026-06-30T05:08:16",
   "mock": false,
   "weights": {
     "below_ma": 0.2,
@@ -18,10 +18,10 @@
         "ticker": "3034.TW",
         "name": "聯詠",
         "google": "https://www.google.com/search?q=%E8%81%AF%E8%A9%A0%20%E8%82%A1%E7%A5%A8",
-        "price": 523.0,
+        "price": 540.0,
         "change_pct": null,
         "currency": "TWD",
-        "forward_pe": 16.705652,
+        "forward_pe": 17.248665,
         "pricing_power": 3,
         "competitiveness": 4,
         "news_reliability": 4,
@@ -43,34 +43,31 @@
           }
         ],
         "factors": {
-          "below_ma": 0.167,
-          "near_main_support": 0.449,
-          "not_overextended": 0.857,
+          "below_ma": 0.0,
+          "near_main_support": 0.214,
+          "not_overextended": 0.713,
           "margin_reduction": 1.0,
-          "forward_pe_vs_peers": 0.675,
+          "forward_pe_vs_peers": 0.685,
           "pricing_power": 0.6,
           "competitiveness": 0.8,
           "news_reliability": 0.8
         },
-        "score": 0.6223,
+        "score": 0.5598,
         "rank": 1,
         "ma": {
-          "5": 536.0,
-          "10": 527.3,
-          "20": 508.45,
-          "60": 462.217,
-          "120": 421.404,
-          "240": 425.113
+          "5": 535.2,
+          "10": 531.8,
+          "20": 510.625,
+          "60": 464.692,
+          "120": 422.762,
+          "240": 425.117
         },
-        "below_ma": [
-          5,
-          10
-        ],
+        "below_ma": [],
         "sharp_drop": false,
-        "drop_pct": -7.76,
-        "dist_to_support_pct": 8.27,
+        "drop_pct": -0.74,
+        "dist_to_support_pct": 11.79,
         "support": 483.06,
-        "ret_60d": 33.59,
+        "ret_60d": 41.36,
         "margin_change": -550.0,
         "margin_change_pct": -14.91
       },
@@ -78,10 +75,10 @@
         "ticker": "2454.TW",
         "name": "聯發科",
         "google": "https://www.google.com/search?q=%E8%81%AF%E7%99%BC%E7%A7%91%20%E8%82%A1%E7%A5%A8",
-        "price": 3910.0,
+        "price": 4280.0,
         "change_pct": null,
         "currency": "TWD",
-        "forward_pe": 32.200275,
+        "forward_pe": 35.24736,
         "pricing_power": 4,
         "competitiveness": 5,
         "news_reliability": 5,
@@ -92,18 +89,18 @@
             "published": "Mon, 29 Jun 2026 08:47:00 GMT"
           },
           {
-            "title": "1表看》台積電、大立光、奇鋐、聯發科、智邦、創新服務...25千金打6折能撿？權證小哥拋3點建議：1凶兆當心了- 上市櫃 - 旺得富理財網",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tSFNmTHZNbTNDWVpyeFpjOUJUX2hKTnllbS1qZzhNQXpJYmwxX1FpNzdCZ2FwMmhaczJUQmR2bWFwbHRfeUtHT2F0SC1hNkVRYUFTZXlkOTMxUnZRVUlRVDZXeEYtMGVtbkE?oc=5",
-            "published": "Mon, 29 Jun 2026 00:49:53 GMT"
+            "title": "快訊／聯發科飆漲停！　台股狂飆1613點史上盤中第4大 - ETtoday財經雲",
+            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51N1ZqWVRQZkF0N3l0aVcyaHZHaDRMZnVrSm5FTUdZakVSRU9OVWM1YUR1bm8za0ZLQjBvcGFmMlU4MWhMNVptTkhUNUVIc0VOYmfSAW5BVV95cUxQN3B2VnI4cUkxNkdid3VESmsyOERPQUJQSkhPbkFOdGd6M1pqdWN0UlJROE5CSFVEYzEyQTN4X0xVQkl2T3pubDA4dklJY0owcGh0bm40UW9NNUFVN1F3WDM0RW5MZzFPWldYRjNNUQ?oc=5",
+            "published": "Tue, 30 Jun 2026 04:56:00 GMT"
           },
           {
-            "title": "外資喊瘋了！聯發科搭AI商機目標價直衝萬元「這檔」攜華邦電攻3D晶圓封裝奪「787億成交額」居冠 - Yahoo股市",
-            "link": "https://news.google.com/rss/articles/CBMiggRBVV95cUxNNldVZU9ZQXlPbGVaczgwZXRrTG5hSkZqR1RFQUl3a3JNVzV0V0FnajhOQzdxcmdEZjNLYjJvUzhKZ2J6dndSV29Ca1o5emUxeEc4X1l0QTd3SUtkdmwwVXFjeHdUWV9zYXRsbGdpQVE5eEo3cXdpUUdLME96aGRDS3hheXlEUnNPQnRrTy15dTg1QkoyOTYwLXRaeUx0bWtha2NtZ3hYOGp3dWJSQWZVYkkyV1ExTEFRUUJSYnlNM1FzZ0lTYWhHUnk0czRsaUJUR0RvZGVOSUJDZENkWTRXYU9DV250ZDVYUkR1SHJ5cWpPNTB4V2w5bnlBYmI5MHNjczFuMFc1dTBNLW9sRm95dktxVHoxOXBjR0llelBKT3FRLU5HVGotNEFhb0d5YnhOSkhlUHR6V1h6NjFTWFhDX25JVUl5bTZlS3lhX3B5am1Gd2l3OU5uWmVoendUSUgwNXU3UFo5R1FIbjA4MHJsV2xjSXNJd2R6NDcxLUV0OUJUcHZIQ3pYNG5PclFHaEdxY25leWRSZWN3Wi1zN3ZQOXFIYkdaVlVpaWM4T1l0STVvNDhMdE1RY2Z1MFdfUGhQLTlJeTFXNTN1Z0dScXhsRFlwVlczNmstTkFKNGpMaW1MUmdIRjlFMGxzaER3X1dFQ1dmMGQtaEowYl9NTGdzZjd3?oc=5",
-            "published": "Mon, 29 Jun 2026 09:35:00 GMT"
+            "title": "外資喊聯發科目標價1萬元！股民超嗨「發哥要發了」網諷：看這麼高自己買 - Yahoo股市",
+            "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQa1o3YnFUT0NwTE94VlBEVHlYV2lWbENVTzNmQ2NKUXF2b3JoWF93Rnc4TmhkbTdMZEpxeUdpaFVibFZUWDRlSXJhMlBxZXI5dU85a3ZTZ3JlOW54ZUZqMm9ZN1pkdk1rV1lORkJfSlB4Vll0ZnRhN0hXeVJhMjh5Qmk2MzN1aHNHaFRmSDcyUVFhRDVhWHlmVTFlV1UwbmZGbkNrNEM2bURITmtlc2FFaDhqU1NqZ2JHWkxlLXBpSS1ETHdkMGFlS1lzVHRObmxNZzlMbXppX0ZyalVyUHZkaEFLNnN5ajhlVVZmWjhrdnVHQlBZVUFRVzltUXhSR1V4NWU2VURMLU0tbVNfSjdTZDQwWDRvbWhJX1lzNHRtQlo0aVVWeEZicThZUUkyNU9rZ3NfeFc3cEZpTmFULTVJMFFNV1czRXM4NUNtd0c1V19ESlFpSVJwWVUydFI3WkRiaTNiUDhCY2tQV2FEX2FUMm5mQ19TZWQxakd4MHlhODEyNmhRRjVQOUdVLV9vUEMwSEJoZHBrYkpkQ1RsRmh4MXlJVl94UWJFNXJ4QThTU3BrT2hxNzFsYWhraVNuUQ?oc=5",
+            "published": "Tue, 30 Jun 2026 03:30:39 GMT"
           }
         ],
         "factors": {
-          "below_ma": 0.5,
+          "below_ma": 0.167,
           "near_main_support": 0.0,
           "not_overextended": 1.0,
           "margin_reduction": 1.0,
@@ -112,26 +109,25 @@
           "competitiveness": 1.0,
           "news_reliability": 1.0
         },
-        "score": 0.62,
+        "score": 0.5533,
         "rank": 2,
         "ma": {
-          "5": 4184.0,
-          "10": 4326.5,
-          "20": 4329.25,
-          "60": 3319.083,
-          "120": 2481.708,
-          "240": 1919.708
+          "5": 4133.0,
+          "10": 4307.5,
+          "20": 4315.5,
+          "60": 3366.0,
+          "120": 2505.875,
+          "240": 1932.146
         },
         "below_ma": [
-          5,
           10,
           20
         ],
-        "sharp_drop": true,
-        "drop_pct": -12.43,
-        "dist_to_support_pct": 17.52,
+        "sharp_drop": false,
+        "drop_pct": -5.62,
+        "dist_to_support_pct": 28.64,
         "support": 3327.1,
-        "ret_60d": 166.89,
+        "ret_60d": 192.15,
         "margin_change": -1307.0,
         "margin_change_pct": -11.6
       },
@@ -139,59 +135,56 @@
         "ticker": "2330.TW",
         "name": "台積電",
         "google": "https://www.google.com/search?q=%E5%8F%B0%E7%A9%8D%E9%9B%BB%20%E8%82%A1%E7%A5%A8",
-        "price": 2370.0,
+        "price": 2445.0,
         "change_pct": null,
         "currency": "TWD",
-        "forward_pe": 18.931414,
+        "forward_pe": 19.530508,
         "pricing_power": 5,
         "competitiveness": 5,
         "news_reliability": 5,
         "news": [
-          {
-            "title": "韓國也想複製成功模式！韓媒揭「台積電進駐熊本」背後真正關鍵 - 自由財經",
-            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1nd1BhQnNRcmVKWTFGU0NfRHgybFVSelJEV25BYmZteDRTUURDaXJPbUI4azAxTlBxcDlHLTVQM3E5aWxlRjQxcXFzZ3dSZnlGV2dMVm1CazRYWU13WDZr0gFkQVVfeXFMTUdwVkpyRGZJV21JRklEU3ZsYlRCa0pZTWthcHVuVC1tX3Y2M3dKOWJOVmxVNTBfVlFjZkhTenpwQ2dpWkRfcTN1U3N5dldiNEZ6UGVlTDdKZ2YwVnNfUzdzZGQyNA?oc=5",
-            "published": "Mon, 29 Jun 2026 04:42:46 GMT"
-          },
           {
             "title": "台積電加速打造本土 DRAM 鏈 華邦助陣供貨記憶體晶圓 - 經濟日報",
             "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkRE9od25ZTTl5N2VNcEx4aFp6eGxkODRueTVyel9MVjlLcjFUMDZ0eFFoRHFTTmJyWmcwQzlnNVFZYlFEX2lrUC1ydEV4NGppbGt6QXNjZ044UdIBX0FVX3lxTE81VmhlSk5veE12bU5Mc2t6UHdYQ3FOSDNVZDNwRUY1VkU3U2RWU1FWR1JpZFJ2VDgzTEVtSmVwT3BwQ21CMzhhU0FrMEFGd1BzTHpZM1lDRVhVWU4yQkxn?oc=5",
             "published": "Sun, 28 Jun 2026 09:00:00 GMT"
           },
           {
-            "title": "台股收漲428點成交值創2個月新低 台積電漲30元 - Yahoo新聞",
-            "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPTl9RTUxIZkV6LUctdWJVVFN1dXY2TDRHRjYxdE10Q0hUc2lEODVoMHZuWEw0aE40V09WS3hNTlZTMjJZc3ZBTHV2Y0RkWjVLME1DLTRORmJtcEpzYXVyQlk3X2hpVENLZ2dkTnFzZnZhWHcyT19QZjF3NWgtY0plRXRwVjU4SzhuSEJLNUxBbV9WMHNKSENRekhkbTdKSXJQRUs5Yko1VlRYc0JicXloRzk2SjdrbUpFRHBSalRmNkhxcC1peFB5Und0OUpTSGFILVd0Q1pBRzZpRzBYZE8xb1JTeU1Mc2xLNzgyWWVvWmlqU05XbjdUeXVlMEhUOTRabzFIQllBeHE5UWZRbmwxamE0aVJaWTIyekFyTG9pQ1RjV20yVUh5ZklsOEprWjdJNjhVMw?oc=5",
-            "published": "Mon, 29 Jun 2026 07:02:32 GMT"
+            "title": "台積電入列！下一個3兆美元公司四家排序推估曝 - 自由財經",
+            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VYkZiUEw2NDMyNmI2S0hBZFVKb0xyRl9Ga240YWNIRUZhRDY0ZUZHUExCOWRXMk5SS2dDWmczLWU2Zm9WOEhVWG5ObTVTVWZxd1JWakl3TXRPSm9KVnNZ0gFkQVVfeXFMTnk3d25WQW1qSHQ5Tkx5SkN2a2c2U0FkNGQ4RTlBTXR0a2VrMjVGcE56b3BoSUktQVZPWTk3cHRGckdEb2Z2RWp6ZG1kamYzLVVDMFUyWDFrSUZCVG1MZV9HVm1xVA?oc=5",
+            "published": "Sun, 28 Jun 2026 13:33:39 GMT"
+          },
+          {
+            "title": "台積電攜清洗商導入雷射量測系統　數位檢測減廢 - 經濟日報",
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1hMjJQTTYyZHVEQmxibmZWMzZIYVc1MkhKSDBTY1ZTdnpLdng4bDN6eHBLVTFPa09MYnBqUGw5V2pKc1EyaHpNcDJfZGJpZUNXUl92ZnJCVnBEZjdSR0ZmdnpSU0xkVGUxb1hQeVVrNGo4cjY2bkRPVTI0WTHSAWBBVV95cUxNOUtRUWVkT2VoeHAzM3NvMTBuTTI5dllGWWdhTHo4dWxCemVNS0JxYjA3UE8tUGppbkVSZ3E1SnBXRFhrbFotR1BPNmdTTkJqV0FnZjQtNEhQUEZQZUo2Rm0?oc=5",
+            "published": "Tue, 30 Jun 2026 04:55:41 GMT"
           }
         ],
         "factors": {
-          "below_ma": 0.167,
-          "near_main_support": 0.75,
-          "not_overextended": 0.999,
+          "below_ma": 0.0,
+          "near_main_support": 0.531,
+          "not_overextended": 0.85,
           "margin_reduction": 0.0,
-          "forward_pe_vs_peers": 0.565,
+          "forward_pe_vs_peers": 0.577,
           "pricing_power": 1.0,
           "competitiveness": 1.0,
           "news_reliability": 1.0
         },
-        "score": 0.593,
+        "score": 0.5322,
         "rank": 3,
         "ma": {
-          "5": 2396.0,
-          "10": 2406.0,
-          "20": 2369.25,
-          "60": 2225.083,
-          "120": 2005.5,
-          "240": 1655.854
+          "5": 2387.0,
+          "10": 2413.0,
+          "20": 2373.75,
+          "60": 2234.917,
+          "120": 2013.417,
+          "240": 1661.521
         },
-        "below_ma": [
-          5,
-          10
-        ],
+        "below_ma": [],
         "sharp_drop": false,
-        "drop_pct": -5.58,
-        "dist_to_support_pct": 3.75,
+        "drop_pct": -1.81,
+        "dist_to_support_pct": 7.03,
         "support": 2284.35,
-        "ret_60d": 27.76,
+        "ret_60d": 35.08,
         "margin_change": 2407.0,
         "margin_change_pct": 8.28
       },
@@ -199,10 +192,10 @@
         "ticker": "2379.TW",
         "name": "瑞昱",
         "google": "https://www.google.com/search?q=%E7%91%9E%E6%98%B1%20%E8%82%A1%E7%A5%A8",
-        "price": 783.0,
+        "price": 828.0,
         "change_pct": null,
         "currency": "TWD",
-        "forward_pe": 21.569647,
+        "forward_pe": 22.809282,
         "pricing_power": 3,
         "competitiveness": 4,
         "news_reliability": 4,
@@ -218,113 +211,50 @@
             "published": "Mon, 29 Jun 2026 09:48:56 GMT"
           },
           {
-            "title": "竹科企業暖舉！瑞昱豪捐500萬 陪伴犯罪被害家庭10年熬過長照路 - UDN",
-            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoY0kyUzVjNVZyM2kyVWNncGdJUTBzXy0xbHNteUpxQXlnVWhQaGFXZnpxQmVpTDhTaTVyXzkxbVItUVZ5SjlfNjNncF9Hb2t0cW96UktB0gFWQVVfeXFMUGhjSTJTNWM1VnIzaTJVY2dwZ0lRMHNfLTFsc215SnFBeWdVaFBoYVdmenFCZWlMOFNpNXJfOTFtUi1RVnlKOV82M2dwX0dva3Rxb3pSS0E?oc=5",
-            "published": "Mon, 29 Jun 2026 05:58:29 GMT"
+            "title": "法人上修獲利卻砍評等？瑞昱衝上900元天價後 驚揭下半年客戶「提前拉貨」內幕 - 旺得富理財網",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ia0RjSGRubjRvNmdzSDlubGVBOS1lR3hjeXNiSGRvUUxybHBqdlBERmRLdXNRdHVUX1gyMEtqdjVQQ1dsQXlfdHBBcHRheUFYT09qNVF6TnFHLTJxUjV5dEQxXzR3UzZyZlE?oc=5",
+            "published": "Wed, 24 Jun 2026 09:58:10 GMT"
           }
         ],
         "factors": {
-          "below_ma": 0.167,
+          "below_ma": 0.0,
           "near_main_support": 0.0,
-          "not_overextended": 0.455,
+          "not_overextended": 0.225,
           "margin_reduction": 0.381,
-          "forward_pe_vs_peers": 0.435,
+          "forward_pe_vs_peers": 0.423,
           "pricing_power": 0.6,
           "competitiveness": 0.8,
           "news_reliability": 0.8
         },
-        "score": 0.4284,
+        "score": 0.3818,
         "rank": 4,
         "ma": {
-          "5": 800.6,
-          "10": 777.9,
-          "20": 705.95,
-          "60": 600.425,
-          "120": 545.538,
-          "240": 540.792
+          "5": 793.6,
+          "10": 797.3,
+          "20": 716.9,
+          "60": 606.15,
+          "120": 548.35,
+          "240": 541.833
         },
-        "below_ma": [
-          5
-        ],
-        "sharp_drop": true,
-        "drop_pct": -13.0,
-        "dist_to_support_pct": 23.62,
+        "below_ma": [],
+        "sharp_drop": false,
+        "drop_pct": -4.06,
+        "dist_to_support_pct": 30.72,
         "support": 633.41,
-        "ret_60d": 61.61,
+        "ret_60d": 69.67,
         "margin_change": -113.0,
         "margin_change_pct": -3.81
       }
     ],
     "台股_記憶體": [
       {
-        "ticker": "8299.TWO",
-        "name": "群聯",
-        "google": "https://www.google.com/search?q=%E7%BE%A4%E8%81%AF%20%E8%82%A1%E7%A5%A8",
-        "price": 2340.0,
-        "change_pct": null,
-        "currency": "TWD",
-        "forward_pe": 13.719097,
-        "pricing_power": 3,
-        "competitiveness": 4,
-        "news_reliability": 4,
-        "news": [
-          {
-            "title": "馬斯克也喊「沒見過漲這麼兇」！全球記憶體爆搶貨 南亞科、群聯、威剛成AI浪潮大贏家 - Yahoo股市",
-            "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxQNzFOdEd6MjJvd0hmNXpTUTZOckZsWkpuMzZZWkRrcmcyWW5jV2tGZHJ6S29ObGR5R0FFM1NyMFd4TFprWFBoTlZOZS15cXVjMXNublhIc1Vza2hyT1ZFZWQ2YVNBZnJ2ZXozM3F0MlJadHJfMFFSOGFJcGxFa2xHVnYxTkNLQTJJYnF5R1d5cG1Dc2l0cmN2ZjNjaUg2ZnA2UGVkajB4aXpENktuRmZ5bTZxb0hPZHVoSzRadlM0NVpjbGM2cDJoaG5JRkxJZzJOM1MwSXZTVnRmckRhUGlkVDJWMVVkZTdQcmhERFFROTZiemVjcFh6ZFZBMWZMOGF2TVN6QUd3a1V3OG5oWW9vS2daTC05eXdBVGRJMExfVU5yZDVDeUZvNnRYUXNYUWtnQXdkYThmaG95UU10ck92Qk4zSTNHSnFzWl9zMm52MmZOckdiZnUzVkgyLXN6WnVhMTh6UzVYaGF5Y0o1Q1NlYWM1M2hfM08wcUtYOE44MjJzdWxYa29JWWZ6cng?oc=5",
-            "published": "Mon, 29 Jun 2026 02:11:09 GMT"
-          },
-          {
-            "title": "記憶體行情又在變，南亞科與群聯該怎麼分？ - CMoney",
-            "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOclNNVjAwNko2NTNPTWxmYjlxcU1SRDVlWk9mWTJ3eEJEZ0VxcjdxNTBPTE5uMlluRUc3Vy14SFh1bU5VTVU0eEQxSDhfS1djaFc5ZlYyRTRMbllYNmlsZzRhcWFuUnNUckJLbEgxT04xZlRzS3J2d0prX2paM09FVjE2N1dMTEhLLXhXV3FlTzk4TWVnMGhRNGNaVV8tZWttX1NmS1JEN0xYVjlqLXVGbS1rSWZLb2JUMl9NdUEwakRuWEJuTUxFRi16THhzSU5URzhuRk04Nzd6VFFMdlFuV0dobFA5ZEoxOUNjRzRfd3huRmFZcWFnM1VzM1VwLXB2b3o0X2wzcG5nZExhcWNpR29Hdl8wb3h6M2trX0VhbmtGUWZKN0tYdWtoS2U1QjRPRHBkeTVOQ2ZySmE4UXFYMk93bUxlYXNGa1FJX2pEbzF5WVoxeFo5N0xBNV9QbGxfVWE5b09MSktzQVc5TC1tUmhn?oc=5",
-            "published": "Mon, 29 Jun 2026 18:29:27 GMT"
-          },
-          {
-            "title": "群聯電子攜手新立資訊導入 SynxDB，打造高效能數據平台，加速良率分析與 AI 應用布局 - CIO Taiwan",
-            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBROF9ZTm5WVkszV3JXZnlmUFZudzBiUmppT3F5OXBWaHZETVllVjQxMTBnYU01OXg2RkRWMlNMazBYUHhO?oc=5",
-            "published": "Mon, 29 Jun 2026 02:08:51 GMT"
-          }
-        ],
-        "factors": {
-          "below_ma": 0.5,
-          "near_main_support": 1.0,
-          "not_overextended": 1.0,
-          "margin_reduction": 1.0,
-          "forward_pe_vs_peers": 0.0,
-          "pricing_power": 0.6,
-          "competitiveness": 0.8,
-          "news_reliability": 0.8
-        },
-        "score": 0.65,
-        "rank": 1,
-        "ma": {
-          "5": 2411.0,
-          "10": 2419.0,
-          "20": 2438.5,
-          "60": 2211.333,
-          "120": 2014.042,
-          "240": 1398.452
-        },
-        "below_ma": [
-          5,
-          10,
-          20
-        ],
-        "sharp_drop": true,
-        "drop_pct": -9.3,
-        "dist_to_support_pct": -11.47,
-        "support": 2643.25,
-        "ret_60d": 41.82,
-        "margin_change": -1697.0,
-        "margin_change_pct": -11.13
-      },
-      {
         "ticker": "2451.TW",
         "name": "創見",
         "google": "https://www.google.com/search?q=%E5%89%B5%E8%A6%8B%20%E8%82%A1%E7%A5%A8",
-        "price": 275.0,
+        "price": 266.5,
         "change_pct": null,
         "currency": "TWD",
-        "forward_pe": 4.06444,
+        "forward_pe": 3.9388115,
         "pricing_power": 2,
         "competitiveness": 3,
         "news_reliability": 3,
@@ -350,20 +280,20 @@
           "near_main_support": 1.0,
           "not_overextended": 1.0,
           "margin_reduction": 0.0,
-          "forward_pe_vs_peers": 0.93,
+          "forward_pe_vs_peers": 0.956,
           "pricing_power": 0.4,
           "competitiveness": 0.6,
           "news_reliability": 0.6
         },
-        "score": 0.6029,
-        "rank": 2,
+        "score": 0.6068,
+        "rank": 1,
         "ma": {
-          "5": 287.2,
-          "10": 299.05,
-          "20": 311.95,
-          "60": 292.95,
-          "120": 263.062,
-          "240": 196.17
+          "5": 280.4,
+          "10": 294.7,
+          "20": 307.4,
+          "60": 293.558,
+          "120": 263.762,
+          "240": 196.843
         },
         "below_ma": [
           5,
@@ -372,29 +302,90 @@
           60
         ],
         "sharp_drop": true,
-        "drop_pct": -11.15,
-        "dist_to_support_pct": -9.28,
+        "drop_pct": -11.31,
+        "dist_to_support_pct": -12.08,
         "support": 303.125,
-        "ret_60d": 19.57,
+        "ret_60d": 14.38,
         "margin_change": 675.0,
         "margin_change_pct": 13.96
+      },
+      {
+        "ticker": "8299.TWO",
+        "name": "群聯",
+        "google": "https://www.google.com/search?q=%E7%BE%A4%E8%81%AF%20%E8%82%A1%E7%A5%A8",
+        "price": 2390.0,
+        "change_pct": null,
+        "currency": "TWD",
+        "forward_pe": 14.01224,
+        "pricing_power": 3,
+        "competitiveness": 4,
+        "news_reliability": 4,
+        "news": [
+          {
+            "title": "營收創高卻急殺？群聯重挫背後的基本面、籌碼與市場預期解析 - CMoney",
+            "link": "https://news.google.com/rss/articles/CBMi0gNBVV95cUxQZ3pWclNCQTRoNzhfZ29OSEFHLS1wazQ3c3lsLVphcnZjS2M2alBHVUdOVktka3J6SWZvV3gtS3RhSUl5OVFpaHZkS0ZBMjBLeTkwRllwbU12ZXZrQ0psWDNxQ2JBVzZLTDA5bmJ4TDJWV1pxdF9WbHVuNWMzbFlHN2lMSnhzU1hkdkhDOTVUR284OE44NDY5WVRlUlVzWnYxeXlPS1g4eU9JbFN3TmZQcTdNLUlXMk9xMi1VVDZNWG02V0ppLXBsV0IzQUhydU9xbWNxQVh5OWphU1VrTVN0RE9UaXlsY1F2ajFzTzdIaE44TDlDR09OUDZuQ2YzREphVHlESWszT05WTjV3Nk00OEl4SnBtay1hSUFJbnFGaTlrdG02U1FKOE5acVBvS051Z21feFl6VW5lUDE2SExqQldZWmVRQkRLT09fUTdfYmlXZHVPVGlvOVVnVTRfTWN4cWIzdUtNWTllUFdSd2paekxKZ09yZXNaZURwemFPNWRUODMyR1lmdFdIcHNrd3FpcjQtNE94ZHRlcnVQaHpyVGlyajU5WElFMExpdU5kU1RYU3hyRTltTm9FLTRNNWZSQ0tGNjRiVTBySlZnUGxOVkxB?oc=5",
+            "published": "Mon, 29 Jun 2026 21:38:07 GMT"
+          },
+          {
+            "title": "馬斯克也喊「沒見過漲這麼兇」！全球記憶體爆搶貨 南亞科、群聯、威剛成AI浪潮大贏家 - Yahoo股市",
+            "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxQNzFOdEd6MjJvd0hmNXpTUTZOckZsWkpuMzZZWkRrcmcyWW5jV2tGZHJ6S29ObGR5R0FFM1NyMFd4TFprWFBoTlZOZS15cXVjMXNublhIc1Vza2hyT1ZFZWQ2YVNBZnJ2ZXozM3F0MlJadHJfMFFSOGFJcGxFa2xHVnYxTkNLQTJJYnF5R1d5cG1Dc2l0cmN2ZjNjaUg2ZnA2UGVkajB4aXpENktuRmZ5bTZxb0hPZHVoSzRadlM0NVpjbGM2cDJoaG5JRkxJZzJOM1MwSXZTVnRmckRhUGlkVDJWMVVkZTdQcmhERFFROTZiemVjcFh6ZFZBMWZMOGF2TVN6QUd3a1V3OG5oWW9vS2daTC05eXdBVGRJMExfVU5yZDVDeUZvNnRYUXNYUWtnQXdkYThmaG95UU10ck92Qk4zSTNHSnFzWl9zMm52MmZOckdiZnUzVkgyLXN6WnVhMTh6UzVYaGF5Y0o1Q1NlYWM1M2hfM08wcUtYOE44MjJzdWxYa29JWWZ6cng?oc=5",
+            "published": "Mon, 29 Jun 2026 02:11:09 GMT"
+          },
+          {
+            "title": "群聯營收創高為何急殺？從預期差與籌碼面看懂市場重新定價 - CMoney",
+            "link": "https://news.google.com/rss/articles/CBMixgNBVV95cUxQZXdIbnlwcTBIWEpXN3psV3cyZ09xVE5BTnpjRmpyUDZHNFl1TWtLcC1Ja0xYVXotSDRWTUFoZWlndWNWb0JGdENrSGFLSjJZVmY5c0NwS0RsTlFzRExnc3RLNElVdVo3dURqUmRJZlpTRUM3SGFQYnpFaGc0UWpIVjJqZTZGZUw0T1pMTl9yXzIzVWpaYXVMbkl0dEZaR3NZNFlkUzhDUWRoZWkybnlBcFNBakhXdkNNZThjSDk5QkdOWFFPZXRVLUs2bzI1WGU1c2xoZ1hLcG9pZXVldGlYTmNCYVhrN00tSkE2dS1sNHFXN0hEcEZmRDNrUUhQZnlCTEdjemUtNFRNMUk2QmpQWmVCWmJpdWNHZGcwaXFCUnhnSktkanVySUd5X1ZzTVVkZUMzaWpYWWpHVGxVT3BReHQyQ19ZZGJHV2ZzMDdMVHE3Yjh0bzRwa3dPRWo1N29VRHRqZDlsdUdzR1NCcE10NVlweEwzYXpzazIxNVZVdHFZRFJUbU91UWR0aERqaVFtX0tKbEhwY1lJYVJYM2pFaXloSHkwME9mYjFYakhGOFNQWkVERmtSRFNsV25BODdyTHVMZktB?oc=5",
+            "published": "Mon, 29 Jun 2026 21:37:50 GMT"
+          }
+        ],
+        "factors": {
+          "below_ma": 0.25,
+          "near_main_support": 1.0,
+          "not_overextended": 1.0,
+          "margin_reduction": 1.0,
+          "forward_pe_vs_peers": 0.0,
+          "pricing_power": 0.6,
+          "competitiveness": 0.8,
+          "news_reliability": 0.8
+        },
+        "score": 0.6,
+        "rank": 2,
+        "ma": {
+          "5": 2403.0,
+          "10": 2426.0,
+          "20": 2419.5,
+          "60": 2223.667,
+          "120": 2023.208,
+          "240": 1406.379
+        },
+        "below_ma": [
+          5,
+          10,
+          20
+        ],
+        "sharp_drop": false,
+        "drop_pct": -1.65,
+        "dist_to_support_pct": -9.58,
+        "support": 2643.25,
+        "ret_60d": 53.7,
+        "margin_change": -1697.0,
+        "margin_change_pct": -11.13
       },
       {
         "ticker": "2408.TW",
         "name": "南亞科",
         "google": "https://www.google.com/search?q=%E5%8D%97%E4%BA%9E%E7%A7%91%20%E8%82%A1%E7%A5%A8",
-        "price": 453.0,
+        "price": 455.5,
         "change_pct": null,
         "currency": "TWD",
-        "forward_pe": 7.6376576,
+        "forward_pe": 7.679808,
         "pricing_power": 2,
         "competitiveness": 3,
         "news_reliability": 4,
         "news": [
           {
-            "title": "【Follow法人】外資掃貨友達破17萬張 反手賣超力積電華邦電各2萬張 - Yahoo股市",
-            "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNQzROSVA2ZWlQY0pFdnRzdUtMOUc3d2RIWVJIeGlWR2x0aHU5ZTJ1cWtYeUdRU0huaDlKRVBfQ0FPQnNVNWRiYkdzemx2TDI3SXBSWkFiR3pYa0NTTkZjOEdPSXZlV2ptOGdUWC0yaUZQYmh5aW96RzdSelFuckwtNDZsRWIyTUpuTXNURDI3a3J2M05ZQmRJT3dKcE5yd0EyZjEtYzJOSmp3QUYtUk02Q0dRenNlaE1MNVlEQl9TbzBjODNGQ0x2TjI1b1p0eHFwbzc2ZEFkWDkycnNKOF9lbHJwbTRsOFdia3dCazZ3TDZmY2xxd2M4Yk5mWTJvODFqQ3VpeXBrT3AxSzR3dEFkaUlDWWVYWlV3d2RYQzZuSmhqSFpNcTU4cGR0WGVuRV9RTmd5STNUNEJCWkhwdlRxMGxvUF9OOEliekNRWHlqQzkzWHNZd20ydUc5VHBXQmNhOEpxWXpWU2ltSzM0WV9SMXlBVTlseHBlc3RPdGlwZFdsY3ZOMzVZdXh5MjROTmFSamJGUEtsWWtEQTdCd2lxbg?oc=5",
-            "published": "Mon, 29 Jun 2026 07:07:01 GMT"
+            "title": "韓國記憶體大擴產嚇壞台廠？華邦電、南亞科臉綠 分析師：短線有壓 - Yahoo股市",
+            "link": "https://news.google.com/rss/articles/CBMixANBVV95cUxPZTBuVU5neEg1cWRzUVhxb1l2enMybWNKYUxvRmo3WmtxdktyMTlsaU9KVFd2bHhNU28yV091cDlwQnk3cVpDWGJFQWlMUWJzWGl4SXRCQUF5enU1UWRkNG9QTjZDWEROemg0ZDRTUFMzV1hkdFREYVVjTjhKT1BfbFAyM19CODVOeUtsczhTNGJIaUw4XzBGUHViRUdWRzhOUHFId29tdy05dTJadVg0YXlaT2pkSmU1SzNhNkZJcDQyNDBtbGpBMDYtbEN4aDl0Zk9HYXViaHhOVnFjb1lob1RZNFdYMXhUZEY5bFpYeEpQWjJoNDROUVlDcGNYbk5YTUZZTnZacHlpSmgtdlFsOVZGb0RtNkRvc3BfamVCR29YSVg3RkxYR3lEbi1xTE9qNTQ0TmVSVjdKTTBGbUVsbmVsTS1sT3o2eElISGg4czQyQUc2c0dCSGg4Y19nYVc4YXFzemRCX3pfT0sweUZrcnVLT3U0NTRoR2xLUTFLcUdaT0JlLXViZmFCWTk3OEVvX1hrVlNnRU4yT2liTlRFRzhZZGVHSzcyVlZXWFhQckIwbmpwQ3dkQlJmSV9nSFV6WXBNRg?oc=5",
+            "published": "Tue, 30 Jun 2026 03:07:46 GMT"
           },
           {
             "title": "南亞科、華邦電、旺宏、力積電…記憶體股週一若再急殺該買誰？法人：「這群」反彈動能會比較落後 - 今周刊",
@@ -402,39 +393,40 @@
             "published": "Sun, 28 Jun 2026 09:46:09 GMT"
           },
           {
-            "title": "美光點燃記憶體行情南亞科、華邦電、旺宏、力積電目標價大摩全面調升- 日報 - 工商時報",
-            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ORWNiQW90Sk12cjZMVjRwZzRjVkhYNXhkbzNYbkxIMUo0dWFqR3ZIV19FTGllRHRKZUF2aTVyRnk3cTAybXFHQUJ3bUp0QmFFNHVjdG1pX0gwQWRKeGNJ?oc=5",
-            "published": "Sun, 28 Jun 2026 19:00:00 GMT"
+            "title": "台積電打造DRAM國家隊！不只華邦電吃飽南亞科、旺宏、力積電...法人揭「這2家」也有肉- 上市櫃 - 旺得富理財網",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ua1dkQ1NIX29Hc3U4ZUhOc01BWHFvc2VoVDRoRDl6TUszV3VuOFJPcmRHMHNWTXdCc01SYnN2QVZ2NnJ1S2l1RGJ1ZUJPRV9Zam1DdHQ5LUltUGtpZ0lNZ2tROG9DUmdIVGc?oc=5",
+            "published": "Mon, 29 Jun 2026 03:20:03 GMT"
           }
         ],
         "factors": {
           "below_ma": 0.167,
           "near_main_support": 0.0,
-          "not_overextended": 0.48,
+          "not_overextended": 0.499,
           "margin_reduction": 1.0,
-          "forward_pe_vs_peers": 0.43,
+          "forward_pe_vs_peers": 0.44,
           "pricing_power": 0.4,
           "competitiveness": 0.6,
           "news_reliability": 0.8
         },
-        "score": 0.4617,
+        "score": 0.4643,
         "rank": 3,
         "ma": {
-          "5": 455.4,
-          "10": 449.9,
-          "20": 410.3,
-          "60": 308.233,
-          "120": 278.879,
-          "240": 185.512
+          "5": 455.6,
+          "10": 455.9,
+          "20": 414.0,
+          "60": 312.308,
+          "120": 281.1,
+          "240": 187.204
         },
         "below_ma": [
-          5
+          5,
+          10
         ],
-        "sharp_drop": true,
-        "drop_pct": -10.3,
-        "dist_to_support_pct": 44.14,
+        "sharp_drop": false,
+        "drop_pct": 0.22,
+        "dist_to_support_pct": 44.93,
         "support": 314.28,
-        "ret_60d": 114.69,
+        "ret_60d": 127.18,
         "margin_change": -22238.0,
         "margin_change_pct": -21.4
       },
@@ -442,10 +434,10 @@
         "ticker": "2344.TW",
         "name": "華邦電",
         "google": "https://www.google.com/search?q=%E8%8F%AF%E9%82%A6%E9%9B%BB%20%E8%82%A1%E7%A5%A8",
-        "price": 203.0,
+        "price": 208.5,
         "change_pct": null,
         "currency": "TWD",
-        "forward_pe": 6.632502,
+        "forward_pe": 6.8122005,
         "pricing_power": 2,
         "competitiveness": 3,
         "news_reliability": 4,
@@ -456,45 +448,44 @@
             "published": "Sun, 28 Jun 2026 09:00:00 GMT"
           },
           {
-            "title": "【Follow法人】外資掃貨友達破17萬張 反手賣超力積電華邦電各2萬張 - Yahoo股市",
-            "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNQzROSVA2ZWlQY0pFdnRzdUtMOUc3d2RIWVJIeGlWR2x0aHU5ZTJ1cWtYeUdRU0huaDlKRVBfQ0FPQnNVNWRiYkdzemx2TDI3SXBSWkFiR3pYa0NTTkZjOEdPSXZlV2ptOGdUWC0yaUZQYmh5aW96RzdSelFuckwtNDZsRWIyTUpuTXNURDI3a3J2M05ZQmRJT3dKcE5yd0EyZjEtYzJOSmp3QUYtUk02Q0dRenNlaE1MNVlEQl9TbzBjODNGQ0x2TjI1b1p0eHFwbzc2ZEFkWDkycnNKOF9lbHJwbTRsOFdia3dCazZ3TDZmY2xxd2M4Yk5mWTJvODFqQ3VpeXBrT3AxSzR3dEFkaUlDWWVYWlV3d2RYQzZuSmhqSFpNcTU4cGR0WGVuRV9RTmd5STNUNEJCWkhwdlRxMGxvUF9OOEliekNRWHlqQzkzWHNZd20ydUc5VHBXQmNhOEpxWXpWU2ltSzM0WV9SMXlBVTlseHBlc3RPdGlwZFdsY3ZOMzVZdXh5MjROTmFSamJGUEtsWWtEQTdCd2lxbg?oc=5",
-            "published": "Mon, 29 Jun 2026 07:07:01 GMT"
+            "title": "韓國記憶體大擴產嚇壞台廠？華邦電、南亞科臉綠 分析師：短線有壓 - Yahoo股市",
+            "link": "https://news.google.com/rss/articles/CBMixANBVV95cUxPZTBuVU5neEg1cWRzUVhxb1l2enMybWNKYUxvRmo3WmtxdktyMTlsaU9KVFd2bHhNU28yV091cDlwQnk3cVpDWGJFQWlMUWJzWGl4SXRCQUF5enU1UWRkNG9QTjZDWEROemg0ZDRTUFMzV1hkdFREYVVjTjhKT1BfbFAyM19CODVOeUtsczhTNGJIaUw4XzBGUHViRUdWRzhOUHFId29tdy05dTJadVg0YXlaT2pkSmU1SzNhNkZJcDQyNDBtbGpBMDYtbEN4aDl0Zk9HYXViaHhOVnFjb1lob1RZNFdYMXhUZEY5bFpYeEpQWjJoNDROUVlDcGNYbk5YTUZZTnZacHlpSmgtdlFsOVZGb0RtNkRvc3BfamVCR29YSVg3RkxYR3lEbi1xTE9qNTQ0TmVSVjdKTTBGbUVsbmVsTS1sT3o2eElISGg4czQyQUc2c0dCSGg4Y19nYVc4YXFzemRCX3pfT0sweUZrcnVLT3U0NTRoR2xLUTFLcUdaT0JlLXViZmFCWTk3OEVvX1hrVlNnRU4yT2liTlRFRzhZZGVHSzcyVlZXWFhQckIwbmpwQ3dkQlJmSV9nSFV6WXBNRg?oc=5",
+            "published": "Tue, 30 Jun 2026 03:07:46 GMT"
           },
           {
-            "title": "南亞科、華邦電、旺宏、力積電…記憶體股週一若再急殺該買誰？法人：「這群」反彈動能會比較落後 - 今周刊",
-            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNE1OTGtnczJtRFlZN3dVU2h2Mkkzbldxc3BZVDlYVWdtWGltQUVza1IyR251dllqRFBQWFlCUEhnTGhGQTRqOXNSZ0ZudHdocmRObWpqWmNFbk8wTXZndVl1VlV3UVlIVUxoN21Qb1BDUDhNMzZmYmFPakhPSEp2Rw?oc=5",
-            "published": "Sun, 28 Jun 2026 09:46:09 GMT"
+            "title": "投信狂買逾百憶前10大揭曉！華邦電上榜 這檔敲1.6萬張最吸金 - 自由財經",
+            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zUFlfc1dpRHR0UDE2ZjgxYXhpeWh0NjdBWGVadTdaSml6dDA1QTVpNmNCNmZoaFVrOHVUTGIyYXhXQ3pTa204VVl3aENEdEFBS2xYVUpjUE56OGdGRVk40gFkQVVfeXFMT2ZoYkNodmxBMnlVX3dSYkphTnMtWk9lX0hBaUpIVFVveXpjTUZJYUNwY3VqTkN6NEQ2eG9mc2Q0ejE1TFZ6U3RJUWdYRW5RSlpVVW80b05JYlotOGE0SDdva0xKOQ?oc=5",
+            "published": "Mon, 29 Jun 2026 07:53:08 GMT"
           }
         ],
         "factors": {
-          "below_ma": 0.333,
+          "below_ma": 0.083,
           "near_main_support": 0.0,
-          "not_overextended": 0.558,
+          "not_overextended": 0.459,
           "margin_reduction": 0.372,
-          "forward_pe_vs_peers": 0.57,
+          "forward_pe_vs_peers": 0.56,
           "pricing_power": 0.4,
           "competitiveness": 0.6,
           "news_reliability": 0.8
         },
-        "score": 0.426,
+        "score": 0.3694,
         "rank": 4,
         "ma": {
-          "5": 209.1,
-          "10": 207.1,
-          "20": 186.525,
-          "60": 133.882,
-          "120": 119.967,
-          "240": 79.026
+          "5": 208.6,
+          "10": 209.1,
+          "20": 188.575,
+          "60": 135.813,
+          "120": 121.068,
+          "240": 79.815
         },
         "below_ma": [
-          5,
           10
         ],
-        "sharp_drop": true,
-        "drop_pct": -8.56,
-        "dist_to_support_pct": 35.02,
+        "sharp_drop": false,
+        "drop_pct": -1.18,
+        "dist_to_support_pct": 39.01,
         "support": 150.35,
-        "ret_60d": 118.05,
+        "ret_60d": 127.67,
         "margin_change": -5212.0,
         "margin_change_pct": -3.72
       }
@@ -504,7 +495,7 @@
         "ticker": "00982A.TW",
         "name": "群益台灣精選強棒(主動)",
         "google": "https://www.google.com/search?q=%E7%BE%A4%E7%9B%8A%E5%8F%B0%E7%81%A3%E7%B2%BE%E9%81%B8%E5%BC%B7%E6%A3%92%28%E4%B8%BB%E5%8B%95%29%20%E8%82%A1%E7%A5%A8",
-        "price": 23.59,
+        "price": 24.61,
         "change_pct": null,
         "currency": "TWD",
         "forward_pe": null,
@@ -513,51 +504,47 @@
         "news_reliability": 3,
         "news": [
           {
-            "title": "主動群益台灣強棒-ETF基本資料 - MoneyDJ",
-            "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HMFNsQlpiR2tEVWVsR0pMXzBOallSMHRtS1NFQjVHUm13SDROdWJqWkhJcWJkU0o2OWp0bTB1bWpqWVZwN0xsOWlLT216dExVQm9tSm13ejJSS3lfeHFPUzdteFlTNmZTam1XbDNodEdSVDFKdzZvdGZBMWdYdw?oc=5",
-            "published": "Sat, 16 May 2026 07:39:15 GMT"
-          },
-          {
             "title": "主動群益台灣強棒(00982A)於6月1日到6月18 日持股變化 - 理財周刊",
             "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wOExOLU5hSlQ5YzNMcVI1LU1JdklYdXdVYnFLMkRaT2VkYkhocGhkN3l4RkxTWkFaWUphN0hBUTF2aUVMejNPYlNrRWtBME5KZzdIVl9VN0lIZXJtRDVPbjJtUlFhQ0JRdkFjb1FpMA?oc=5",
             "published": "Thu, 18 Jun 2026 07:00:00 GMT"
           },
           {
-            "title": "ETF操盤手陳沅易用研究對抗波動- 日報 - 工商時報",
-            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjOE1EN3VCVEZwQVRJUEJid05hVk9UY0RkVENsMGRSaVRuSkVuU1VqNW5NemVlUkQ4SmNESW12TFNONFJhaGMxemlTQXJsREZXTm5SZXQxZHBjRmNyNDZZ?oc=5",
-            "published": "Sat, 21 Mar 2026 07:00:00 GMT"
+            "title": "主動群益台灣強棒-ETF基本資料 - MoneyDJ",
+            "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HMFNsQlpiR2tEVWVsR0pMXzBOallSMHRtS1NFQjVHUm13SDROdWJqWkhJcWJkU0o2OWp0bTB1bWpqWVZwN0xsOWlLT216dExVQm9tSm13ejJSS3lfeHFPUzdteFlTNmZTam1XbDNodEdSVDFKdzZvdGZBMWdYdw?oc=5",
+            "published": "Sat, 16 May 2026 07:39:15 GMT"
+          },
+          {
+            "title": "00982A 群益台灣精選強棒主動式 ETF｜成分股？配息？優缺點？ - StockFeel 股感",
+            "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMVZLZzVkdVVscjNiaXZJZENOcWt1QldSLXlpazdYbTZsNHZRSFhzeHdCSFdlN29rYl9BVG81dS05cWJHSklQMkludmdQQm1NR05PNlQ2ZWtvbzFuUEVibjFId3VvWmZVZXN5alM2WEdiX3AzbVk4dVNJa1JEVHJnN1lNdG1VRHRUMHdoQXh6cjJsYzZ6dlFrTnJqSEZTUjZCRGZsTFZRcDB5ZEN5ajFrclZiQzVrb2E4VWI4NmZEMDRtNzhxSG4ySG5iSjhwTmktTlh2dWgxWQ?oc=5",
+            "published": "Tue, 03 Mar 2026 08:00:00 GMT"
           }
         ],
         "factors": {
-          "below_ma": 0.25,
-          "near_main_support": 0.477,
-          "not_overextended": 1.0,
+          "below_ma": 0.0,
+          "near_main_support": 0.166,
+          "not_overextended": 0.859,
           "margin_reduction": 1.0,
           "forward_pe_vs_peers": 0.5,
           "pricing_power": 0.0,
           "competitiveness": 0.0,
           "news_reliability": 0.6
         },
-        "score": 0.4027,
+        "score": 0.3146,
         "rank": 1,
         "ma": {
-          "5": 24.638,
-          "10": 24.36,
-          "20": 23.959,
-          "60": 21.831,
-          "120": 18.687,
-          "240": 15.788
+          "5": 24.242,
+          "10": 24.439,
+          "20": 23.937,
+          "60": 22.1,
+          "120": 18.854,
+          "240": 15.898
         },
-        "below_ma": [
-          5,
-          10,
-          20
-        ],
+        "below_ma": [],
         "sharp_drop": false,
-        "drop_pct": -4.99,
-        "dist_to_support_pct": 7.85,
+        "drop_pct": -0.73,
+        "dist_to_support_pct": 12.51,
         "support": 21.873,
-        "ret_60d": 50.35,
+        "ret_60d": 52.57,
         "margin_change": -2603.0,
         "margin_change_pct": -25.23
       },
@@ -565,7 +552,7 @@
         "ticker": "00981A.TW",
         "name": "統一台股增長主動式",
         "google": "https://www.google.com/search?q=%E7%B5%B1%E4%B8%80%E5%8F%B0%E8%82%A1%E5%A2%9E%E9%95%B7%E4%B8%BB%E5%8B%95%E5%BC%8F%20%E8%82%A1%E7%A5%A8",
-        "price": 29.91,
+        "price": 31.23,
         "change_pct": null,
         "currency": "TWD",
         "forward_pe": null,
@@ -574,51 +561,47 @@
         "news_reliability": 3,
         "news": [
           {
-            "title": "00403A懶人包：成分股、配息、費用、怎麼買？跌破發行價後值得買嗎？ - 數位時代",
-            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZFkyR3lKZll6VU0zay1vQXFIQjliX1d5UWNyM3BoLTVaTC10Rm5nZzF4aUlWZy1SU0ZmS1RTc0otVVQxNWRuM1JXa2ZuVkZIU0trQjl1eXprdmw2NU5hNlpVQ0kySGpkSGM4dEJSZW1ITW9iSkdWZmdEWmhIWGdnWXNvVFpYMHc4?oc=5",
-            "published": "Mon, 29 Jun 2026 19:39:36 GMT"
-          },
-          {
-            "title": "[00981A 操作日報] 經理人大砍高力與半導體封測股 - CMoney",
-            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBYWTc5MENNQnFrS05hSHJoSWwxV2NzeTA3NmdtclBHREtMMmh6c2RNcmd5RG9QQmw3MU9jbl9paXh5cElkZUlSRVcydVExX3FyN2c0c2ZlT3c?oc=5",
-            "published": "Mon, 29 Jun 2026 12:50:04 GMT"
-          },
-          {
             "title": "00981A是什麼？主動統一台股增長ETF配息、成分股、優缺點一次看－ETF指南｜商周 - 商周",
             "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4xUHZEMHBwVDUweHExSC00R09helQ0MXY2eDVoSGpKal83T1g4YTJSSDRFR1BzanhKNVZvODg1eWFXVlB5MFM1SXVMZ01hZVBzWUZiZ1ZIWENqZkg0ZW1yaUlTMWVidw?oc=5",
             "published": "Tue, 16 Jun 2026 07:00:00 GMT"
+          },
+          {
+            "title": "台股高檔輪動快速　4檔主動式ETF入列6月交投人氣王 - ETtoday財經雲",
+            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVLUtTcXV5amZ6VVNaVjdPTW9tbWVEcEdxSDNQT3BMRkxRc1h6SHg4eWdiZmZtVWQ0TnpEeDdMUEF4Z28yVW56MVdJTHN5SE8wdVHSAW5BVV95cUxOVEFpU0tfLWUyTDhpZnRIUDZsWGpveTdDeXN3MWppTGFjNS11WjlqVTFXeVZRdzJVX1RabWgwcHk2TnlJUkpnWXZZMTdZWkozME4xWDRkbXplUGhHNWFlYm1RODQyNHl0REo1aTlLQQ?oc=5",
+            "published": "Mon, 29 Jun 2026 04:23:00 GMT"
+          },
+          {
+            "title": "00981A 統一台股增長主動式 ETF｜成分股？配息？優缺點？ - StockFeel 股感",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNmFnYlB3QjI5blJaemVjbnZXYk5IemRTUGZPYUREaXJFWWpvazFRQTBreVFmUWl5QlJaaG9LTUFVSW91b0NqUEFYUmNWQjY4aGp3OWEwMDRIcWdYVG9JVTdFenRYaXZHZHpWanRNT0xpWGJac0cxdnBJRkduejFDTWt1NFM2cHRCRWN3M2dvYTl5TnNkWWRSeHcwTGJLRl9fTlFGRFFvTUhjLTdTX2ZUS1gyaDhuQjdvTlpXWU5USQ?oc=5",
+            "published": "Wed, 15 Apr 2026 07:00:00 GMT"
           }
         ],
         "factors": {
-          "below_ma": 0.25,
+          "below_ma": 0.0,
           "near_main_support": 0.0,
-          "not_overextended": 1.0,
+          "not_overextended": 0.956,
           "margin_reduction": 1.0,
           "forward_pe_vs_peers": 0.5,
           "pricing_power": 0.0,
           "competitiveness": 0.0,
           "news_reliability": 0.6
         },
-        "score": 0.355,
+        "score": 0.3028,
         "rank": 2,
         "ma": {
-          "5": 31.344,
-          "10": 31.199,
-          "20": 31.063,
-          "60": 28.302,
-          "120": 23.398,
-          "240": 18.616
+          "5": 30.812,
+          "10": 31.109,
+          "20": 30.959,
+          "60": 28.652,
+          "120": 23.635,
+          "240": 18.778
         },
-        "below_ma": [
-          5,
-          10,
-          20
-        ],
+        "below_ma": [],
         "sharp_drop": false,
-        "drop_pct": -5.05,
-        "dist_to_support_pct": 15.83,
+        "drop_pct": -1.17,
+        "dist_to_support_pct": 20.95,
         "support": 25.821,
-        "ret_60d": 53.54,
+        "ret_60d": 54.45,
         "margin_change": -20880.0,
         "margin_change_pct": -12.1
       }
@@ -637,19 +620,19 @@
         "news_reliability": 5,
         "news": [
           {
-            "title": "Firmus攜手NVIDIA 印尼巴淡建AI資料中心 - DIGITIMES",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTBOd3BxQVVWRy1rUGNFQW9SaDg3dFMzeGlpblRmQWk0Uko5aDZucnkyRmYyV0xFRUN1QjE4aFJPUHo4RE1NdFhCS3E3ZzdzZkgtVFNNb0hHVkhtVy1Wd2N6VGhCb3BLaTNUS3VMbUZUVjBValgyS3Jac2Q1RF9Fa25Pbk1KaU5waFpSb2tMZTdwRTVDLVdrTw?oc=5",
-            "published": "Mon, 29 Jun 2026 18:51:00 GMT"
+            "title": "Claude搭NVIDIA GB300運算 Anthropic續攻企業AI市場 - DIGITIMES",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONFdTRS0xUzl5U2VCQTNFa0tXbVFxYlBmX3RhbGxwdlNNdnNpRHZ0NjluTFhRME1aNEZrdThTNzN3dk1ZQ0dlbzliQjRUN0hmX2NqckJYekNlbWFxQWM3NkpuX2xENGNqaUJNNl96bWctbFVKUERMMGl5RGpkZEE4LVFWXzNWT0RuQzhpYldTbmR3V1dOdF9v?oc=5",
+            "published": "Tue, 30 Jun 2026 03:16:00 GMT"
           },
           {
-            "title": "摩根士丹利預期NVIDIA的Vera CPU出貨量仍低於AMD Zen 6處理器 #資料中心 (249699) - Cool3c",
-            "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDa01Xd2xqYVlvQVVQSlVEdHF6TjNqck1ySFVkUTNlSjdSTk5uQkt1b2lqUWtLSXh5Ymg5RVdkckJjZ1VRaF80dnJ4SUdGQQ?oc=5",
-            "published": "Mon, 29 Jun 2026 07:15:00 GMT"
+            "title": "Palantir 與 Nvidia 攜手為美國政府機構打造 AI 平台 - TechNews 科技新報",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc2gtV1JUTnRLX1VJdGxmSWpLc0dTM1FUVV96UUQ3YjlLMlpVWmo1MG5Db2FyZHhMdDdlNU5kaGlBakpVWWJrb0djVnRZTHFoMkhWZm9OMkNUU1JSY19UMnNoZllsNmZWa2hRcFB2Mzh0NkJsVEJlNllVbkxwYmNxS2lvVmNDQm1XR2NxQi1oc2lXb0o3ak01MkUwTWdNV2puY3Uwb1lGSU52NTJ4Q2VTZ1hwbVJsZnUtd09DNHM1TVdpTUk?oc=5",
+            "published": "Tue, 30 Jun 2026 02:51:45 GMT"
           },
           {
-            "title": "華爾街瘋喊「美光就是下一個Nvidia」！AI記憶體荒讓美光市值一度超越Meta、特斯拉 - 動區動趨",
-            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdmk5d2RRY3F0c1pZblJxR00tNmlKcGFYc05JR0RobGN0VVhHNnpnbE9iVjJVcUFmNWtMVWNMdHpBRmkxakI1dUVSejhPTFpNemJoMUMtSThOa3ozT2hvazlWQWo1ejdNUHhmdVg0TndKQ3p3VHc4ZTZRb1Q0VC1HS0FjUW5tUHRzX2dKeDlTNENqTEtycTdFMThR?oc=5",
-            "published": "Mon, 29 Jun 2026 03:25:45 GMT"
+            "title": "解決 AI 耗水痛點！NVIDIA 推出 Rubin 架構「高溫液冷」設計， 用水量幾近降至零 - T客邦",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeWk0MzNROENFTEs1QTFMMmszM18zbW9fWlZxQmY5eUN2SkQyNEptaEUyLUttWXo1alNzXzYzWlpUWFpIcEpzUGJOQmd4UnIxdjFfcWQ5Mnl2dTV6WnItQWpUYlhXT3JZZkVQdDgtcUhUb1docHVpUUE1VXRSdFB4aWJB?oc=5",
+            "published": "Tue, 30 Jun 2026 01:30:00 GMT"
           }
         ],
         "factors": {
@@ -699,19 +682,19 @@
         "news_reliability": 5,
         "news": [
           {
-            "title": "【即時新聞】近日AVGO宣布卡位10GW大單，爆量跌逾3%還能追嗎？ - CMoney投資網誌",
-            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMUI4ckZOTWM5TmxqMmdUaG85eXgwek9uNVZkbEZUck91Ul9Ta1JIbDRuR2VfMzBac0E4aHkyMjdDS1FNS1BTcVFycGVTNnhFZ2ZZb0JhUGUwNzRZQnFlZTV1LUVCbjVURkxMelVtSklTTG5teDRkVDhQRnl6UjA5OU1OSDdNQjRRbjlrRFJwd1Q?oc=5",
-            "published": "Mon, 29 Jun 2026 14:18:30 GMT"
-          },
-          {
             "title": "OpenAI 推首款自研晶片 Jalapeño，與 Broadcom 合作打造、目標 2026 年底導入資料中心 - T客邦",
             "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QTWNWWHh0eDBkRDdSNFRJTXpjSW52UE1ZR0FnUURjbmQwTk9Jdk01RFB2SzE3TEdNLXBlcnkwYWRrVjEzYmtzbmI4bWlLZVFLWjFGSlNENi1KSlN4cVVyV0ZnSW5hLXF1c094Uzh6TkRwX250d1B6M3hnYw?oc=5",
             "published": "Thu, 25 Jun 2026 23:30:00 GMT"
           },
           {
-            "title": "《美股主題週報》ASIC與GPU的競合—QCOM、NVDA、AVGO - 台視全球資訊網",
-            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM0tkM0lUd2VzV192NUtmV1BDLU55NHFYTDRsXzNBdGZrX0RHNWVGdmttVy1VckJUTWVJazZLWHJ1elBhQlh6RzVlTlhCUW5MWkV3eDQwWV9KX3Q2X0J3UVRHVUNqMUFpS1VyNXU1dDlkU05jWE02R2x1UW1Hek55XzllWkN5TmJhUWhaOVNiTFFwQQ?oc=5",
-            "published": "Mon, 29 Jun 2026 08:16:36 GMT"
+            "title": "【即時新聞】近日AVGO宣布卡位10GW大單，爆量跌逾3%還能追嗎？ - CMoney投資網誌",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMUI4ckZOTWM5TmxqMmdUaG85eXgwek9uNVZkbEZUck91Ul9Ta1JIbDRuR2VfMzBac0E4aHkyMjdDS1FNS1BTcVFycGVTNnhFZ2ZZb0JhUGUwNzRZQnFlZTV1LUVCbjVURkxMelVtSklTTG5teDRkVDhQRnl6UjA5OU1OSDdNQjRRbjlrRFJwd1Q?oc=5",
+            "published": "Mon, 29 Jun 2026 14:18:30 GMT"
+          },
+          {
+            "title": "OpenAI 首款 AI 推理晶片「Jalapeño」亮相，攜手博通設計、台積電生產 - TechNews 科技新報",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdTdvM1BCUXZtcEhiMzd6dnZqY1pYV2pRMzl0cmlzV09sR0RLZTk0Nk02WGFLY0NYNFJzb1ZqS05PZjRIM0hxeHdwdzJKUGhQTnFIQWw2UjVDWWpIVWNQRzRkR01HRTBjX3JNQnhvZW9MNmFld21KSE14QThGOEZuSEVGeGNiV3pJaENvVmdEU08?oc=5",
+            "published": "Wed, 24 Jun 2026 16:32:40 GMT"
           }
         ],
         "factors": {
@@ -818,19 +801,19 @@
         "news_reliability": 5,
         "news": [
           {
-            "title": "AMD Venice產量有望超車輝達Vera CPU成AI新戰場 - news.cnyes.com",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01azlfazhzS2w5ZWJJSm53aDU1X3BQX0NjaUNkV2duZDFVWGJQSGptTXo1MTNHWkx2N3ZNc0hjSjFBWmRZMjlMMVpFTGdvU1U?oc=5",
-            "published": "Sat, 27 Jun 2026 04:00:10 GMT"
-          },
-          {
-            "title": "2nm製程Zen 6架構發威 AMD新一代Venice處理器明年銷售暴增近5倍 - XFastest News",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tUHgxd1hXcERYeFF1cVRoRlVFOFBVcWhtWk9WS0k0RjdQZDF3RTVGaE1SZGFtU0lWMjdISWNBbHQyYl9qRmhleEJHdmdLeFd0MUVfQmMzRHBlbW9TMlJjeUVCUUVBbW9lS3MtbVdEdzg?oc=5",
-            "published": "Sat, 27 Jun 2026 03:47:20 GMT"
-          },
-          {
             "title": "AMD攜手AAOI卡位「這道光」 台廠6關鍵伏兵 已悄悄列隊 - Yahoo股市",
             "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPdkc4TnlRekpJRzhKUURMNG9JMTZHakFwU09OWElOb1ZSOERnZllsbGQ0VF9fZUNTU1l6OEZ0YjNzRmMtZ1VDenNKSnZKNGxMZFZhUGRzOWtpMkszNEF6SUplSWJDUngyVjdibFhIaTZ1dFFNTWxuUHFFdzFYZ2ZqU1ZmbmVsWmNWZmVNczJyTDBYNFlVUVJPc2NEMVI3ZjI2TzJiWklmSnY5RU1HTUdkaWk5QjB3a3JZOERvei0yQXVUQWxZNUFnWW9pOGgyd2I0TFNzdjlIZ3NxTDVmREFJWFlzUDhBblNKNTVTenZjY25EZnZOQi1vMllnenlwTlRJYTZkV3h5ZHc2Z2NvYWRLNXk4dEwzanZZeWwwM2dQaFh5UGNaQ1B2YVQ2LXN1Y2U5SW9ub3BtWk1Uam45SVczNUx3?oc=5",
             "published": "Sat, 27 Jun 2026 13:07:00 GMT"
+          },
+          {
+            "title": "AMD Zen 6世代將新增Zen 6 LP低功耗架構，與Zen 6、Zen 6c依循相同架構#LP-E Core (249721) - Cool3c",
+            "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nY1c2bHo1OTZqaXhKMEpZX1g2cXpEQVZwZHJyZlJQRG1aQWYzM3dLcFBUaExfdUg2dThON0JoekJweENpR0NsdGhkNVpKZw?oc=5",
+            "published": "Tue, 30 Jun 2026 04:11:00 GMT"
+          },
+          {
+            "title": "荷包君守不住了！AMD RX 9000 系列傳出7 月起可能漲價15%，大容量顯卡記憶體將成為最貴奢侈品 - T客邦",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FN0V6V1BidTFNXzF0ZmstYlpDaG5ORXlnVEVmVzRVd3hoalhXaXFLeklET3ZTel9rMEd3ajJVMzBOc1RIS1RtNmZmbEZQdUFyR3pzVzhWTGt1ZXQyV2FSRmliVG5RTnhTai14LWZ0anJFQnpNRWc3dlJMVndCcUU?oc=5",
+            "published": "Mon, 29 Jun 2026 07:30:00 GMT"
           }
         ],
         "factors": {
@@ -987,60 +970,58 @@
         "ticker": "005930.KS",
         "name": "三星電子 Samsung",
         "google": "https://www.google.com/search?q=%E4%B8%89%E6%98%9F%E9%9B%BB%E5%AD%90%20Samsung%20%E8%82%A1%E7%A5%A8",
-        "price": 323000.0,
+        "price": 341500.0,
         "change_pct": null,
         "currency": "KRW",
-        "forward_pe": 5.190834,
+        "forward_pe": 5.512697,
         "pricing_power": 4,
         "competitiveness": 5,
         "news_reliability": 4,
         "news": [
           {
+            "title": "記憶體飆三巨頭美光/SK/三星電子面臨壟斷指控- 新聞 - MoneyDJ",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdkpjUUJrQ0ZHazNWU2IwQUd2SUZCaFNSRVFUUFBSZ3pHdE5YZEFQbS1wUEF0bEdCcE54VHJYb0g4T2pBT1BwMFJDM2VjRUNwSWhaRERFR2RMWFljQm5qNWVvU2tFc3hROUI5M00xaEowUFlSNTF1MUJwT1NxMks5NXpYcVNIQVI4b0Q5QUdoX2stQQ?oc=5",
+            "published": "Tue, 30 Jun 2026 00:59:00 GMT"
+          },
+          {
+            "title": "三星狂擲2,655兆韓元深耕韓國 全面布局AI半導體與未來產業 - 商傳媒",
+            "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxNSkRnakZNZS0wUnRrejNWZ21vM0xvTTM1TW9wVnl0Q0NQV0V5dUhsRnJYbVJRZGxuTC1mc1ZEZVROZWxIRk9BWnJRLWtyQzdzbWQzbE5GU0JPbVNwc2c5ekprRk1raEhDeExEcE0tWmF0bE10TjdIOHFFa1NNSm4tSVJiTVJzQ1diNEd6ZEU1XzZLMXQtSnlzb3hTRGlvRlFpTWphMkJOd2d0bFlxNjBPc0hORmNqNTYxbUd6SmxqQjk2TDJCWXJ1ZEY2WEpDTE9XWVlwSlFhMFU1NVFNcEVrT251ZXhYTjkycEtyNUVtWm9GQ0N5cm1jandoQVAwdmt6c1IxMkh1M045UVNiZl9zdDVFX2Zmam5EZlVOZTBYYmJjeW11bzFuQXItanBPVWRoRTdvTlFPQzE2WTBEYXNZOVpUV2hvSFgxZHQxX1BMb0hFYUtIS0NEaFRSbW1ncWxJNjk4WkRQV3pnQXZpSTM0MGJVU2E5VXNEcUNrZk1MQjI0R3Vi?oc=5",
+            "published": "Tue, 30 Jun 2026 03:51:24 GMT"
+          },
+          {
             "title": "三星電子於 VivaTech 2026 展示 Connected Care 願景 重新定義日常健康管理 - samsung.com",
             "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPQXNPWjkwWkM5c25OanJObXRoSW5yTkVIcWJHWjhNQ3VMVVZoN2VHbDFDS1ozSFdjUllrVGJDMWRFUmZ6cmVLSlNqY2pXRGRINWx0NnhoRFNvZGI2MXlVSjZxdHFsQU1DeDJrQ0JFQlVmc1hVU3BMTV9sSTZXUFhCR0VFLVdXRXZXWUhkNzNDb2NiSGxOZERac1lFYWRtbjJJM0NRMk91dmt4NjRhZUQ3WFFwQzlvdWplZi1aM3JNbWdKU2l4cnhRbHVpQWJDUHM1RU9nRDVJTUZTeFVZRV9CanlIN25HU1VFVmtoODRqTy1tRmNzZ3I2bmgxZ24xTG41YzF1ZjBwNzNUcURhQkt3aWdiQ1NRUnczeEowMlNJcTF0ZFBGc1dTcmwzNWM5UkhMT0s0ZkFrRkJGelZtejdXc29uYw?oc=5",
             "published": "Wed, 24 Jun 2026 07:52:37 GMT"
-          },
-          {
-            "title": "三星電子史上最大手筆投資！驚天宣布「2655兆韓元」超預期大計 ，股價將再創新高？ - TradingKey",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRDJYQUpyblpJdEJ6LXlNbUUwV0JKMEFJMkEzSTFxSzZ0WkpKM1VCZDgwdjJZMGRrZHEwRmxmMG1HLXg2TzVWUEdjdjg4X2hDaWIzc3NkX08wTi1ZODhtVURCTzhnMG5pSDBZSlVxSnVwZkF5aEx1Nk5uQzZ6YXNWSWNRX2lRd0hZN09pX2JxMXgySjJZbUFuS3B4bVBxYmlUOTBkdExGQnJUS3l3TjlBYjNiRUpQZW9sT05WT0I5NFYtM3c?oc=5",
-            "published": "Mon, 29 Jun 2026 08:57:21 GMT"
-          },
-          {
-            "title": "錶面侵權 Swatch 索賠 1.7 億美元 三星恐吞天價賠償 - TechNews 科技新報",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNakdLV1VfbVFkU0V6RTNaclR6a0Y5djQwejk5RXdxZTl6Tjh5eGtRZW5sQm9Xek50Q3M1RlBacUpjRVhQRlZKYm4taVJhMmdPWkhmSkFmMVZSRmZlU3B1YWtrU3JJZVE1eHBBQlc4M3lBMlJyTmx3LURiZ1pwV0YzbHRiQ2dScFh5OHVvVmxxWWloOHN0S0tXZElRM0pFd25KOENuaVhKTG5tNU1y?oc=5",
-            "published": "Mon, 29 Jun 2026 06:35:15 GMT"
           }
         ],
         "factors": {
-          "below_ma": 0.5,
+          "below_ma": 0.083,
           "near_main_support": 0.0,
-          "not_overextended": 1.0,
+          "not_overextended": 0.897,
           "margin_reduction": 0.0,
-          "forward_pe_vs_peers": 0.577,
+          "forward_pe_vs_peers": 0.567,
           "pricing_power": 0.8,
           "competitiveness": 1.0,
           "news_reliability": 0.8
         },
-        "score": 0.5465,
+        "score": 0.4565,
         "rank": 1,
         "ma": {
-          "5": 334300.0,
-          "10": 343100.0,
-          "20": 334975.0,
-          "60": 273405.833,
-          "120": 221725.417,
-          "240": 153887.917
+          "5": 340600.0,
+          "10": 342950.0,
+          "20": 334600.0,
+          "60": 275936.667,
+          "120": 223572.083,
+          "240": 155045.0
         },
         "below_ma": [
-          5,
-          10,
-          20
+          10
         ],
-        "sharp_drop": true,
-        "drop_pct": -8.63,
-        "dist_to_support_pct": 25.18,
+        "sharp_drop": false,
+        "drop_pct": 10.16,
+        "dist_to_support_pct": 32.35,
         "support": 258020.0,
-        "ret_60d": 70.31,
+        "ret_60d": 91.42,
         "margin_change": null,
         "margin_change_pct": null
       },
@@ -1048,10 +1029,10 @@
         "ticker": "000660.KS",
         "name": "SK海力士 SK Hynix",
         "google": "https://www.google.com/search?q=SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%20SK%20Hynix%20%E8%82%A1%E7%A5%A8",
-        "price": 2628000.0,
+        "price": 2733000.0,
         "change_pct": null,
         "currency": "KRW",
-        "forward_pe": 6.0562162,
+        "forward_pe": 6.298188,
         "pricing_power": 4,
         "competitiveness": 5,
         "news_reliability": 4,
@@ -1062,45 +1043,42 @@
             "published": "Mon, 29 Jun 2026 07:10:15 GMT"
           },
           {
-            "title": "打造第二半導體基地 三星、SK海力士砸800兆韓元增記憶體廠 - DIGITIMES",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVEZCT2ZSSGlDLXVMZTFIQjNkS3hLYzVwcjRHSnd3LW5fRVVjeXpoMGVwbXlscDVYaTUwcFlMX1hjOGRpbFhZN0x5c3BpanFoYTVhd080TVpkWjJPMDNWSnYycDItWDl3Y1poTFVkZUNNVk1tM1U5MHZRanhseEJNalU2MjY3SERUb1BpUUZaOEVaWkNxcG5pRg?oc=5",
-            "published": "Mon, 29 Jun 2026 18:13:00 GMT"
+            "title": "SK海力士、三星豪擲五千億美元擴產也不為所動？美光股價逆勢收漲 - Yahoo股市",
+            "link": "https://news.google.com/rss/articles/CBMipANBVV95cUxPdlNmMkpFaHVJSGhVY3loMURvbTBPdjBVTjR2MmlMV3FNdDcwVXlSeUZwMlM5Y1Z3QWYzanBWT0gwYWl3ZnBENi16SVpyMlhMWTJtV3g3YWNXOUlheGlZNVh3QmtHcG9JNHJVMHh1TnhWcWJ4OEdwZXJ2aUF5dVBtV091a0MxblR6STdud3JkLWVKR3JWLUZ4bVZ0QjZkOGNrZFc4eVBDai1lSG5jdzlRelQ0M2NPSjV2SmhuUGRHQ2ItSUdTY0NwaVRjekt6SlZ0bkZsZG4zeldsRmpTakw5ZDZEdnUyVUNGbW9XU2p4M2dfTlRKSGRkc25QSURGcGRqaHdQVmZLNnRVLXg1WlEzcWtsd2dOU2pUT3QtWERCZ3J1SUc5bnV2ck92TTNMYXRrLTJxMXkzWmlld1lpay1IQ1JLbC1KbjVvNXltTjFNNG9RNmI0ME1BUUZlclJkRmtYbzlZamlWVXBualQ1X1lEeFNJM0FOLUg1SjRWMXN5V0dzUURQbEFuQWJibURQU0RXT3gyaFlRV2tKRGxQczI1LVQtemg?oc=5",
+            "published": "Tue, 30 Jun 2026 03:41:43 GMT"
           },
           {
-            "title": "韓國將於周一宣布三星、SK 集團的多個大型項目 | 國際焦點 | 國際 - 經濟日報",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zYVl3R25EQmtSeUw1MzZjUTh1cWZCQ0U2WnQ5ZzlyLXp5ZGhTYXB4STltYnNtd282N1N0V3dDRkdub0R6VlF4NjBsUWxCTEZrczZLZVB6bG5LQQ?oc=5",
-            "published": "Mon, 29 Jun 2026 01:24:06 GMT"
+            "title": "每日椽真：長鑫存儲成記憶體談判新籌碼？| 賣通用DRAM比HBM更賺？| SK海力士搶才瞄準HBM下半場 - DIGITIMES",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZEx3eTlzVmo4cVMzc3A0cTlIRnI2THRvSUtUU04wMlJDWUtHNVhsSGhuMTRIZ19XQWtENXJpeWVfcnduRDdWVUJudDlieFBtckQ0MVd5MXVWNC1hb0dSVGhHeW9TX3JjVXR3SWlFSDJVYzVXVEdseWhxbjFNYXR2NlFYeDVHdG1ER2xLbUlUWDhQem9nWUFv?oc=5",
+            "published": "Mon, 29 Jun 2026 21:34:00 GMT"
           }
         ],
         "factors": {
-          "below_ma": 0.333,
+          "below_ma": 0.0,
           "near_main_support": 0.0,
-          "not_overextended": 0.578,
+          "not_overextended": 0.404,
           "margin_reduction": 0.0,
-          "forward_pe_vs_peers": 0.423,
+          "forward_pe_vs_peers": 0.433,
           "pricing_power": 0.8,
           "competitiveness": 1.0,
           "news_reliability": 0.8
         },
-        "score": 0.469,
+        "score": 0.3952,
         "rank": 2,
         "ma": {
-          "5": 2678800.0,
-          "10": 2666500.0,
-          "20": 2423450.0,
-          "60": 1778683.333,
-          "120": 1322925.0,
-          "240": 865635.417
+          "5": 2714400.0,
+          "10": 2701600.0,
+          "20": 2441950.0,
+          "60": 1809283.333,
+          "120": 1340275.0,
+          "240": 875862.5
         },
-        "below_ma": [
-          5,
-          10
-        ],
-        "sharp_drop": true,
-        "drop_pct": -9.97,
-        "dist_to_support_pct": 47.64,
+        "below_ma": [],
+        "sharp_drop": false,
+        "drop_pct": 6.97,
+        "dist_to_support_pct": 53.54,
         "support": 1779950.0,
-        "ret_60d": 192.98,
+        "ret_60d": 229.28,
         "margin_change": null,
         "margin_change_pct": null
       }
@@ -1110,7 +1088,7 @@
         "ticker": "2644.T",
         "name": "Global X Japan Semiconductor ETF",
         "google": "https://www.google.com/search?q=Global%20X%20Japan%20Semiconductor%20ETF%20%E8%82%A1%E7%A5%A8",
-        "price": 4794.0,
+        "price": 4993.0,
         "change_pct": null,
         "currency": "JPY",
         "forward_pe": null,
@@ -1135,34 +1113,31 @@
           }
         ],
         "factors": {
-          "below_ma": 0.167,
+          "below_ma": 0.0,
           "near_main_support": 0.0,
-          "not_overextended": 0.733,
+          "not_overextended": 0.567,
           "margin_reduction": 0.0,
           "forward_pe_vs_peers": 0.5,
           "pricing_power": 0.0,
           "competitiveness": 0.0,
           "news_reliability": 0.6
         },
-        "score": 0.175,
+        "score": 0.1333,
         "rank": 1,
         "ma": {
-          "5": 4822.6,
-          "10": 4836.3,
-          "20": 4551.0,
-          "60": 3975.05,
-          "120": 3547.167,
-          "240": 2868.979
+          "5": 4860.8,
+          "10": 4875.6,
+          "20": 4594.85,
+          "60": 4006.767,
+          "120": 3567.325,
+          "240": 2881.8
         },
-        "below_ma": [
-          5,
-          10
-        ],
+        "below_ma": [],
         "sharp_drop": false,
-        "drop_pct": -5.96,
-        "dist_to_support_pct": 19.38,
+        "drop_pct": 3.98,
+        "dist_to_support_pct": 24.33,
         "support": 4015.8,
-        "ret_60d": 55.15,
+        "ret_60d": 65.99,
         "margin_change": null,
         "margin_change_pct": null
       }
@@ -1181,9 +1156,9 @@
         "news_reliability": 3,
         "news": [
           {
-            "title": "iShares MSCI South Korea ETF(EWY) Stock Options Chain | Quotes & News - Moomoo",
-            "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPZG9waWtRcUFDZlJpOVdOVk11eHVjaUh1ZHZHMlkzUE82VjNHaTUwVUN4alRRamxPajJvMlNIWUw3X0cxcTR2SGtsZDc3MVhFc29uR3RQekZjUktLdmJkUUhjYWlqbExyRVF1VXpiQmJqalktZURXbDJDSThJRkxIdFU3d3Bab2ppZzlDdEdxcXZkZF9RYndJWnY4WDFZczk0VkkxNldqSjVYby15RkZCTTBtcUNieGthRGs4b0tTTFhsRDZxczVQc2ZFS3I3REtPSnRLNlJlSDQyalBtZW9MbWJQSVM3S0pLNUszMUdfZTJ4RnZFTzdvQ3ZfXzJrcThGQURmdzBjS2NHTV85SnFIREZ1anhGbDFCb1gwX1dJSWFvZHc5MWViNFVzRlRzTUVaV29OSGdVd19ITEhmelprMw?oc=5",
-            "published": "Tue, 23 Jun 2026 19:59:00 GMT"
+            "title": "對 $MSCI韓國指數ETF-iShares (EWY.US)$ ／韓綜指（KOSPI）暴跌以及這是否是買入三星／SK海... - Moomoo",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZy1JdEJDRHVtNTR0bzA1aVpMWGk3Ymp6QTQ4ZWhFU3R0ZENOTjVHSC1BY04zdFV1d0tDdjAtbVkwZGVfZjlRTEN6aUVZdUJDd2JjWlE3RDl0X19ST1RlUWxpRXJsUE1qWEZ6UEdCWmlpYkZlbEthZy1ScmpZYmdLdERfYUVvZjlfVEs2ODNSQXV3ZFNRZzhQY0hrSy1PTmFueE5OUVI3b2RNNEdJaGxZ?oc=5",
+            "published": "Thu, 18 Jun 2026 14:57:40 GMT"
           },
           {
             "title": "iShares MSCI South Korea ETF(EWY) - 股價行情、配息與走勢圖 - 股市爆料同學會 - CMoney",
@@ -1233,7 +1208,7 @@
         "ticker": "0052.TW",
         "name": "富邦科技 (台灣)",
         "google": "https://www.google.com/search?q=%E5%AF%8C%E9%82%A6%E7%A7%91%E6%8A%80%20%28%E5%8F%B0%E7%81%A3%29%20%E8%82%A1%E7%A5%A8",
-        "price": 60.6,
+        "price": 63.65,
         "change_pct": null,
         "currency": "TWD",
         "forward_pe": null,
@@ -1258,42 +1233,97 @@
           }
         ],
         "factors": {
-          "below_ma": 0.333,
-          "near_main_support": 0.073,
-          "not_overextended": 1.0,
+          "below_ma": 0.083,
+          "near_main_support": 0.0,
+          "not_overextended": 0.844,
           "margin_reduction": 0.0,
           "forward_pe_vs_peers": 0.5,
           "pricing_power": 0.0,
           "competitiveness": 0.0,
           "news_reliability": 0.6
         },
-        "score": 0.229,
+        "score": 0.1639,
         "rank": 2,
         "ma": {
-          "5": 63.3,
-          "10": 62.45,
-          "20": 61.652,
-          "60": 55.794,
-          "120": 49.5,
-          "240": 114.965
+          "5": 62.33,
+          "10": 62.83,
+          "20": 61.725,
+          "60": 56.418,
+          "120": 49.934,
+          "240": 113.898
         },
         "below_ma": [
-          5,
-          10,
-          20,
           240
         ],
         "sharp_drop": false,
-        "drop_pct": -3.5,
-        "dist_to_support_pct": 13.9,
+        "drop_pct": -1.47,
+        "dist_to_support_pct": 19.63,
         "support": 53.204,
-        "ret_60d": 41.52,
+        "ret_60d": 45.25,
         "margin_change": 680.0,
         "margin_change_pct": 6.4
       }
     ]
   },
   "hottest": [
+    {
+      "ticker": "000660.KS",
+      "name": "SK海力士 SK Hynix",
+      "google": "https://www.google.com/search?q=SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%20SK%20Hynix%20%E8%82%A1%E7%A5%A8",
+      "price": 2733000.0,
+      "change_pct": null,
+      "currency": "KRW",
+      "forward_pe": 6.298188,
+      "pricing_power": 4,
+      "competitiveness": 5,
+      "news_reliability": 4,
+      "news": [
+        {
+          "title": "記憶體飆天價引眾怒！三星、SK 海力士與美光面臨美國反壟斷訴訟 - TechNews 科技新報",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSlVVWlV3dVk3b0x4dEFzeFFHZXRROHJDQmFlSzd3ajh3YlBVODdPdWF3VHZfZy1qZTV2bHh4UTJaTFhGbndldmdQUk5SWTV1dnlWNlp6S3dvOXJPenR4dzBtakRERWRSdjVKcURqLVFjRjNZZVdQYnZrNzhLWmxWQm5XVDM2VGc2WkUwMw?oc=5",
+          "published": "Mon, 29 Jun 2026 07:10:15 GMT"
+        },
+        {
+          "title": "SK海力士、三星豪擲五千億美元擴產也不為所動？美光股價逆勢收漲 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMipANBVV95cUxPdlNmMkpFaHVJSGhVY3loMURvbTBPdjBVTjR2MmlMV3FNdDcwVXlSeUZwMlM5Y1Z3QWYzanBWT0gwYWl3ZnBENi16SVpyMlhMWTJtV3g3YWNXOUlheGlZNVh3QmtHcG9JNHJVMHh1TnhWcWJ4OEdwZXJ2aUF5dVBtV091a0MxblR6STdud3JkLWVKR3JWLUZ4bVZ0QjZkOGNrZFc4eVBDai1lSG5jdzlRelQ0M2NPSjV2SmhuUGRHQ2ItSUdTY0NwaVRjekt6SlZ0bkZsZG4zeldsRmpTakw5ZDZEdnUyVUNGbW9XU2p4M2dfTlRKSGRkc25QSURGcGRqaHdQVmZLNnRVLXg1WlEzcWtsd2dOU2pUT3QtWERCZ3J1SUc5bnV2ck92TTNMYXRrLTJxMXkzWmlld1lpay1IQ1JLbC1KbjVvNXltTjFNNG9RNmI0ME1BUUZlclJkRmtYbzlZamlWVXBualQ1X1lEeFNJM0FOLUg1SjRWMXN5V0dzUURQbEFuQWJibURQU0RXT3gyaFlRV2tKRGxQczI1LVQtemg?oc=5",
+          "published": "Tue, 30 Jun 2026 03:41:43 GMT"
+        },
+        {
+          "title": "每日椽真：長鑫存儲成記憶體談判新籌碼？| 賣通用DRAM比HBM更賺？| SK海力士搶才瞄準HBM下半場 - DIGITIMES",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZEx3eTlzVmo4cVMzc3A0cTlIRnI2THRvSUtUU04wMlJDWUtHNVhsSGhuMTRIZ19XQWtENXJpeWVfcnduRDdWVUJudDlieFBtckQ0MVd5MXVWNC1hb0dSVGhHeW9TX3JjVXR3SWlFSDJVYzVXVEdseWhxbjFNYXR2NlFYeDVHdG1ER2xLbUlUWDhQem9nWUFv?oc=5",
+          "published": "Mon, 29 Jun 2026 21:34:00 GMT"
+        }
+      ],
+      "factors": {
+        "below_ma": 0.0,
+        "near_main_support": 0.0,
+        "not_overextended": 0.404,
+        "margin_reduction": 0.0,
+        "forward_pe_vs_peers": 0.433,
+        "pricing_power": 0.8,
+        "competitiveness": 1.0,
+        "news_reliability": 0.8
+      },
+      "score": 0.3952,
+      "rank": 2,
+      "ma": {
+        "5": 2714400.0,
+        "10": 2701600.0,
+        "20": 2441950.0,
+        "60": 1809283.333,
+        "120": 1340275.0,
+        "240": 875862.5
+      },
+      "below_ma": [],
+      "sharp_drop": false,
+      "drop_pct": 6.97,
+      "dist_to_support_pct": 53.54,
+      "support": 1779950.0,
+      "ret_60d": 229.28,
+      "margin_change": null,
+      "margin_change_pct": null,
+      "group": "韓股_半導體"
+    },
     {
       "ticker": "MU",
       "name": "Micron 美光",
@@ -1353,74 +1383,13 @@
       "group": "美股_記憶體與半導體"
     },
     {
-      "ticker": "000660.KS",
-      "name": "SK海力士 SK Hynix",
-      "google": "https://www.google.com/search?q=SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%20SK%20Hynix%20%E8%82%A1%E7%A5%A8",
-      "price": 2628000.0,
-      "change_pct": null,
-      "currency": "KRW",
-      "forward_pe": 6.0562162,
-      "pricing_power": 4,
-      "competitiveness": 5,
-      "news_reliability": 4,
-      "news": [
-        {
-          "title": "記憶體飆天價引眾怒！三星、SK 海力士與美光面臨美國反壟斷訴訟 - TechNews 科技新報",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSlVVWlV3dVk3b0x4dEFzeFFHZXRROHJDQmFlSzd3ajh3YlBVODdPdWF3VHZfZy1qZTV2bHh4UTJaTFhGbndldmdQUk5SWTV1dnlWNlp6S3dvOXJPenR4dzBtakRERWRSdjVKcURqLVFjRjNZZVdQYnZrNzhLWmxWQm5XVDM2VGc2WkUwMw?oc=5",
-          "published": "Mon, 29 Jun 2026 07:10:15 GMT"
-        },
-        {
-          "title": "打造第二半導體基地 三星、SK海力士砸800兆韓元增記憶體廠 - DIGITIMES",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVEZCT2ZSSGlDLXVMZTFIQjNkS3hLYzVwcjRHSnd3LW5fRVVjeXpoMGVwbXlscDVYaTUwcFlMX1hjOGRpbFhZN0x5c3BpanFoYTVhd080TVpkWjJPMDNWSnYycDItWDl3Y1poTFVkZUNNVk1tM1U5MHZRanhseEJNalU2MjY3SERUb1BpUUZaOEVaWkNxcG5pRg?oc=5",
-          "published": "Mon, 29 Jun 2026 18:13:00 GMT"
-        },
-        {
-          "title": "韓國將於周一宣布三星、SK 集團的多個大型項目 | 國際焦點 | 國際 - 經濟日報",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zYVl3R25EQmtSeUw1MzZjUTh1cWZCQ0U2WnQ5ZzlyLXp5ZGhTYXB4STltYnNtd282N1N0V3dDRkdub0R6VlF4NjBsUWxCTEZrczZLZVB6bG5LQQ?oc=5",
-          "published": "Mon, 29 Jun 2026 01:24:06 GMT"
-        }
-      ],
-      "factors": {
-        "below_ma": 0.333,
-        "near_main_support": 0.0,
-        "not_overextended": 0.578,
-        "margin_reduction": 0.0,
-        "forward_pe_vs_peers": 0.423,
-        "pricing_power": 0.8,
-        "competitiveness": 1.0,
-        "news_reliability": 0.8
-      },
-      "score": 0.469,
-      "rank": 2,
-      "ma": {
-        "5": 2678800.0,
-        "10": 2666500.0,
-        "20": 2423450.0,
-        "60": 1778683.333,
-        "120": 1322925.0,
-        "240": 865635.417
-      },
-      "below_ma": [
-        5,
-        10
-      ],
-      "sharp_drop": true,
-      "drop_pct": -9.97,
-      "dist_to_support_pct": 47.64,
-      "support": 1779950.0,
-      "ret_60d": 192.98,
-      "margin_change": null,
-      "margin_change_pct": null,
-      "group": "韓股_半導體"
-    },
-    {
       "ticker": "2454.TW",
       "name": "聯發科",
       "google": "https://www.google.com/search?q=%E8%81%AF%E7%99%BC%E7%A7%91%20%E8%82%A1%E7%A5%A8",
-      "price": 3910.0,
+      "price": 4280.0,
       "change_pct": null,
       "currency": "TWD",
-      "forward_pe": 32.200275,
+      "forward_pe": 35.24736,
       "pricing_power": 4,
       "competitiveness": 5,
       "news_reliability": 5,
@@ -1431,18 +1400,18 @@
           "published": "Mon, 29 Jun 2026 08:47:00 GMT"
         },
         {
-          "title": "1表看》台積電、大立光、奇鋐、聯發科、智邦、創新服務...25千金打6折能撿？權證小哥拋3點建議：1凶兆當心了- 上市櫃 - 旺得富理財網",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tSFNmTHZNbTNDWVpyeFpjOUJUX2hKTnllbS1qZzhNQXpJYmwxX1FpNzdCZ2FwMmhaczJUQmR2bWFwbHRfeUtHT2F0SC1hNkVRYUFTZXlkOTMxUnZRVUlRVDZXeEYtMGVtbkE?oc=5",
-          "published": "Mon, 29 Jun 2026 00:49:53 GMT"
+          "title": "快訊／聯發科飆漲停！　台股狂飆1613點史上盤中第4大 - ETtoday財經雲",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51N1ZqWVRQZkF0N3l0aVcyaHZHaDRMZnVrSm5FTUdZakVSRU9OVWM1YUR1bm8za0ZLQjBvcGFmMlU4MWhMNVptTkhUNUVIc0VOYmfSAW5BVV95cUxQN3B2VnI4cUkxNkdid3VESmsyOERPQUJQSkhPbkFOdGd6M1pqdWN0UlJROE5CSFVEYzEyQTN4X0xVQkl2T3pubDA4dklJY0owcGh0bm40UW9NNUFVN1F3WDM0RW5MZzFPWldYRjNNUQ?oc=5",
+          "published": "Tue, 30 Jun 2026 04:56:00 GMT"
         },
         {
-          "title": "外資喊瘋了！聯發科搭AI商機目標價直衝萬元「這檔」攜華邦電攻3D晶圓封裝奪「787億成交額」居冠 - Yahoo股市",
-          "link": "https://news.google.com/rss/articles/CBMiggRBVV95cUxNNldVZU9ZQXlPbGVaczgwZXRrTG5hSkZqR1RFQUl3a3JNVzV0V0FnajhOQzdxcmdEZjNLYjJvUzhKZ2J6dndSV29Ca1o5emUxeEc4X1l0QTd3SUtkdmwwVXFjeHdUWV9zYXRsbGdpQVE5eEo3cXdpUUdLME96aGRDS3hheXlEUnNPQnRrTy15dTg1QkoyOTYwLXRaeUx0bWtha2NtZ3hYOGp3dWJSQWZVYkkyV1ExTEFRUUJSYnlNM1FzZ0lTYWhHUnk0czRsaUJUR0RvZGVOSUJDZENkWTRXYU9DV250ZDVYUkR1SHJ5cWpPNTB4V2w5bnlBYmI5MHNjczFuMFc1dTBNLW9sRm95dktxVHoxOXBjR0llelBKT3FRLU5HVGotNEFhb0d5YnhOSkhlUHR6V1h6NjFTWFhDX25JVUl5bTZlS3lhX3B5am1Gd2l3OU5uWmVoendUSUgwNXU3UFo5R1FIbjA4MHJsV2xjSXNJd2R6NDcxLUV0OUJUcHZIQ3pYNG5PclFHaEdxY25leWRSZWN3Wi1zN3ZQOXFIYkdaVlVpaWM4T1l0STVvNDhMdE1RY2Z1MFdfUGhQLTlJeTFXNTN1Z0dScXhsRFlwVlczNmstTkFKNGpMaW1MUmdIRjlFMGxzaER3X1dFQ1dmMGQtaEowYl9NTGdzZjd3?oc=5",
-          "published": "Mon, 29 Jun 2026 09:35:00 GMT"
+          "title": "外資喊聯發科目標價1萬元！股民超嗨「發哥要發了」網諷：看這麼高自己買 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQa1o3YnFUT0NwTE94VlBEVHlYV2lWbENVTzNmQ2NKUXF2b3JoWF93Rnc4TmhkbTdMZEpxeUdpaFVibFZUWDRlSXJhMlBxZXI5dU85a3ZTZ3JlOW54ZUZqMm9ZN1pkdk1rV1lORkJfSlB4Vll0ZnRhN0hXeVJhMjh5Qmk2MzN1aHNHaFRmSDcyUVFhRDVhWHlmVTFlV1UwbmZGbkNrNEM2bURITmtlc2FFaDhqU1NqZ2JHWkxlLXBpSS1ETHdkMGFlS1lzVHRObmxNZzlMbXppX0ZyalVyUHZkaEFLNnN5ajhlVVZmWjhrdnVHQlBZVUFRVzltUXhSR1V4NWU2VURMLU0tbVNfSjdTZDQwWDRvbWhJX1lzNHRtQlo0aVVWeEZicThZUUkyNU9rZ3NfeFc3cEZpTmFULTVJMFFNV1czRXM4NUNtd0c1V19ESlFpSVJwWVUydFI3WkRiaTNiUDhCY2tQV2FEX2FUMm5mQ19TZWQxakd4MHlhODEyNmhRRjVQOUdVLV9vUEMwSEJoZHBrYkpkQ1RsRmh4MXlJVl94UWJFNXJ4QThTU3BrT2hxNzFsYWhraVNuUQ?oc=5",
+          "published": "Tue, 30 Jun 2026 03:30:39 GMT"
         }
       ],
       "factors": {
-        "below_ma": 0.5,
+        "below_ma": 0.167,
         "near_main_support": 0.0,
         "not_overextended": 1.0,
         "margin_reduction": 1.0,
@@ -1451,26 +1420,25 @@
         "competitiveness": 1.0,
         "news_reliability": 1.0
       },
-      "score": 0.62,
+      "score": 0.5533,
       "rank": 2,
       "ma": {
-        "5": 4184.0,
-        "10": 4326.5,
-        "20": 4329.25,
-        "60": 3319.083,
-        "120": 2481.708,
-        "240": 1919.708
+        "5": 4133.0,
+        "10": 4307.5,
+        "20": 4315.5,
+        "60": 3366.0,
+        "120": 2505.875,
+        "240": 1932.146
       },
       "below_ma": [
-        5,
         10,
         20
       ],
-      "sharp_drop": true,
-      "drop_pct": -12.43,
-      "dist_to_support_pct": 17.52,
+      "sharp_drop": false,
+      "drop_pct": -5.62,
+      "dist_to_support_pct": 28.64,
       "support": 3327.1,
-      "ret_60d": 166.89,
+      "ret_60d": 192.15,
       "margin_change": -1307.0,
       "margin_change_pct": -11.6,
       "group": "台股_半導體"
@@ -1488,19 +1456,19 @@
       "news_reliability": 5,
       "news": [
         {
-          "title": "AMD Venice產量有望超車輝達Vera CPU成AI新戰場 - news.cnyes.com",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01azlfazhzS2w5ZWJJSm53aDU1X3BQX0NjaUNkV2duZDFVWGJQSGptTXo1MTNHWkx2N3ZNc0hjSjFBWmRZMjlMMVpFTGdvU1U?oc=5",
-          "published": "Sat, 27 Jun 2026 04:00:10 GMT"
-        },
-        {
-          "title": "2nm製程Zen 6架構發威 AMD新一代Venice處理器明年銷售暴增近5倍 - XFastest News",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tUHgxd1hXcERYeFF1cVRoRlVFOFBVcWhtWk9WS0k0RjdQZDF3RTVGaE1SZGFtU0lWMjdISWNBbHQyYl9qRmhleEJHdmdLeFd0MUVfQmMzRHBlbW9TMlJjeUVCUUVBbW9lS3MtbVdEdzg?oc=5",
-          "published": "Sat, 27 Jun 2026 03:47:20 GMT"
-        },
-        {
           "title": "AMD攜手AAOI卡位「這道光」 台廠6關鍵伏兵 已悄悄列隊 - Yahoo股市",
           "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPdkc4TnlRekpJRzhKUURMNG9JMTZHakFwU09OWElOb1ZSOERnZllsbGQ0VF9fZUNTU1l6OEZ0YjNzRmMtZ1VDenNKSnZKNGxMZFZhUGRzOWtpMkszNEF6SUplSWJDUngyVjdibFhIaTZ1dFFNTWxuUHFFdzFYZ2ZqU1ZmbmVsWmNWZmVNczJyTDBYNFlVUVJPc2NEMVI3ZjI2TzJiWklmSnY5RU1HTUdkaWk5QjB3a3JZOERvei0yQXVUQWxZNUFnWW9pOGgyd2I0TFNzdjlIZ3NxTDVmREFJWFlzUDhBblNKNTVTenZjY25EZnZOQi1vMllnenlwTlRJYTZkV3h5ZHc2Z2NvYWRLNXk4dEwzanZZeWwwM2dQaFh5UGNaQ1B2YVQ2LXN1Y2U5SW9ub3BtWk1Uam45SVczNUx3?oc=5",
           "published": "Sat, 27 Jun 2026 13:07:00 GMT"
+        },
+        {
+          "title": "AMD Zen 6世代將新增Zen 6 LP低功耗架構，與Zen 6、Zen 6c依循相同架構#LP-E Core (249721) - Cool3c",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nY1c2bHo1OTZqaXhKMEpZX1g2cXpEQVZwZHJyZlJQRG1aQWYzM3dLcFBUaExfdUg2dThON0JoekJweENpR0NsdGhkNVpKZw?oc=5",
+          "published": "Tue, 30 Jun 2026 04:11:00 GMT"
+        },
+        {
+          "title": "荷包君守不住了！AMD RX 9000 系列傳出7 月起可能漲價15%，大容量顯卡記憶體將成為最貴奢侈品 - T客邦",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FN0V6V1BidTFNXzF0ZmstYlpDaG5ORXlnVEVmVzRVd3hoalhXaXFLeklET3ZTel9rMEd3ajJVMzBOc1RIS1RtNmZmbEZQdUFyR3pzVzhWTGt1ZXQyV2FSRmliVG5RTnhTai14LWZ0anJFQnpNRWc3dlJMVndCcUU?oc=5",
+          "published": "Mon, 29 Jun 2026 07:30:00 GMT"
         }
       ],
       "factors": {
@@ -1537,10 +1505,10 @@
       "ticker": "2344.TW",
       "name": "華邦電",
       "google": "https://www.google.com/search?q=%E8%8F%AF%E9%82%A6%E9%9B%BB%20%E8%82%A1%E7%A5%A8",
-      "price": 203.0,
+      "price": 208.5,
       "change_pct": null,
       "currency": "TWD",
-      "forward_pe": 6.632502,
+      "forward_pe": 6.8122005,
       "pricing_power": 2,
       "competitiveness": 3,
       "news_reliability": 4,
@@ -1551,45 +1519,44 @@
           "published": "Sun, 28 Jun 2026 09:00:00 GMT"
         },
         {
-          "title": "【Follow法人】外資掃貨友達破17萬張 反手賣超力積電華邦電各2萬張 - Yahoo股市",
-          "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNQzROSVA2ZWlQY0pFdnRzdUtMOUc3d2RIWVJIeGlWR2x0aHU5ZTJ1cWtYeUdRU0huaDlKRVBfQ0FPQnNVNWRiYkdzemx2TDI3SXBSWkFiR3pYa0NTTkZjOEdPSXZlV2ptOGdUWC0yaUZQYmh5aW96RzdSelFuckwtNDZsRWIyTUpuTXNURDI3a3J2M05ZQmRJT3dKcE5yd0EyZjEtYzJOSmp3QUYtUk02Q0dRenNlaE1MNVlEQl9TbzBjODNGQ0x2TjI1b1p0eHFwbzc2ZEFkWDkycnNKOF9lbHJwbTRsOFdia3dCazZ3TDZmY2xxd2M4Yk5mWTJvODFqQ3VpeXBrT3AxSzR3dEFkaUlDWWVYWlV3d2RYQzZuSmhqSFpNcTU4cGR0WGVuRV9RTmd5STNUNEJCWkhwdlRxMGxvUF9OOEliekNRWHlqQzkzWHNZd20ydUc5VHBXQmNhOEpxWXpWU2ltSzM0WV9SMXlBVTlseHBlc3RPdGlwZFdsY3ZOMzVZdXh5MjROTmFSamJGUEtsWWtEQTdCd2lxbg?oc=5",
-          "published": "Mon, 29 Jun 2026 07:07:01 GMT"
+          "title": "韓國記憶體大擴產嚇壞台廠？華邦電、南亞科臉綠 分析師：短線有壓 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMixANBVV95cUxPZTBuVU5neEg1cWRzUVhxb1l2enMybWNKYUxvRmo3WmtxdktyMTlsaU9KVFd2bHhNU28yV091cDlwQnk3cVpDWGJFQWlMUWJzWGl4SXRCQUF5enU1UWRkNG9QTjZDWEROemg0ZDRTUFMzV1hkdFREYVVjTjhKT1BfbFAyM19CODVOeUtsczhTNGJIaUw4XzBGUHViRUdWRzhOUHFId29tdy05dTJadVg0YXlaT2pkSmU1SzNhNkZJcDQyNDBtbGpBMDYtbEN4aDl0Zk9HYXViaHhOVnFjb1lob1RZNFdYMXhUZEY5bFpYeEpQWjJoNDROUVlDcGNYbk5YTUZZTnZacHlpSmgtdlFsOVZGb0RtNkRvc3BfamVCR29YSVg3RkxYR3lEbi1xTE9qNTQ0TmVSVjdKTTBGbUVsbmVsTS1sT3o2eElISGg4czQyQUc2c0dCSGg4Y19nYVc4YXFzemRCX3pfT0sweUZrcnVLT3U0NTRoR2xLUTFLcUdaT0JlLXViZmFCWTk3OEVvX1hrVlNnRU4yT2liTlRFRzhZZGVHSzcyVlZXWFhQckIwbmpwQ3dkQlJmSV9nSFV6WXBNRg?oc=5",
+          "published": "Tue, 30 Jun 2026 03:07:46 GMT"
         },
         {
-          "title": "南亞科、華邦電、旺宏、力積電…記憶體股週一若再急殺該買誰？法人：「這群」反彈動能會比較落後 - 今周刊",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNE1OTGtnczJtRFlZN3dVU2h2Mkkzbldxc3BZVDlYVWdtWGltQUVza1IyR251dllqRFBQWFlCUEhnTGhGQTRqOXNSZ0ZudHdocmRObWpqWmNFbk8wTXZndVl1VlV3UVlIVUxoN21Qb1BDUDhNMzZmYmFPakhPSEp2Rw?oc=5",
-          "published": "Sun, 28 Jun 2026 09:46:09 GMT"
+          "title": "投信狂買逾百憶前10大揭曉！華邦電上榜 這檔敲1.6萬張最吸金 - 自由財經",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zUFlfc1dpRHR0UDE2ZjgxYXhpeWh0NjdBWGVadTdaSml6dDA1QTVpNmNCNmZoaFVrOHVUTGIyYXhXQ3pTa204VVl3aENEdEFBS2xYVUpjUE56OGdGRVk40gFkQVVfeXFMT2ZoYkNodmxBMnlVX3dSYkphTnMtWk9lX0hBaUpIVFVveXpjTUZJYUNwY3VqTkN6NEQ2eG9mc2Q0ejE1TFZ6U3RJUWdYRW5RSlpVVW80b05JYlotOGE0SDdva0xKOQ?oc=5",
+          "published": "Mon, 29 Jun 2026 07:53:08 GMT"
         }
       ],
       "factors": {
-        "below_ma": 0.333,
+        "below_ma": 0.083,
         "near_main_support": 0.0,
-        "not_overextended": 0.558,
+        "not_overextended": 0.459,
         "margin_reduction": 0.372,
-        "forward_pe_vs_peers": 0.57,
+        "forward_pe_vs_peers": 0.56,
         "pricing_power": 0.4,
         "competitiveness": 0.6,
         "news_reliability": 0.8
       },
-      "score": 0.426,
+      "score": 0.3694,
       "rank": 4,
       "ma": {
-        "5": 209.1,
-        "10": 207.1,
-        "20": 186.525,
-        "60": 133.882,
-        "120": 119.967,
-        "240": 79.026
+        "5": 208.6,
+        "10": 209.1,
+        "20": 188.575,
+        "60": 135.813,
+        "120": 121.068,
+        "240": 79.815
       },
       "below_ma": [
-        5,
         10
       ],
-      "sharp_drop": true,
-      "drop_pct": -8.56,
-      "dist_to_support_pct": 35.02,
+      "sharp_drop": false,
+      "drop_pct": -1.18,
+      "dist_to_support_pct": 39.01,
       "support": 150.35,
-      "ret_60d": 118.05,
+      "ret_60d": 127.67,
       "margin_change": -5212.0,
       "margin_change_pct": -3.72,
       "group": "台股_記憶體"
@@ -1598,18 +1565,18 @@
       "ticker": "2408.TW",
       "name": "南亞科",
       "google": "https://www.google.com/search?q=%E5%8D%97%E4%BA%9E%E7%A7%91%20%E8%82%A1%E7%A5%A8",
-      "price": 453.0,
+      "price": 455.5,
       "change_pct": null,
       "currency": "TWD",
-      "forward_pe": 7.6376576,
+      "forward_pe": 7.679808,
       "pricing_power": 2,
       "competitiveness": 3,
       "news_reliability": 4,
       "news": [
         {
-          "title": "【Follow法人】外資掃貨友達破17萬張 反手賣超力積電華邦電各2萬張 - Yahoo股市",
-          "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNQzROSVA2ZWlQY0pFdnRzdUtMOUc3d2RIWVJIeGlWR2x0aHU5ZTJ1cWtYeUdRU0huaDlKRVBfQ0FPQnNVNWRiYkdzemx2TDI3SXBSWkFiR3pYa0NTTkZjOEdPSXZlV2ptOGdUWC0yaUZQYmh5aW96RzdSelFuckwtNDZsRWIyTUpuTXNURDI3a3J2M05ZQmRJT3dKcE5yd0EyZjEtYzJOSmp3QUYtUk02Q0dRenNlaE1MNVlEQl9TbzBjODNGQ0x2TjI1b1p0eHFwbzc2ZEFkWDkycnNKOF9lbHJwbTRsOFdia3dCazZ3TDZmY2xxd2M4Yk5mWTJvODFqQ3VpeXBrT3AxSzR3dEFkaUlDWWVYWlV3d2RYQzZuSmhqSFpNcTU4cGR0WGVuRV9RTmd5STNUNEJCWkhwdlRxMGxvUF9OOEliekNRWHlqQzkzWHNZd20ydUc5VHBXQmNhOEpxWXpWU2ltSzM0WV9SMXlBVTlseHBlc3RPdGlwZFdsY3ZOMzVZdXh5MjROTmFSamJGUEtsWWtEQTdCd2lxbg?oc=5",
-          "published": "Mon, 29 Jun 2026 07:07:01 GMT"
+          "title": "韓國記憶體大擴產嚇壞台廠？華邦電、南亞科臉綠 分析師：短線有壓 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMixANBVV95cUxPZTBuVU5neEg1cWRzUVhxb1l2enMybWNKYUxvRmo3WmtxdktyMTlsaU9KVFd2bHhNU28yV091cDlwQnk3cVpDWGJFQWlMUWJzWGl4SXRCQUF5enU1UWRkNG9QTjZDWEROemg0ZDRTUFMzV1hkdFREYVVjTjhKT1BfbFAyM19CODVOeUtsczhTNGJIaUw4XzBGUHViRUdWRzhOUHFId29tdy05dTJadVg0YXlaT2pkSmU1SzNhNkZJcDQyNDBtbGpBMDYtbEN4aDl0Zk9HYXViaHhOVnFjb1lob1RZNFdYMXhUZEY5bFpYeEpQWjJoNDROUVlDcGNYbk5YTUZZTnZacHlpSmgtdlFsOVZGb0RtNkRvc3BfamVCR29YSVg3RkxYR3lEbi1xTE9qNTQ0TmVSVjdKTTBGbUVsbmVsTS1sT3o2eElISGg4czQyQUc2c0dCSGg4Y19nYVc4YXFzemRCX3pfT0sweUZrcnVLT3U0NTRoR2xLUTFLcUdaT0JlLXViZmFCWTk3OEVvX1hrVlNnRU4yT2liTlRFRzhZZGVHSzcyVlZXWFhQckIwbmpwQ3dkQlJmSV9nSFV6WXBNRg?oc=5",
+          "published": "Tue, 30 Jun 2026 03:07:46 GMT"
         },
         {
           "title": "南亞科、華邦電、旺宏、力積電…記憶體股週一若再急殺該買誰？法人：「這群」反彈動能會比較落後 - 今周刊",
@@ -1617,39 +1584,40 @@
           "published": "Sun, 28 Jun 2026 09:46:09 GMT"
         },
         {
-          "title": "美光點燃記憶體行情南亞科、華邦電、旺宏、力積電目標價大摩全面調升- 日報 - 工商時報",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ORWNiQW90Sk12cjZMVjRwZzRjVkhYNXhkbzNYbkxIMUo0dWFqR3ZIV19FTGllRHRKZUF2aTVyRnk3cTAybXFHQUJ3bUp0QmFFNHVjdG1pX0gwQWRKeGNJ?oc=5",
-          "published": "Sun, 28 Jun 2026 19:00:00 GMT"
+          "title": "台積電打造DRAM國家隊！不只華邦電吃飽南亞科、旺宏、力積電...法人揭「這2家」也有肉- 上市櫃 - 旺得富理財網",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ua1dkQ1NIX29Hc3U4ZUhOc01BWHFvc2VoVDRoRDl6TUszV3VuOFJPcmRHMHNWTXdCc01SYnN2QVZ2NnJ1S2l1RGJ1ZUJPRV9Zam1DdHQ5LUltUGtpZ0lNZ2tROG9DUmdIVGc?oc=5",
+          "published": "Mon, 29 Jun 2026 03:20:03 GMT"
         }
       ],
       "factors": {
         "below_ma": 0.167,
         "near_main_support": 0.0,
-        "not_overextended": 0.48,
+        "not_overextended": 0.499,
         "margin_reduction": 1.0,
-        "forward_pe_vs_peers": 0.43,
+        "forward_pe_vs_peers": 0.44,
         "pricing_power": 0.4,
         "competitiveness": 0.6,
         "news_reliability": 0.8
       },
-      "score": 0.4617,
+      "score": 0.4643,
       "rank": 3,
       "ma": {
-        "5": 455.4,
-        "10": 449.9,
-        "20": 410.3,
-        "60": 308.233,
-        "120": 278.879,
-        "240": 185.512
+        "5": 455.6,
+        "10": 455.9,
+        "20": 414.0,
+        "60": 312.308,
+        "120": 281.1,
+        "240": 187.204
       },
       "below_ma": [
-        5
+        5,
+        10
       ],
-      "sharp_drop": true,
-      "drop_pct": -10.3,
-      "dist_to_support_pct": 44.14,
+      "sharp_drop": false,
+      "drop_pct": 0.22,
+      "dist_to_support_pct": 44.93,
       "support": 314.28,
-      "ret_60d": 114.69,
+      "ret_60d": 127.18,
       "margin_change": -22238.0,
       "margin_change_pct": -21.4,
       "group": "台股_記憶體"
@@ -1658,60 +1626,58 @@
       "ticker": "005930.KS",
       "name": "三星電子 Samsung",
       "google": "https://www.google.com/search?q=%E4%B8%89%E6%98%9F%E9%9B%BB%E5%AD%90%20Samsung%20%E8%82%A1%E7%A5%A8",
-      "price": 323000.0,
+      "price": 341500.0,
       "change_pct": null,
       "currency": "KRW",
-      "forward_pe": 5.190834,
+      "forward_pe": 5.512697,
       "pricing_power": 4,
       "competitiveness": 5,
       "news_reliability": 4,
       "news": [
         {
+          "title": "記憶體飆三巨頭美光/SK/三星電子面臨壟斷指控- 新聞 - MoneyDJ",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdkpjUUJrQ0ZHazNWU2IwQUd2SUZCaFNSRVFUUFBSZ3pHdE5YZEFQbS1wUEF0bEdCcE54VHJYb0g4T2pBT1BwMFJDM2VjRUNwSWhaRERFR2RMWFljQm5qNWVvU2tFc3hROUI5M00xaEowUFlSNTF1MUJwT1NxMks5NXpYcVNIQVI4b0Q5QUdoX2stQQ?oc=5",
+          "published": "Tue, 30 Jun 2026 00:59:00 GMT"
+        },
+        {
+          "title": "三星狂擲2,655兆韓元深耕韓國 全面布局AI半導體與未來產業 - 商傳媒",
+          "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxNSkRnakZNZS0wUnRrejNWZ21vM0xvTTM1TW9wVnl0Q0NQV0V5dUhsRnJYbVJRZGxuTC1mc1ZEZVROZWxIRk9BWnJRLWtyQzdzbWQzbE5GU0JPbVNwc2c5ekprRk1raEhDeExEcE0tWmF0bE10TjdIOHFFa1NNSm4tSVJiTVJzQ1diNEd6ZEU1XzZLMXQtSnlzb3hTRGlvRlFpTWphMkJOd2d0bFlxNjBPc0hORmNqNTYxbUd6SmxqQjk2TDJCWXJ1ZEY2WEpDTE9XWVlwSlFhMFU1NVFNcEVrT251ZXhYTjkycEtyNUVtWm9GQ0N5cm1jandoQVAwdmt6c1IxMkh1M045UVNiZl9zdDVFX2Zmam5EZlVOZTBYYmJjeW11bzFuQXItanBPVWRoRTdvTlFPQzE2WTBEYXNZOVpUV2hvSFgxZHQxX1BMb0hFYUtIS0NEaFRSbW1ncWxJNjk4WkRQV3pnQXZpSTM0MGJVU2E5VXNEcUNrZk1MQjI0R3Vi?oc=5",
+          "published": "Tue, 30 Jun 2026 03:51:24 GMT"
+        },
+        {
           "title": "三星電子於 VivaTech 2026 展示 Connected Care 願景 重新定義日常健康管理 - samsung.com",
           "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPQXNPWjkwWkM5c25OanJObXRoSW5yTkVIcWJHWjhNQ3VMVVZoN2VHbDFDS1ozSFdjUllrVGJDMWRFUmZ6cmVLSlNqY2pXRGRINWx0NnhoRFNvZGI2MXlVSjZxdHFsQU1DeDJrQ0JFQlVmc1hVU3BMTV9sSTZXUFhCR0VFLVdXRXZXWUhkNzNDb2NiSGxOZERac1lFYWRtbjJJM0NRMk91dmt4NjRhZUQ3WFFwQzlvdWplZi1aM3JNbWdKU2l4cnhRbHVpQWJDUHM1RU9nRDVJTUZTeFVZRV9CanlIN25HU1VFVmtoODRqTy1tRmNzZ3I2bmgxZ24xTG41YzF1ZjBwNzNUcURhQkt3aWdiQ1NRUnczeEowMlNJcTF0ZFBGc1dTcmwzNWM5UkhMT0s0ZkFrRkJGelZtejdXc29uYw?oc=5",
           "published": "Wed, 24 Jun 2026 07:52:37 GMT"
-        },
-        {
-          "title": "三星電子史上最大手筆投資！驚天宣布「2655兆韓元」超預期大計 ，股價將再創新高？ - TradingKey",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRDJYQUpyblpJdEJ6LXlNbUUwV0JKMEFJMkEzSTFxSzZ0WkpKM1VCZDgwdjJZMGRrZHEwRmxmMG1HLXg2TzVWUEdjdjg4X2hDaWIzc3NkX08wTi1ZODhtVURCTzhnMG5pSDBZSlVxSnVwZkF5aEx1Nk5uQzZ6YXNWSWNRX2lRd0hZN09pX2JxMXgySjJZbUFuS3B4bVBxYmlUOTBkdExGQnJUS3l3TjlBYjNiRUpQZW9sT05WT0I5NFYtM3c?oc=5",
-          "published": "Mon, 29 Jun 2026 08:57:21 GMT"
-        },
-        {
-          "title": "錶面侵權 Swatch 索賠 1.7 億美元 三星恐吞天價賠償 - TechNews 科技新報",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNakdLV1VfbVFkU0V6RTNaclR6a0Y5djQwejk5RXdxZTl6Tjh5eGtRZW5sQm9Xek50Q3M1RlBacUpjRVhQRlZKYm4taVJhMmdPWkhmSkFmMVZSRmZlU3B1YWtrU3JJZVE1eHBBQlc4M3lBMlJyTmx3LURiZ1pwV0YzbHRiQ2dScFh5OHVvVmxxWWloOHN0S0tXZElRM0pFd25KOENuaVhKTG5tNU1y?oc=5",
-          "published": "Mon, 29 Jun 2026 06:35:15 GMT"
         }
       ],
       "factors": {
-        "below_ma": 0.5,
+        "below_ma": 0.083,
         "near_main_support": 0.0,
-        "not_overextended": 1.0,
+        "not_overextended": 0.897,
         "margin_reduction": 0.0,
-        "forward_pe_vs_peers": 0.577,
+        "forward_pe_vs_peers": 0.567,
         "pricing_power": 0.8,
         "competitiveness": 1.0,
         "news_reliability": 0.8
       },
-      "score": 0.5465,
+      "score": 0.4565,
       "rank": 1,
       "ma": {
-        "5": 334300.0,
-        "10": 343100.0,
-        "20": 334975.0,
-        "60": 273405.833,
-        "120": 221725.417,
-        "240": 153887.917
+        "5": 340600.0,
+        "10": 342950.0,
+        "20": 334600.0,
+        "60": 275936.667,
+        "120": 223572.083,
+        "240": 155045.0
       },
       "below_ma": [
-        5,
-        10,
-        20
+        10
       ],
-      "sharp_drop": true,
-      "drop_pct": -8.63,
-      "dist_to_support_pct": 25.18,
+      "sharp_drop": false,
+      "drop_pct": 10.16,
+      "dist_to_support_pct": 32.35,
       "support": 258020.0,
-      "ret_60d": 70.31,
+      "ret_60d": 91.42,
       "margin_change": null,
       "margin_change_pct": null,
       "group": "韓股_半導體"
@@ -1720,10 +1686,10 @@
       "ticker": "2379.TW",
       "name": "瑞昱",
       "google": "https://www.google.com/search?q=%E7%91%9E%E6%98%B1%20%E8%82%A1%E7%A5%A8",
-      "price": 783.0,
+      "price": 828.0,
       "change_pct": null,
       "currency": "TWD",
-      "forward_pe": 21.569647,
+      "forward_pe": 22.809282,
       "pricing_power": 3,
       "competitiveness": 4,
       "news_reliability": 4,
@@ -1739,42 +1705,98 @@
           "published": "Mon, 29 Jun 2026 09:48:56 GMT"
         },
         {
-          "title": "竹科企業暖舉！瑞昱豪捐500萬 陪伴犯罪被害家庭10年熬過長照路 - UDN",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoY0kyUzVjNVZyM2kyVWNncGdJUTBzXy0xbHNteUpxQXlnVWhQaGFXZnpxQmVpTDhTaTVyXzkxbVItUVZ5SjlfNjNncF9Hb2t0cW96UktB0gFWQVVfeXFMUGhjSTJTNWM1VnIzaTJVY2dwZ0lRMHNfLTFsc215SnFBeWdVaFBoYVdmenFCZWlMOFNpNXJfOTFtUi1RVnlKOV82M2dwX0dva3Rxb3pSS0E?oc=5",
-          "published": "Mon, 29 Jun 2026 05:58:29 GMT"
+          "title": "法人上修獲利卻砍評等？瑞昱衝上900元天價後 驚揭下半年客戶「提前拉貨」內幕 - 旺得富理財網",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ia0RjSGRubjRvNmdzSDlubGVBOS1lR3hjeXNiSGRvUUxybHBqdlBERmRLdXNRdHVUX1gyMEtqdjVQQ1dsQXlfdHBBcHRheUFYT09qNVF6TnFHLTJxUjV5dEQxXzR3UzZyZlE?oc=5",
+          "published": "Wed, 24 Jun 2026 09:58:10 GMT"
         }
       ],
       "factors": {
-        "below_ma": 0.167,
+        "below_ma": 0.0,
         "near_main_support": 0.0,
-        "not_overextended": 0.455,
+        "not_overextended": 0.225,
         "margin_reduction": 0.381,
-        "forward_pe_vs_peers": 0.435,
+        "forward_pe_vs_peers": 0.423,
         "pricing_power": 0.6,
         "competitiveness": 0.8,
         "news_reliability": 0.8
       },
-      "score": 0.4284,
+      "score": 0.3818,
       "rank": 4,
       "ma": {
-        "5": 800.6,
-        "10": 777.9,
-        "20": 705.95,
-        "60": 600.425,
-        "120": 545.538,
-        "240": 540.792
+        "5": 793.6,
+        "10": 797.3,
+        "20": 716.9,
+        "60": 606.15,
+        "120": 548.35,
+        "240": 541.833
       },
-      "below_ma": [
-        5
-      ],
-      "sharp_drop": true,
-      "drop_pct": -13.0,
-      "dist_to_support_pct": 23.62,
+      "below_ma": [],
+      "sharp_drop": false,
+      "drop_pct": -4.06,
+      "dist_to_support_pct": 30.72,
       "support": 633.41,
-      "ret_60d": 61.61,
+      "ret_60d": 69.67,
       "margin_change": -113.0,
       "margin_change_pct": -3.81,
       "group": "台股_半導體"
+    },
+    {
+      "ticker": "2644.T",
+      "name": "Global X Japan Semiconductor ETF",
+      "google": "https://www.google.com/search?q=Global%20X%20Japan%20Semiconductor%20ETF%20%E8%82%A1%E7%A5%A8",
+      "price": 4993.0,
+      "change_pct": null,
+      "currency": "JPY",
+      "forward_pe": null,
+      "pricing_power": 0,
+      "competitiveness": 0,
+      "news_reliability": 3,
+      "news": [
+        {
+          "title": "Global X日本半導體ETF-ETF基本資料 - MoneyDJ",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtb0hmUUJ5MnE5NjNSMDQtZEh5VGdJX1ZwSm5zZHZxdjVLVDQ2d0dZcUJma1RMOXdVWDI2REtuVlcwZzVxRmZsNlRmNDAwVXFKR2ZzVFRoN2JfYlQ3RkcxR1A1Ym5vc3hWSS1mQzdUR0JVN3h1SUlZTmdNQQ?oc=5",
+          "published": "Mon, 27 Apr 2026 04:11:40 GMT"
+        },
+        {
+          "title": "6月第二次急跌 - Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdlE0ZTJPc3ItY2h1TEJtZF9YYWg3Zm16SVhPa1AtemQ5YWU5WWpNWk5md1lFNWtIcWE0N21pbDdNdWcxbTVQMGptWF9zczJnQVlNSHZLUlhvbDU0bV9hWE5tTjhXZDE1cnQtQVE3S1pwZktoeXc0XzVGb3lnbDRZVjQ2Y3k3MFNOMlpBVmM0NHhYQQ?oc=5",
+          "published": "Wed, 24 Jun 2026 03:09:52 GMT"
+        },
+        {
+          "title": "Global X亞洲半導體 ETF-ETF基本資料 - MoneyDJ",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KaHFscy1kRzAxbVRnZmJHLVdqdjdpY0NsN0hnRGhlUmpmUl9oY1B6SjB6YkVFdTE3VzhQcVVjRVRUdUR2azZybExqUkRoa0lndURfMTVFUmNqU3J6VWhlaHBFcFZJeHBSaTVZWkZzN29NdXN2b3daTk0yZw?oc=5",
+          "published": "Sun, 17 May 2026 18:03:15 GMT"
+        }
+      ],
+      "factors": {
+        "below_ma": 0.0,
+        "near_main_support": 0.0,
+        "not_overextended": 0.567,
+        "margin_reduction": 0.0,
+        "forward_pe_vs_peers": 0.5,
+        "pricing_power": 0.0,
+        "competitiveness": 0.0,
+        "news_reliability": 0.6
+      },
+      "score": 0.1333,
+      "rank": 1,
+      "ma": {
+        "5": 4860.8,
+        "10": 4875.6,
+        "20": 4594.85,
+        "60": 4006.767,
+        "120": 3567.325,
+        "240": 2881.8
+      },
+      "below_ma": [],
+      "sharp_drop": false,
+      "drop_pct": 3.98,
+      "dist_to_support_pct": 24.33,
+      "support": 4015.8,
+      "ret_60d": 65.99,
+      "margin_change": null,
+      "margin_change_pct": null,
+      "group": "日本_AI半導體ETF"
     },
     {
       "ticker": "EWY",
@@ -1789,9 +1811,9 @@
       "news_reliability": 3,
       "news": [
         {
-          "title": "iShares MSCI South Korea ETF(EWY) Stock Options Chain | Quotes & News - Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPZG9waWtRcUFDZlJpOVdOVk11eHVjaUh1ZHZHMlkzUE82VjNHaTUwVUN4alRRamxPajJvMlNIWUw3X0cxcTR2SGtsZDc3MVhFc29uR3RQekZjUktLdmJkUUhjYWlqbExyRVF1VXpiQmJqalktZURXbDJDSThJRkxIdFU3d3Bab2ppZzlDdEdxcXZkZF9RYndJWnY4WDFZczk0VkkxNldqSjVYby15RkZCTTBtcUNieGthRGs4b0tTTFhsRDZxczVQc2ZFS3I3REtPSnRLNlJlSDQyalBtZW9MbWJQSVM3S0pLNUszMUdfZTJ4RnZFTzdvQ3ZfXzJrcThGQURmdzBjS2NHTV85SnFIREZ1anhGbDFCb1gwX1dJSWFvZHc5MWViNFVzRlRzTUVaV29OSGdVd19ITEhmelprMw?oc=5",
-          "published": "Tue, 23 Jun 2026 19:59:00 GMT"
+          "title": "對 $MSCI韓國指數ETF-iShares (EWY.US)$ ／韓綜指（KOSPI）暴跌以及這是否是買入三星／SK海... - Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZy1JdEJDRHVtNTR0bzA1aVpMWGk3Ymp6QTQ4ZWhFU3R0ZENOTjVHSC1BY04zdFV1d0tDdjAtbVkwZGVfZjlRTEN6aUVZdUJDd2JjWlE3RDl0X19ST1RlUWxpRXJsUE1qWEZ6UEdCWmlpYkZlbEthZy1ScmpZYmdLdERfYUVvZjlfVEs2ODNSQXV3ZFNRZzhQY0hrSy1PTmFueE5OUVI3b2RNNEdJaGxZ?oc=5",
+          "published": "Thu, 18 Jun 2026 14:57:40 GMT"
         },
         {
           "title": "iShares MSCI South Korea ETF(EWY) - 股價行情、配息與走勢圖 - 股市爆料同學會 - CMoney",
@@ -1839,71 +1861,10 @@
       "group": "台韓科技ETF"
     },
     {
-      "ticker": "2644.T",
-      "name": "Global X Japan Semiconductor ETF",
-      "google": "https://www.google.com/search?q=Global%20X%20Japan%20Semiconductor%20ETF%20%E8%82%A1%E7%A5%A8",
-      "price": 4794.0,
-      "change_pct": null,
-      "currency": "JPY",
-      "forward_pe": null,
-      "pricing_power": 0,
-      "competitiveness": 0,
-      "news_reliability": 3,
-      "news": [
-        {
-          "title": "Global X日本半導體ETF-ETF基本資料 - MoneyDJ",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtb0hmUUJ5MnE5NjNSMDQtZEh5VGdJX1ZwSm5zZHZxdjVLVDQ2d0dZcUJma1RMOXdVWDI2REtuVlcwZzVxRmZsNlRmNDAwVXFKR2ZzVFRoN2JfYlQ3RkcxR1A1Ym5vc3hWSS1mQzdUR0JVN3h1SUlZTmdNQQ?oc=5",
-          "published": "Mon, 27 Apr 2026 04:11:40 GMT"
-        },
-        {
-          "title": "6月第二次急跌 - Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdlE0ZTJPc3ItY2h1TEJtZF9YYWg3Zm16SVhPa1AtemQ5YWU5WWpNWk5md1lFNWtIcWE0N21pbDdNdWcxbTVQMGptWF9zczJnQVlNSHZLUlhvbDU0bV9hWE5tTjhXZDE1cnQtQVE3S1pwZktoeXc0XzVGb3lnbDRZVjQ2Y3k3MFNOMlpBVmM0NHhYQQ?oc=5",
-          "published": "Wed, 24 Jun 2026 03:09:52 GMT"
-        },
-        {
-          "title": "Global X亞洲半導體 ETF-ETF基本資料 - MoneyDJ",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KaHFscy1kRzAxbVRnZmJHLVdqdjdpY0NsN0hnRGhlUmpmUl9oY1B6SjB6YkVFdTE3VzhQcVVjRVRUdUR2azZybExqUkRoa0lndURfMTVFUmNqU3J6VWhlaHBFcFZJeHBSaTVZWkZzN29NdXN2b3daTk0yZw?oc=5",
-          "published": "Sun, 17 May 2026 18:03:15 GMT"
-        }
-      ],
-      "factors": {
-        "below_ma": 0.167,
-        "near_main_support": 0.0,
-        "not_overextended": 0.733,
-        "margin_reduction": 0.0,
-        "forward_pe_vs_peers": 0.5,
-        "pricing_power": 0.0,
-        "competitiveness": 0.0,
-        "news_reliability": 0.6
-      },
-      "score": 0.175,
-      "rank": 1,
-      "ma": {
-        "5": 4822.6,
-        "10": 4836.3,
-        "20": 4551.0,
-        "60": 3975.05,
-        "120": 3547.167,
-        "240": 2868.979
-      },
-      "below_ma": [
-        5,
-        10
-      ],
-      "sharp_drop": false,
-      "drop_pct": -5.96,
-      "dist_to_support_pct": 19.38,
-      "support": 4015.8,
-      "ret_60d": 55.15,
-      "margin_change": null,
-      "margin_change_pct": null,
-      "group": "日本_AI半導體ETF"
-    },
-    {
       "ticker": "00981A.TW",
       "name": "統一台股增長主動式",
       "google": "https://www.google.com/search?q=%E7%B5%B1%E4%B8%80%E5%8F%B0%E8%82%A1%E5%A2%9E%E9%95%B7%E4%B8%BB%E5%8B%95%E5%BC%8F%20%E8%82%A1%E7%A5%A8",
-      "price": 29.91,
+      "price": 31.23,
       "change_pct": null,
       "currency": "TWD",
       "forward_pe": null,
@@ -1911,148 +1872,82 @@
       "competitiveness": 0,
       "news_reliability": 3,
       "news": [
-        {
-          "title": "00403A懶人包：成分股、配息、費用、怎麼買？跌破發行價後值得買嗎？ - 數位時代",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZFkyR3lKZll6VU0zay1vQXFIQjliX1d5UWNyM3BoLTVaTC10Rm5nZzF4aUlWZy1SU0ZmS1RTc0otVVQxNWRuM1JXa2ZuVkZIU0trQjl1eXprdmw2NU5hNlpVQ0kySGpkSGM4dEJSZW1ITW9iSkdWZmdEWmhIWGdnWXNvVFpYMHc4?oc=5",
-          "published": "Mon, 29 Jun 2026 19:39:36 GMT"
-        },
-        {
-          "title": "[00981A 操作日報] 經理人大砍高力與半導體封測股 - CMoney",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBYWTc5MENNQnFrS05hSHJoSWwxV2NzeTA3NmdtclBHREtMMmh6c2RNcmd5RG9QQmw3MU9jbl9paXh5cElkZUlSRVcydVExX3FyN2c0c2ZlT3c?oc=5",
-          "published": "Mon, 29 Jun 2026 12:50:04 GMT"
-        },
         {
           "title": "00981A是什麼？主動統一台股增長ETF配息、成分股、優缺點一次看－ETF指南｜商周 - 商周",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4xUHZEMHBwVDUweHExSC00R09helQ0MXY2eDVoSGpKal83T1g4YTJSSDRFR1BzanhKNVZvODg1eWFXVlB5MFM1SXVMZ01hZVBzWUZiZ1ZIWENqZkg0ZW1yaUlTMWVidw?oc=5",
           "published": "Tue, 16 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "台股高檔輪動快速　4檔主動式ETF入列6月交投人氣王 - ETtoday財經雲",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVLUtTcXV5amZ6VVNaVjdPTW9tbWVEcEdxSDNQT3BMRkxRc1h6SHg4eWdiZmZtVWQ0TnpEeDdMUEF4Z28yVW56MVdJTHN5SE8wdVHSAW5BVV95cUxOVEFpU0tfLWUyTDhpZnRIUDZsWGpveTdDeXN3MWppTGFjNS11WjlqVTFXeVZRdzJVX1RabWgwcHk2TnlJUkpnWXZZMTdZWkozME4xWDRkbXplUGhHNWFlYm1RODQyNHl0REo1aTlLQQ?oc=5",
+          "published": "Mon, 29 Jun 2026 04:23:00 GMT"
+        },
+        {
+          "title": "00981A 統一台股增長主動式 ETF｜成分股？配息？優缺點？ - StockFeel 股感",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNmFnYlB3QjI5blJaemVjbnZXYk5IemRTUGZPYUREaXJFWWpvazFRQTBreVFmUWl5QlJaaG9LTUFVSW91b0NqUEFYUmNWQjY4aGp3OWEwMDRIcWdYVG9JVTdFenRYaXZHZHpWanRNT0xpWGJac0cxdnBJRkduejFDTWt1NFM2cHRCRWN3M2dvYTl5TnNkWWRSeHcwTGJLRl9fTlFGRFFvTUhjLTdTX2ZUS1gyaDhuQjdvTlpXWU5USQ?oc=5",
+          "published": "Wed, 15 Apr 2026 07:00:00 GMT"
         }
       ],
       "factors": {
-        "below_ma": 0.25,
+        "below_ma": 0.0,
         "near_main_support": 0.0,
-        "not_overextended": 1.0,
+        "not_overextended": 0.956,
         "margin_reduction": 1.0,
         "forward_pe_vs_peers": 0.5,
         "pricing_power": 0.0,
         "competitiveness": 0.0,
         "news_reliability": 0.6
       },
-      "score": 0.355,
+      "score": 0.3028,
       "rank": 2,
       "ma": {
-        "5": 31.344,
-        "10": 31.199,
-        "20": 31.063,
-        "60": 28.302,
-        "120": 23.398,
-        "240": 18.616
+        "5": 30.812,
+        "10": 31.109,
+        "20": 30.959,
+        "60": 28.652,
+        "120": 23.635,
+        "240": 18.778
       },
-      "below_ma": [
-        5,
-        10,
-        20
-      ],
+      "below_ma": [],
       "sharp_drop": false,
-      "drop_pct": -5.05,
-      "dist_to_support_pct": 15.83,
+      "drop_pct": -1.17,
+      "dist_to_support_pct": 20.95,
       "support": 25.821,
-      "ret_60d": 53.54,
+      "ret_60d": 54.45,
       "margin_change": -20880.0,
       "margin_change_pct": -12.1,
-      "group": "台股_主動式ETF"
-    },
-    {
-      "ticker": "00982A.TW",
-      "name": "群益台灣精選強棒(主動)",
-      "google": "https://www.google.com/search?q=%E7%BE%A4%E7%9B%8A%E5%8F%B0%E7%81%A3%E7%B2%BE%E9%81%B8%E5%BC%B7%E6%A3%92%28%E4%B8%BB%E5%8B%95%29%20%E8%82%A1%E7%A5%A8",
-      "price": 23.59,
-      "change_pct": null,
-      "currency": "TWD",
-      "forward_pe": null,
-      "pricing_power": 0,
-      "competitiveness": 0,
-      "news_reliability": 3,
-      "news": [
-        {
-          "title": "主動群益台灣強棒-ETF基本資料 - MoneyDJ",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HMFNsQlpiR2tEVWVsR0pMXzBOallSMHRtS1NFQjVHUm13SDROdWJqWkhJcWJkU0o2OWp0bTB1bWpqWVZwN0xsOWlLT216dExVQm9tSm13ejJSS3lfeHFPUzdteFlTNmZTam1XbDNodEdSVDFKdzZvdGZBMWdYdw?oc=5",
-          "published": "Sat, 16 May 2026 07:39:15 GMT"
-        },
-        {
-          "title": "主動群益台灣強棒(00982A)於6月1日到6月18 日持股變化 - 理財周刊",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wOExOLU5hSlQ5YzNMcVI1LU1JdklYdXdVYnFLMkRaT2VkYkhocGhkN3l4RkxTWkFaWUphN0hBUTF2aUVMejNPYlNrRWtBME5KZzdIVl9VN0lIZXJtRDVPbjJtUlFhQ0JRdkFjb1FpMA?oc=5",
-          "published": "Thu, 18 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "ETF操盤手陳沅易用研究對抗波動- 日報 - 工商時報",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjOE1EN3VCVEZwQVRJUEJid05hVk9UY0RkVENsMGRSaVRuSkVuU1VqNW5NemVlUkQ4SmNESW12TFNONFJhaGMxemlTQXJsREZXTm5SZXQxZHBjRmNyNDZZ?oc=5",
-          "published": "Sat, 21 Mar 2026 07:00:00 GMT"
-        }
-      ],
-      "factors": {
-        "below_ma": 0.25,
-        "near_main_support": 0.477,
-        "not_overextended": 1.0,
-        "margin_reduction": 1.0,
-        "forward_pe_vs_peers": 0.5,
-        "pricing_power": 0.0,
-        "competitiveness": 0.0,
-        "news_reliability": 0.6
-      },
-      "score": 0.4027,
-      "rank": 1,
-      "ma": {
-        "5": 24.638,
-        "10": 24.36,
-        "20": 23.959,
-        "60": 21.831,
-        "120": 18.687,
-        "240": 15.788
-      },
-      "below_ma": [
-        5,
-        10,
-        20
-      ],
-      "sharp_drop": false,
-      "drop_pct": -4.99,
-      "dist_to_support_pct": 7.85,
-      "support": 21.873,
-      "ret_60d": 50.35,
-      "margin_change": -2603.0,
-      "margin_change_pct": -25.23,
       "group": "台股_主動式ETF"
     },
     {
       "ticker": "8299.TWO",
       "name": "群聯",
       "google": "https://www.google.com/search?q=%E7%BE%A4%E8%81%AF%20%E8%82%A1%E7%A5%A8",
-      "price": 2340.0,
+      "price": 2390.0,
       "change_pct": null,
       "currency": "TWD",
-      "forward_pe": 13.719097,
+      "forward_pe": 14.01224,
       "pricing_power": 3,
       "competitiveness": 4,
       "news_reliability": 4,
       "news": [
+        {
+          "title": "營收創高卻急殺？群聯重挫背後的基本面、籌碼與市場預期解析 - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMi0gNBVV95cUxQZ3pWclNCQTRoNzhfZ29OSEFHLS1wazQ3c3lsLVphcnZjS2M2alBHVUdOVktka3J6SWZvV3gtS3RhSUl5OVFpaHZkS0ZBMjBLeTkwRllwbU12ZXZrQ0psWDNxQ2JBVzZLTDA5bmJ4TDJWV1pxdF9WbHVuNWMzbFlHN2lMSnhzU1hkdkhDOTVUR284OE44NDY5WVRlUlVzWnYxeXlPS1g4eU9JbFN3TmZQcTdNLUlXMk9xMi1VVDZNWG02V0ppLXBsV0IzQUhydU9xbWNxQVh5OWphU1VrTVN0RE9UaXlsY1F2ajFzTzdIaE44TDlDR09OUDZuQ2YzREphVHlESWszT05WTjV3Nk00OEl4SnBtay1hSUFJbnFGaTlrdG02U1FKOE5acVBvS051Z21feFl6VW5lUDE2SExqQldZWmVRQkRLT09fUTdfYmlXZHVPVGlvOVVnVTRfTWN4cWIzdUtNWTllUFdSd2paekxKZ09yZXNaZURwemFPNWRUODMyR1lmdFdIcHNrd3FpcjQtNE94ZHRlcnVQaHpyVGlyajU5WElFMExpdU5kU1RYU3hyRTltTm9FLTRNNWZSQ0tGNjRiVTBySlZnUGxOVkxB?oc=5",
+          "published": "Mon, 29 Jun 2026 21:38:07 GMT"
+        },
         {
           "title": "馬斯克也喊「沒見過漲這麼兇」！全球記憶體爆搶貨 南亞科、群聯、威剛成AI浪潮大贏家 - Yahoo股市",
           "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxQNzFOdEd6MjJvd0hmNXpTUTZOckZsWkpuMzZZWkRrcmcyWW5jV2tGZHJ6S29ObGR5R0FFM1NyMFd4TFprWFBoTlZOZS15cXVjMXNublhIc1Vza2hyT1ZFZWQ2YVNBZnJ2ZXozM3F0MlJadHJfMFFSOGFJcGxFa2xHVnYxTkNLQTJJYnF5R1d5cG1Dc2l0cmN2ZjNjaUg2ZnA2UGVkajB4aXpENktuRmZ5bTZxb0hPZHVoSzRadlM0NVpjbGM2cDJoaG5JRkxJZzJOM1MwSXZTVnRmckRhUGlkVDJWMVVkZTdQcmhERFFROTZiemVjcFh6ZFZBMWZMOGF2TVN6QUd3a1V3OG5oWW9vS2daTC05eXdBVGRJMExfVU5yZDVDeUZvNnRYUXNYUWtnQXdkYThmaG95UU10ck92Qk4zSTNHSnFzWl9zMm52MmZOckdiZnUzVkgyLXN6WnVhMTh6UzVYaGF5Y0o1Q1NlYWM1M2hfM08wcUtYOE44MjJzdWxYa29JWWZ6cng?oc=5",
           "published": "Mon, 29 Jun 2026 02:11:09 GMT"
         },
         {
-          "title": "記憶體行情又在變，南亞科與群聯該怎麼分？ - CMoney",
-          "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOclNNVjAwNko2NTNPTWxmYjlxcU1SRDVlWk9mWTJ3eEJEZ0VxcjdxNTBPTE5uMlluRUc3Vy14SFh1bU5VTVU0eEQxSDhfS1djaFc5ZlYyRTRMbllYNmlsZzRhcWFuUnNUckJLbEgxT04xZlRzS3J2d0prX2paM09FVjE2N1dMTEhLLXhXV3FlTzk4TWVnMGhRNGNaVV8tZWttX1NmS1JEN0xYVjlqLXVGbS1rSWZLb2JUMl9NdUEwakRuWEJuTUxFRi16THhzSU5URzhuRk04Nzd6VFFMdlFuV0dobFA5ZEoxOUNjRzRfd3huRmFZcWFnM1VzM1VwLXB2b3o0X2wzcG5nZExhcWNpR29Hdl8wb3h6M2trX0VhbmtGUWZKN0tYdWtoS2U1QjRPRHBkeTVOQ2ZySmE4UXFYMk93bUxlYXNGa1FJX2pEbzF5WVoxeFo5N0xBNV9QbGxfVWE5b09MSktzQVc5TC1tUmhn?oc=5",
-          "published": "Mon, 29 Jun 2026 18:29:27 GMT"
-        },
-        {
-          "title": "群聯電子攜手新立資訊導入 SynxDB，打造高效能數據平台，加速良率分析與 AI 應用布局 - CIO Taiwan",
-          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBROF9ZTm5WVkszV3JXZnlmUFZudzBiUmppT3F5OXBWaHZETVllVjQxMTBnYU01OXg2RkRWMlNMazBYUHhO?oc=5",
-          "published": "Mon, 29 Jun 2026 02:08:51 GMT"
+          "title": "群聯營收創高為何急殺？從預期差與籌碼面看懂市場重新定價 - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMixgNBVV95cUxQZXdIbnlwcTBIWEpXN3psV3cyZ09xVE5BTnpjRmpyUDZHNFl1TWtLcC1Ja0xYVXotSDRWTUFoZWlndWNWb0JGdENrSGFLSjJZVmY5c0NwS0RsTlFzRExnc3RLNElVdVo3dURqUmRJZlpTRUM3SGFQYnpFaGc0UWpIVjJqZTZGZUw0T1pMTl9yXzIzVWpaYXVMbkl0dEZaR3NZNFlkUzhDUWRoZWkybnlBcFNBakhXdkNNZThjSDk5QkdOWFFPZXRVLUs2bzI1WGU1c2xoZ1hLcG9pZXVldGlYTmNCYVhrN00tSkE2dS1sNHFXN0hEcEZmRDNrUUhQZnlCTEdjemUtNFRNMUk2QmpQWmVCWmJpdWNHZGcwaXFCUnhnSktkanVySUd5X1ZzTVVkZUMzaWpYWWpHVGxVT3BReHQyQ19ZZGJHV2ZzMDdMVHE3Yjh0bzRwa3dPRWo1N29VRHRqZDlsdUdzR1NCcE10NVlweEwzYXpzazIxNVZVdHFZRFJUbU91UWR0aERqaVFtX0tKbEhwY1lJYVJYM2pFaXloSHkwME9mYjFYakhGOFNQWkVERmtSRFNsV25BODdyTHVMZktB?oc=5",
+          "published": "Mon, 29 Jun 2026 21:37:50 GMT"
         }
       ],
       "factors": {
-        "below_ma": 0.5,
+        "below_ma": 0.25,
         "near_main_support": 1.0,
         "not_overextended": 1.0,
         "margin_reduction": 1.0,
@@ -2061,35 +1956,93 @@
         "competitiveness": 0.8,
         "news_reliability": 0.8
       },
-      "score": 0.65,
-      "rank": 1,
+      "score": 0.6,
+      "rank": 2,
       "ma": {
-        "5": 2411.0,
-        "10": 2419.0,
-        "20": 2438.5,
-        "60": 2211.333,
-        "120": 2014.042,
-        "240": 1398.452
+        "5": 2403.0,
+        "10": 2426.0,
+        "20": 2419.5,
+        "60": 2223.667,
+        "120": 2023.208,
+        "240": 1406.379
       },
       "below_ma": [
         5,
         10,
         20
       ],
-      "sharp_drop": true,
-      "drop_pct": -9.3,
-      "dist_to_support_pct": -11.47,
+      "sharp_drop": false,
+      "drop_pct": -1.65,
+      "dist_to_support_pct": -9.58,
       "support": 2643.25,
-      "ret_60d": 41.82,
+      "ret_60d": 53.7,
       "margin_change": -1697.0,
       "margin_change_pct": -11.13,
       "group": "台股_記憶體"
     },
     {
+      "ticker": "00982A.TW",
+      "name": "群益台灣精選強棒(主動)",
+      "google": "https://www.google.com/search?q=%E7%BE%A4%E7%9B%8A%E5%8F%B0%E7%81%A3%E7%B2%BE%E9%81%B8%E5%BC%B7%E6%A3%92%28%E4%B8%BB%E5%8B%95%29%20%E8%82%A1%E7%A5%A8",
+      "price": 24.61,
+      "change_pct": null,
+      "currency": "TWD",
+      "forward_pe": null,
+      "pricing_power": 0,
+      "competitiveness": 0,
+      "news_reliability": 3,
+      "news": [
+        {
+          "title": "主動群益台灣強棒(00982A)於6月1日到6月18 日持股變化 - 理財周刊",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wOExOLU5hSlQ5YzNMcVI1LU1JdklYdXdVYnFLMkRaT2VkYkhocGhkN3l4RkxTWkFaWUphN0hBUTF2aUVMejNPYlNrRWtBME5KZzdIVl9VN0lIZXJtRDVPbjJtUlFhQ0JRdkFjb1FpMA?oc=5",
+          "published": "Thu, 18 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "主動群益台灣強棒-ETF基本資料 - MoneyDJ",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HMFNsQlpiR2tEVWVsR0pMXzBOallSMHRtS1NFQjVHUm13SDROdWJqWkhJcWJkU0o2OWp0bTB1bWpqWVZwN0xsOWlLT216dExVQm9tSm13ejJSS3lfeHFPUzdteFlTNmZTam1XbDNodEdSVDFKdzZvdGZBMWdYdw?oc=5",
+          "published": "Sat, 16 May 2026 07:39:15 GMT"
+        },
+        {
+          "title": "00982A 群益台灣精選強棒主動式 ETF｜成分股？配息？優缺點？ - StockFeel 股感",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMVZLZzVkdVVscjNiaXZJZENOcWt1QldSLXlpazdYbTZsNHZRSFhzeHdCSFdlN29rYl9BVG81dS05cWJHSklQMkludmdQQm1NR05PNlQ2ZWtvbzFuUEVibjFId3VvWmZVZXN5alM2WEdiX3AzbVk4dVNJa1JEVHJnN1lNdG1VRHRUMHdoQXh6cjJsYzZ6dlFrTnJqSEZTUjZCRGZsTFZRcDB5ZEN5ajFrclZiQzVrb2E4VWI4NmZEMDRtNzhxSG4ySG5iSjhwTmktTlh2dWgxWQ?oc=5",
+          "published": "Tue, 03 Mar 2026 08:00:00 GMT"
+        }
+      ],
+      "factors": {
+        "below_ma": 0.0,
+        "near_main_support": 0.166,
+        "not_overextended": 0.859,
+        "margin_reduction": 1.0,
+        "forward_pe_vs_peers": 0.5,
+        "pricing_power": 0.0,
+        "competitiveness": 0.0,
+        "news_reliability": 0.6
+      },
+      "score": 0.3146,
+      "rank": 1,
+      "ma": {
+        "5": 24.242,
+        "10": 24.439,
+        "20": 23.937,
+        "60": 22.1,
+        "120": 18.854,
+        "240": 15.898
+      },
+      "below_ma": [],
+      "sharp_drop": false,
+      "drop_pct": -0.73,
+      "dist_to_support_pct": 12.51,
+      "support": 21.873,
+      "ret_60d": 52.57,
+      "margin_change": -2603.0,
+      "margin_change_pct": -25.23,
+      "group": "台股_主動式ETF"
+    },
+    {
       "ticker": "0052.TW",
       "name": "富邦科技 (台灣)",
       "google": "https://www.google.com/search?q=%E5%AF%8C%E9%82%A6%E7%A7%91%E6%8A%80%20%28%E5%8F%B0%E7%81%A3%29%20%E8%82%A1%E7%A5%A8",
-      "price": 60.6,
+      "price": 63.65,
       "change_pct": null,
       "currency": "TWD",
       "forward_pe": null,
@@ -2114,100 +2067,94 @@
         }
       ],
       "factors": {
-        "below_ma": 0.333,
-        "near_main_support": 0.073,
-        "not_overextended": 1.0,
+        "below_ma": 0.083,
+        "near_main_support": 0.0,
+        "not_overextended": 0.844,
         "margin_reduction": 0.0,
         "forward_pe_vs_peers": 0.5,
         "pricing_power": 0.0,
         "competitiveness": 0.0,
         "news_reliability": 0.6
       },
-      "score": 0.229,
+      "score": 0.1639,
       "rank": 2,
       "ma": {
-        "5": 63.3,
-        "10": 62.45,
-        "20": 61.652,
-        "60": 55.794,
-        "120": 49.5,
-        "240": 114.965
+        "5": 62.33,
+        "10": 62.83,
+        "20": 61.725,
+        "60": 56.418,
+        "120": 49.934,
+        "240": 113.898
       },
       "below_ma": [
-        5,
-        10,
-        20,
         240
       ],
       "sharp_drop": false,
-      "drop_pct": -3.5,
-      "dist_to_support_pct": 13.9,
+      "drop_pct": -1.47,
+      "dist_to_support_pct": 19.63,
       "support": 53.204,
-      "ret_60d": 41.52,
+      "ret_60d": 45.25,
       "margin_change": 680.0,
       "margin_change_pct": 6.4,
       "group": "台韓科技ETF"
     },
     {
-      "ticker": "AIQ",
-      "name": "Global X AI ETF",
-      "google": "https://www.google.com/search?q=Global%20X%20AI%20ETF%20%E8%82%A1%E7%A5%A8",
-      "price": 64.22,
+      "ticker": "3034.TW",
+      "name": "聯詠",
+      "google": "https://www.google.com/search?q=%E8%81%AF%E8%A9%A0%20%E8%82%A1%E7%A5%A8",
+      "price": 540.0,
       "change_pct": null,
-      "currency": "USD",
-      "forward_pe": null,
-      "pricing_power": 0,
-      "competitiveness": 0,
-      "news_reliability": 3,
+      "currency": "TWD",
+      "forward_pe": 17.248665,
+      "pricing_power": 3,
+      "competitiveness": 4,
+      "news_reliability": 4,
       "news": [
         {
-          "title": "AIQ Global X Artificial Intelligence & Technology ETF - 從程式碼到混凝土：AI新經濟學- 股市爆料同學會 - CMoney",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xd2dsal9kX1AtQktTSjBpVjdEQm1sbTlzcXVjZFltMkhtd29UNUY3M2hxa1lLaVMwWWRDZWhzTHpQbzVqVG4zN2FZQVpNQ0t3Y1hTdUY0U0U?oc=5",
-          "published": "Tue, 16 Jun 2026 15:37:49 GMT"
+          "title": "3034 聯詠- 🚨 主力加碼卡位？昨日主動式ETF 加碼這檔！ - 股市爆料同學會 - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQUDZhcmo4TmdRUUk5MFNKS294RnJiOUJQeUNkMmhaMFZ6c2FMbzU2b3QzVTB3dWFMeWJ6amtiMHoxN0JfUGpFVkNuRUg4WGMzMUw1ZC1td2s?oc=5",
+          "published": "Mon, 29 Jun 2026 10:53:17 GMT"
         },
         {
-          "title": "Global X AI 基礎設施 ETF-ETF基本資料 - MoneyDJ",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0yMFVrcDBobDFhZXc1U3VWcXdpS3g5Q2hFNnY1VEk1TWpfc0lkQ3UzNnMzbkUtWl8tWFh5THIwaGJPZEwya0lDbWRQUmFZUjAydXUycWhxWFVvdWo2NmxaM1dIMDdaTEtRU0FPQUtRQ2gzMUU5T0J1TzE3NA?oc=5",
-          "published": "Mon, 18 May 2026 02:57:25 GMT"
+          "title": "台股跌逾千點 IC 設計成重災區 聯發科打入跌停、瑞昱聯詠同步重挫 - UDN",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCTFlDQVIyV1NOUUgxN0h2UHNLMnlqY0YyYXRGV3dhdURVSU9BdGRiSjcwaUVCdzZySVVfa0pZR0o5czYtbHROTmprQkdYX3dY0gFWQVVfeXFMT05LWkhYaGI5TFVuV0NMZ181R0h0RDdYQjJIUlBCRDNqVUFlc0g5UEpuODY2WUw5V0M4NWdCaEkzMkJmNTl2dUZvZEJWWHljQmFyOWlacmc?oc=5",
+          "published": "Fri, 26 Jun 2026 03:00:32 GMT"
         },
         {
-          "title": "Global X Robotics & Artificial Intelligence Thematic ETF將於2026年6月29日除權除息，1股派股息0.01799USD - 富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUmcxQ3ltMXkzM3lTcGVfc1RVSnNja1JSWVU1VWtpYUJyUUdORHRxWEdSUGh1MmtTdHBBYjVvc29falFYZHQxYkJoWkNQdGx6Sm4wTWdTLVYyeVhxbmVwN3lQQkhuNmJaZFBtQWVKbGRtdFF6bVM5d2ZycGRvczhjbzdiY0dseDY0WXV2ZkY4UTlxUG15ZVNxeEExRDJ0MmpadGFjR0pnQQ?oc=5",
-          "published": "Sat, 27 Jun 2026 11:02:59 GMT"
+          "title": "AI算力升級受惠名單出爐！法人點名聯詠、矽力…IC設計5檔 EPS、本益比1表看- 上市櫃 - 旺得富理財網",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kRE5tTEdjcXNYQXhXaEMyQmgzVEFSSV80RmlqNE56YzR6X3Y4cUNzRjl1RHJoLTNXS1BsZkk2Y2xWT2xlSFNhZUhodEVVWlV3Mkl5ejNFR2FJV1ZjN0JhQ2FvU2M3TjlLSUE?oc=5",
+          "published": "Mon, 15 Jun 2026 07:00:00 GMT"
         }
       ],
       "factors": {
-        "below_ma": 0.167,
-        "near_main_support": 0.699,
-        "not_overextended": 1.0,
-        "margin_reduction": 0.0,
-        "forward_pe_vs_peers": 0.5,
-        "pricing_power": 0.0,
-        "competitiveness": 0.0,
-        "news_reliability": 0.6
+        "below_ma": 0.0,
+        "near_main_support": 0.214,
+        "not_overextended": 0.713,
+        "margin_reduction": 1.0,
+        "forward_pe_vs_peers": 0.685,
+        "pricing_power": 0.6,
+        "competitiveness": 0.8,
+        "news_reliability": 0.8
       },
-      "score": 0.2583,
+      "score": 0.5598,
       "rank": 1,
       "ma": {
-        "5": 63.658,
-        "10": 64.77,
-        "20": 65.197,
-        "60": 59.778,
-        "120": 54.943,
-        "240": 51.768
+        "5": 535.2,
+        "10": 531.8,
+        "20": 510.625,
+        "60": 464.692,
+        "120": 422.762,
+        "240": 425.117
       },
-      "below_ma": [
-        10,
-        20
-      ],
+      "below_ma": [],
       "sharp_drop": false,
-      "drop_pct": -4.28,
-      "dist_to_support_pct": 4.51,
-      "support": 61.449,
-      "ret_60d": 35.86,
-      "margin_change": null,
-      "margin_change_pct": null,
-      "group": "美股_主動式ETF"
+      "drop_pct": -0.74,
+      "dist_to_support_pct": 11.79,
+      "support": 483.06,
+      "ret_60d": 41.36,
+      "margin_change": -550.0,
+      "margin_change_pct": -14.91,
+      "group": "台股_半導體"
     }
   ]
 }
